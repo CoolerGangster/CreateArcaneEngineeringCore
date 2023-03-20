@@ -1,0 +1,692 @@
+[20März2023 20:00:09.759] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\maser\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.1.80, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, --mixin.config, cae.mixins.json]
+[20März2023 20:00:09.764] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.4.1 by Oracle Corporation
+[20März2023 20:00:09.780] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[20März2023 20:00:09.797] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[20März2023 20:00:09.812] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[20März2023 20:00:09.825] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[20März2023 20:00:09.834] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@5b529706
+[20März2023 20:00:09.874] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[20März2023 20:00:09.875] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[20März2023 20:00:09.881] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[20März2023 20:00:09.881] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[20März2023 20:00:09.887] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[20März2023 20:00:09.896] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[20März2023 20:00:09.897] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[20März2023 20:00:09.898] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
+[20März2023 20:00:09.899] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[20März2023 20:00:09.901] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 5.0.7+5.0.7+master.6d3407cc
+[20März2023 20:00:09.903] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[20März2023 20:00:09.907] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.2+5.0.2+master.303343f8
+[20März2023 20:00:09.908] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 4.0.15-4.x+4.0.15-4.x+4.x.038e91c0
+[20März2023 20:00:09.909] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 4
+[20März2023 20:00:09.915] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[20März2023 20:00:09.917] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[20März2023 20:00:09.929] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[20März2023 20:00:09.930] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[20März2023 20:00:09.968] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@4f51b3e0
+[20März2023 20:00:09.996] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/maser/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2323!/ Service=ModLauncher Env=CLIENT
+[20März2023 20:00:10.004] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[20März2023 20:00:10.004] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20März2023 20:00:10.005] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20März2023 20:00:10.006] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20März2023 20:00:10.007] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20März2023 20:00:10.007] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[20März2023 20:00:10.009] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[20März2023 20:00:10.010] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[20März2023 20:00:10.010] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[20März2023 20:00:10.012] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\maser\OneDrive\Desktop\Mod project\run
+[20März2023 20:00:10.013] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\maser\OneDrive\Desktop\Mod project\run
+[20März2023 20:00:10.013] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\maser\OneDrive\Desktop\Mod project\run\mods
+[20März2023 20:00:10.014] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\maser\OneDrive\Desktop\Mod project\run\mods
+[20März2023 20:00:10.014] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\maser\OneDrive\Desktop\Mod project\run\config
+[20März2023 20:00:10.014] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\maser\OneDrive\Desktop\Mod project\run\config
+[20März2023 20:00:10.015] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\maser\OneDrive\Desktop\Mod project\run\config\fml.toml
+[20März2023 20:00:10.015] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[20März2023 20:00:10.062] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\maser\OneDrive\Desktop\Mod project\run\defaultconfigs
+[20März2023 20:00:10.063] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[20März2023 20:00:10.067] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[20März2023 20:00:10.068] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[20März2023 20:00:10.103] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=40.1.80, mcVersion=1.18.2, mcpVersion=20220404.173914, forgeGroup=net.minecraftforge]
+[20März2023 20:00:10.106] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[20März2023 20:00:10.107] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[20März2023 20:00:10.108] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[20März2023 20:00:10.109] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[20März2023 20:00:10.110] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[20März2023 20:00:10.110] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[20März2023 20:00:10.110] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[20März2023 20:00:10.111] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[20März2023 20:00:10.125] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[20März2023 20:00:10.127] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null),(JarInJar:null)
+[20März2023 20:00:10.133] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates cae%%C:\Users\maser\OneDrive\Desktop\Mod project\build\resources\main;cae%%C:\Users\maser\OneDrive\Desktop\Mod project\build\classes\java\main from env
+[20März2023 20:00:10.135] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{cae=[C:\Users\maser\OneDrive\Desktop\Mod project\build\resources\main, C:\Users\maser\OneDrive\Desktop\Mod project\build\classes\java\main]}]
+[20März2023 20:00:10.436] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar with {minecraft} mods - versions {1.18.2}
+[20März2023 20:00:10.442] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.1.80\90438da2d8de451a793fc69d3c343ebc5bc401e1\javafmllanguage-1.18.2-40.1.80.jar
+[20März2023 20:00:10.442] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.1.80\90438da2d8de451a793fc69d3c343ebc5bc401e1\javafmllanguage-1.18.2-40.1.80.jar is missing mods.toml file
+[20März2023 20:00:10.446] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.1.80\f81c79807d6b57938f2169b01f403ff103f3ed50\lowcodelanguage-1.18.2-40.1.80.jar
+[20März2023 20:00:10.446] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.1.80\f81c79807d6b57938f2169b01f403ff103f3ed50\lowcodelanguage-1.18.2-40.1.80.jar is missing mods.toml file
+[20März2023 20:00:10.450] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.1.80\8771f610fa019b272803538ce71f77409082691f\mclanguage-1.18.2-40.1.80.jar
+[20März2023 20:00:10.450] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.1.80\8771f610fa019b272803538ce71f77409082691f\mclanguage-1.18.2-40.1.80.jar is missing mods.toml file
+[20März2023 20:00:10.455] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.1.80\a0e12c8a0526791f1a7840d3b1c4fc061c6bd30f\fmlcore-1.18.2-40.1.80.jar
+[20März2023 20:00:10.455] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.1.80\a0e12c8a0526791f1a7840d3b1c4fc061c6bd30f\fmlcore-1.18.2-40.1.80.jar is missing mods.toml file
+[20März2023 20:00:10.461] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\OneDrive\Desktop\Mod project\build\resources\main
+[20März2023 20:00:10.471] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {cae} mods - versions {0.0NONE}
+[20März2023 20:00:10.474] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[20März2023 20:00:10.477] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {40.1.80}
+[20März2023 20:00:10.495] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\applied_energistics_2-223794\4105168_mapped_official_1.18.2\applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar
+[20März2023 20:00:10.497] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar with {ae2} mods - versions {11.6.6}
+[20März2023 20:00:10.501] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\curios-309927\4418032_mapped_official_1.18.2\curios-309927-4418032_mapped_official_1.18.2.jar
+[20März2023 20:00:10.502] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curios-309927-4418032_mapped_official_1.18.2.jar with {curios} mods - versions {1.18.2-5.0.9.0}
+[20März2023 20:00:10.506] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\ars_nouveau-401955\3950802_mapped_official_1.18.2\ars_nouveau-401955-3950802_mapped_official_1.18.2.jar
+[20März2023 20:00:10.508] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ars_nouveau-401955-3950802_mapped_official_1.18.2.jar with {ars_nouveau} mods - versions {2.7.7}
+[20März2023 20:00:10.512] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\patchouli-306770\3809917_mapped_official_1.18.2\patchouli-306770-3809917_mapped_official_1.18.2.jar
+[20März2023 20:00:10.513] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file patchouli-306770-3809917_mapped_official_1.18.2.jar with {patchouli} mods - versions {0.0NONE}
+[20März2023 20:00:10.517] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\geckolib-388172\4181370_mapped_official_1.18.2\geckolib-388172-4181370_mapped_official_1.18.2.jar
+[20März2023 20:00:10.518] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-388172-4181370_mapped_official_1.18.2.jar with {geckolib3} mods - versions {3.0.57}
+[20März2023 20:00:10.527] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\applied_energistics_2-223794\4105168_mapped_official_1.18.2\applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar
+[20März2023 20:00:10.529] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar with {ae2} mods - versions {11.6.6}
+[20März2023 20:00:10.532] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\curios-309927\4418032_mapped_official_1.18.2\curios-309927-4418032_mapped_official_1.18.2.jar
+[20März2023 20:00:10.533] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curios-309927-4418032_mapped_official_1.18.2.jar with {curios} mods - versions {1.18.2-5.0.9.0}
+[20März2023 20:00:10.537] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\ars_nouveau-401955\3950802_mapped_official_1.18.2\ars_nouveau-401955-3950802_mapped_official_1.18.2.jar
+[20März2023 20:00:10.539] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ars_nouveau-401955-3950802_mapped_official_1.18.2.jar with {ars_nouveau} mods - versions {2.7.7}
+[20März2023 20:00:10.542] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\patchouli-306770\3809917_mapped_official_1.18.2\patchouli-306770-3809917_mapped_official_1.18.2.jar
+[20März2023 20:00:10.543] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file patchouli-306770-3809917_mapped_official_1.18.2.jar with {patchouli} mods - versions {0.0NONE}
+[20März2023 20:00:10.547] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\geckolib-388172\4181370_mapped_official_1.18.2\geckolib-388172-4181370_mapped_official_1.18.2.jar
+[20März2023 20:00:10.548] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-388172-4181370_mapped_official_1.18.2.jar with {geckolib3} mods - versions {3.0.57}
+[20März2023 20:00:10.554] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid ars_nouveau, selecting most recent based on version data
+[20März2023 20:00:10.554] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file ars_nouveau-401955-3950802_mapped_official_1.18.2.jar for modid ars_nouveau with version 2.7.7
+[20März2023 20:00:10.554] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid curios, selecting most recent based on version data
+[20März2023 20:00:10.554] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file curios-309927-4418032_mapped_official_1.18.2.jar for modid curios with version 1.18.2-5.0.9.0
+[20März2023 20:00:10.555] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid patchouli, selecting most recent based on version data
+[20März2023 20:00:10.555] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file patchouli-306770-3809917_mapped_official_1.18.2.jar for modid patchouli with version 0.0NONE
+[20März2023 20:00:10.555] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid geckolib3, selecting most recent based on version data
+[20März2023 20:00:10.555] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file geckolib-388172-4181370_mapped_official_1.18.2.jar for modid geckolib3 with version 3.0.57
+[20März2023 20:00:10.555] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid ae2, selecting most recent based on version data
+[20März2023 20:00:10.555] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar for modid ae2 with version 11.6.6
+[20März2023 20:00:10.573] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar, it does not contain dependency information.
+[20März2023 20:00:10.573] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from ars_nouveau-401955-3950802_mapped_official_1.18.2.jar, it does not contain dependency information.
+[20März2023 20:00:10.573] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from , it does not contain dependency information.
+[20März2023 20:00:10.574] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[20März2023 20:00:10.575] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from curios-309927-4418032_mapped_official_1.18.2.jar, it does not contain dependency information.
+[20März2023 20:00:10.575] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from patchouli-306770-3809917_mapped_official_1.18.2.jar, it does not contain dependency information.
+[20März2023 20:00:10.575] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from geckolib-388172-4181370_mapped_official_1.18.2.jar, it does not contain dependency information.
+[20März2023 20:00:10.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar, it does not contain dependency information.
+[20März2023 20:00:10.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.18.2-40.1.80.jar, it does not contain dependency information.
+[20März2023 20:00:10.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.18.2-40.1.80.jar, it does not contain dependency information.
+[20März2023 20:00:10.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.18.2-40.1.80.jar, it does not contain dependency information.
+[20März2023 20:00:10.577] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.18.2-40.1.80.jar, it does not contain dependency information.
+[20März2023 20:00:10.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[20März2023 20:00:10.648] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar with {minecraft} mods - versions {1.18.2}
+[20März2023 20:00:10.658] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\maser\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.80_mapped_official_1.18.2\forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[20März2023 20:00:10.660] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\ars_nouveau-401955\3950802_mapped_official_1.18.2\ars_nouveau-401955-3950802_mapped_official_1.18.2.jar
+[20März2023 20:00:10.661] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ars_nouveau-401955-3950802_mapped_official_1.18.2.jar with {ars_nouveau} mods - versions {2.7.7}
+[20März2023 20:00:10.662] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\ars_nouveau-401955\3950802_mapped_official_1.18.2\ars_nouveau-401955-3950802_mapped_official_1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[20März2023 20:00:10.662] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\OneDrive\Desktop\Mod project\build\resources\main
+[20März2023 20:00:10.666] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {cae} mods - versions {0.0NONE}
+[20März2023 20:00:10.667] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\maser\OneDrive\Desktop\Mod project\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[20März2023 20:00:10.667] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[20März2023 20:00:10.668] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {40.1.80}
+[20März2023 20:00:10.669] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[20März2023 20:00:10.762] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[20März2023 20:00:10.763] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[20März2023 20:00:10.763] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[20März2023 20:00:10.763] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod registry_object_binary_compat with Javascript path coremods/registry_object_binary_compat.js
+[20März2023 20:00:10.763] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[20März2023 20:00:10.763] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[20März2023 20:00:10.764] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[20März2023 20:00:10.764] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/registry_object_binary_compat.js
+[20März2023 20:00:10.764] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\curios-309927\4418032_mapped_official_1.18.2\curios-309927-4418032_mapped_official_1.18.2.jar
+[20März2023 20:00:10.765] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curios-309927-4418032_mapped_official_1.18.2.jar with {curios} mods - versions {1.18.2-5.0.9.0}
+[20März2023 20:00:10.765] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\curios-309927\4418032_mapped_official_1.18.2\curios-309927-4418032_mapped_official_1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[20März2023 20:00:10.766] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\patchouli-306770\3809917_mapped_official_1.18.2\patchouli-306770-3809917_mapped_official_1.18.2.jar
+[20März2023 20:00:10.767] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file patchouli-306770-3809917_mapped_official_1.18.2.jar with {patchouli} mods - versions {0.0NONE}
+[20März2023 20:00:10.767] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\patchouli-306770\3809917_mapped_official_1.18.2\patchouli-306770-3809917_mapped_official_1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[20März2023 20:00:10.769] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\geckolib-388172\4181370_mapped_official_1.18.2\geckolib-388172-4181370_mapped_official_1.18.2.jar
+[20März2023 20:00:10.771] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-388172-4181370_mapped_official_1.18.2.jar with {geckolib3} mods - versions {3.0.57}
+[20März2023 20:00:10.771] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\geckolib-388172\4181370_mapped_official_1.18.2\geckolib-388172-4181370_mapped_official_1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[20März2023 20:00:10.772] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\applied_energistics_2-223794\4105168_mapped_official_1.18.2\applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar
+[20März2023 20:00:10.773] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar with {ae2} mods - versions {11.6.6}
+[20März2023 20:00:10.773] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\applied_energistics_2-223794\4105168_mapped_official_1.18.2\applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[32,)]]
+[20März2023 20:00:10.793] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[20März2023 20:00:10.818] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[20März2023 20:00:10.822] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[20März2023 20:00:10.825] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 40
+[20März2023 20:00:10.826] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 40
+[20März2023 20:00:10.836] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[20März2023 20:00:10.837] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[20März2023 20:00:10.838] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[20März2023 20:00:10.842] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 16 mod requirements (13 mandatory, 3 optional)
+[20März2023 20:00:10.844] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[20März2023 20:00:11.361] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28190 method mappings from methods.csv
+[20März2023 20:00:11.387] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 27073 field mappings from fields.csv
+[20März2023 20:00:11.470] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[20März2023 20:00:11.471] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[20März2023 20:00:11.472] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[20März2023 20:00:11.472] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[20März2023 20:00:11.472] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[20März2023 20:00:11.472] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[20März2023 20:00:11.708] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20März2023 20:00:11.709] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[20März2023 20:00:11.812] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20März2023 20:00:11.813] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[20März2023 20:00:11.870] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20März2023 20:00:11.870] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/registry_object_binary_compat.js
+[20März2023 20:00:11.892] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[20März2023 20:00:11.900] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@242b6e1a to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[20März2023 20:00:11.902] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@50fb33a to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[20März2023 20:00:11.902] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2cae9b8 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[20März2023 20:00:11.902] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1457fde to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[20März2023 20:00:11.902] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6f94fb9d to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[20März2023 20:00:11.902] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@17fa1336 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[20März2023 20:00:11.903] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4228bf58 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[20März2023 20:00:11.903] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@68b9834c to Target : CLASS {Lnet/minecraftforge/registries/RegistryObject;} {} {V}
+[20März2023 20:00:11.903] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[20März2023 20:00:13.035] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[20März2023 20:00:13.035] [main/DEBUG] [mixin/]: Registering mixin config: cae.mixins.json
+[20März2023 20:00:13.052] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by cae.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[20März2023 20:00:13.055] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20März2023 20:00:13.055] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[20März2023 20:00:13.056] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[20März2023 20:00:13.056] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[20März2023 20:00:13.056] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[20März2023 20:00:13.056] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[20März2023 20:00:13.056] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[20März2023 20:00:13.056] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[20März2023 20:00:13.056] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(ars_nouveau)
+[20März2023 20:00:13.056] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(ars_nouveau)
+[20März2023 20:00:13.056] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(ars_nouveau)
+[20März2023 20:00:13.057] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(ars_nouveau)
+[20März2023 20:00:13.057] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(ars_nouveau)
+[20März2023 20:00:13.057] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(ars_nouveau)]
+[20März2023 20:00:13.057] [main/DEBUG] [mixin/]: Registering mixin config: ars_nouveau.mixins.json
+[20März2023 20:00:13.060] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(cae)
+[20März2023 20:00:13.060] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(cae)
+[20März2023 20:00:13.060] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(cae)
+[20März2023 20:00:13.060] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(cae)
+[20März2023 20:00:13.060] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(cae)
+[20März2023 20:00:13.060] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cae)]
+[20März2023 20:00:13.061] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[20März2023 20:00:13.061] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[20März2023 20:00:13.061] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[20März2023 20:00:13.061] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[20März2023 20:00:13.061] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[20März2023 20:00:13.061] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[20März2023 20:00:13.061] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(curios)
+[20März2023 20:00:13.061] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(curios)
+[20März2023 20:00:13.061] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(curios)
+[20März2023 20:00:13.062] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(curios)
+[20März2023 20:00:13.062] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(curios)
+[20März2023 20:00:13.062] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(curios)]
+[20März2023 20:00:13.062] [main/DEBUG] [mixin/]: Registering mixin config: curios.mixins.json
+[20März2023 20:00:13.063] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(patchouli)
+[20März2023 20:00:13.064] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(patchouli)
+[20März2023 20:00:13.064] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(patchouli)
+[20März2023 20:00:13.064] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(patchouli)
+[20März2023 20:00:13.064] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(patchouli)
+[20März2023 20:00:13.064] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(patchouli)]
+[20März2023 20:00:13.064] [main/DEBUG] [mixin/]: Registering mixin config: patchouli_xplat.mixins.json
+[20März2023 20:00:13.066] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(geckolib3)
+[20März2023 20:00:13.066] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(geckolib3)
+[20März2023 20:00:13.066] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(geckolib3)
+[20März2023 20:00:13.067] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(geckolib3)
+[20März2023 20:00:13.067] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(geckolib3)
+[20März2023 20:00:13.067] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(geckolib3)]
+[20März2023 20:00:13.067] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(ae2)
+[20März2023 20:00:13.067] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(ae2)
+[20März2023 20:00:13.067] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(ae2)
+[20März2023 20:00:13.067] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(ae2)
+[20März2023 20:00:13.067] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(ae2)
+[20März2023 20:00:13.068] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(ae2)]
+[20März2023 20:00:13.068] [main/DEBUG] [mixin/]: Registering mixin config: ae2.mixins.json
+[20März2023 20:00:13.072] [main/DEBUG] [mixin/]: Compatibility level JAVA_11 specified by ae2.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[20März2023 20:00:13.073] [main/DEBUG] [mixin/]: inject() running with 9 agents
+[20März2023 20:00:13.073] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[20März2023 20:00:13.073] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[20März2023 20:00:13.073] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(ars_nouveau)]
+[20März2023 20:00:13.073] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cae)]
+[20März2023 20:00:13.073] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[20März2023 20:00:13.074] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(curios)]
+[20März2023 20:00:13.075] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(patchouli)]
+[20März2023 20:00:13.076] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(geckolib3)]
+[20März2023 20:00:13.076] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(ae2)]
+[20März2023 20:00:13.076] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\maser\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
+[20März2023 20:00:13.157] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[20März2023 20:00:13.159] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[20März2023 20:00:13.159] [main/DEBUG] [mixin/]: Selecting config cae.mixins.json
+[20März2023 20:00:13.163] [main/DEBUG] [mixin/]: Selecting config ars_nouveau.mixins.json
+[20März2023 20:00:13.185] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[20März2023 20:00:13.187] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[20März2023 20:00:13.188] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[20März2023 20:00:13.190] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[20März2023 20:00:13.191] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[20März2023 20:00:13.193] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[20März2023 20:00:13.196] [main/DEBUG] [mixin/]: Registering new injector for @ModifyExpressionValue with shadowed.llamalad7.mixinextras.injector.ModifyExpressionValueInjectionInfo
+[20März2023 20:00:13.199] [main/DEBUG] [mixin/]: Registering new injector for @ModifyReceiver with shadowed.llamalad7.mixinextras.injector.ModifyReceiverInjectionInfo
+[20März2023 20:00:13.201] [main/DEBUG] [mixin/]: Registering new injector for @ModifyReturnValue with shadowed.llamalad7.mixinextras.injector.ModifyReturnValueInjectionInfo
+[20März2023 20:00:13.204] [main/DEBUG] [mixin/]: Registering new injector for @WrapWithCondition with shadowed.llamalad7.mixinextras.injector.WrapWithConditionInjectionInfo
+[20März2023 20:00:13.499] [main/INFO] [mixin/]: Remapping refMap ars_nouveau.refmap.json using C:\Users\maser\OneDrive\Desktop\Mod project/build/createSrgToMcp/output.srg
+[20März2023 20:00:13.500] [main/DEBUG] [mixin/]: Selecting config curios.mixins.json
+[20März2023 20:00:13.501] [main/INFO] [mixin/]: Remapping refMap curios.refmap.json using C:\Users\maser\OneDrive\Desktop\Mod project/build/createSrgToMcp/output.srg
+[20März2023 20:00:13.502] [main/DEBUG] [mixin/]: Selecting config patchouli_xplat.mixins.json
+[20März2023 20:00:13.503] [main/INFO] [mixin/]: Remapping refMap patchouli.refmap.json using C:\Users\maser\OneDrive\Desktop\Mod project/build/createSrgToMcp/output.srg
+[20März2023 20:00:13.503] [main/DEBUG] [mixin/]: Selecting config ae2.mixins.json
+[20März2023 20:00:13.506] [main/INFO] [mixin/]: Remapping refMap ae2.mixins.refmap.json using C:\Users\maser\OneDrive\Desktop\Mod project/build/createSrgToMcp/output.srg
+[20März2023 20:00:13.507] [main/DEBUG] [mixin/]: Preparing cae.mixins.json (0)
+[20März2023 20:00:13.507] [main/DEBUG] [mixin/]: Preparing ars_nouveau.mixins.json (16)
+[20März2023 20:00:13.662] [main/DEBUG] [mixin/]: Preparing curios.mixins.json (6)
+[20März2023 20:00:13.673] [main/DEBUG] [mixin/]: Preparing patchouli_xplat.mixins.json (8)
+[20März2023 20:00:13.693] [main/DEBUG] [mixin/]: Preparing ae2.mixins.json (20)
+[20März2023 20:00:13.787] [main/DEBUG] [mixin/]: Prepared 49 mixins in 0,627 sec (12,8ms avg) (0ms load, 0ms transform, 0ms plugin)
+[20März2023 20:00:13.797] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[20März2023 20:00:13.800] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[20März2023 20:00:13.800] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[20März2023 20:00:13.890] [main/DEBUG] [mixin/]: Mixing elytra.ElytraPlayerMixin from ars_nouveau.mixins.json into net.minecraft.world.entity.player.Player
+[20März2023 20:00:13.903] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[20März2023 20:00:13.943] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[20März2023 20:00:14.020] [main/DEBUG] [mixin/]: Mixing ExpInvokerMixin from ars_nouveau.mixins.json into net.minecraft.world.entity.LivingEntity
+[20März2023 20:00:14.038] [main/DEBUG] [mixin/]: Mixing elytra.MixinLivingEntity from ars_nouveau.mixins.json into net.minecraft.world.entity.LivingEntity
+[20März2023 20:00:14.041] [main/DEBUG] [mixin/]: Mixing MixinLivingEntity from curios.mixins.json into net.minecraft.world.entity.LivingEntity
+[20März2023 20:00:14.148] [main/DEBUG] [mixin/]: Mixing light.LightEntityMixin from ars_nouveau.mixins.json into net.minecraft.world.entity.Entity
+[20März2023 20:00:14.385] [main/DEBUG] [mixin/]: Mixing client.MixinSystemReport from patchouli_xplat.mixins.json into net.minecraft.SystemReport
+[20März2023 20:00:14.410] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e
+[20März2023 20:00:14.595] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e
+[20März2023 20:00:14.959] [main/DEBUG] [mixin/]: Mixing light.ClientMixin from ars_nouveau.mixins.json into net.minecraft.client.Minecraft
+[20März2023 20:00:14.960] [main/DEBUG] [mixin/]: Mixing PickColorMixin from ae2.mixins.json into net.minecraft.client.Minecraft
+[20März2023 20:00:14.960] [main/DEBUG] [mixin/]: ae2.mixins.json:PickColorMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:14.962] [main/DEBUG] [mixin/]: Mixing camera.MinecraftMixin from ars_nouveau.mixins.json into net.minecraft.client.Minecraft
+[20März2023 20:00:15.066] [main/DEBUG] [mixin/]: Mixing client.AccessorScreen from patchouli_xplat.mixins.json into net.minecraft.client.gui.screens.Screen
+[20März2023 20:00:15.086] [main/DEBUG] [mixin/]: Mixing WrappedGenericStackTooltipModIdMixin from ae2.mixins.json into net.minecraft.client.gui.screens.Screen
+[20März2023 20:00:15.087] [main/DEBUG] [mixin/]: ae2.mixins.json:WrappedGenericStackTooltipModIdMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:15.141] [main/DEBUG] [mixin/]: Mixing elytra.ClientElytraMixin from ars_nouveau.mixins.json into net.minecraft.client.player.LocalPlayer
+[20März2023 20:00:15.175] [main/DEBUG] [mixin/]: Mixing client.MixinInventoryScreen from patchouli_xplat.mixins.json into net.minecraft.client.gui.screens.inventory.InventoryScreen
+[20März2023 20:00:15.223] [main/DEBUG] [mixin/]: Mixing AbstractContainerScreenMixin from ae2.mixins.json into net.minecraft.client.gui.screens.inventory.AbstractContainerScreen
+[20März2023 20:00:15.223] [main/DEBUG] [mixin/]: ae2.mixins.json:AbstractContainerScreenMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:15.225] [main/DEBUG] [mixin/]: Mixing ResizableSlotHighlightMixin from ae2.mixins.json into net.minecraft.client.gui.screens.inventory.AbstractContainerScreen
+[20März2023 20:00:15.225] [main/DEBUG] [mixin/]: ae2.mixins.json:ResizableSlotHighlightMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:15.283] [pool-3-thread-1/DEBUG] [mixin/]: Mixing EarlyStartupMixin from ae2.mixins.json into net.minecraft.server.Bootstrap
+[20März2023 20:00:15.284] [pool-3-thread-1/DEBUG] [mixin/]: ae2.mixins.json:EarlyStartupMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:15.486] [pool-3-thread-1/DEBUG] [mixin/]: Mixing spatial.DimensionTypeMixin from ae2.mixins.json into net.minecraft.world.level.dimension.DimensionType
+[20März2023 20:00:15.486] [pool-3-thread-1/DEBUG] [mixin/]: ae2.mixins.json:spatial.DimensionTypeMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:15.587] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[20März2023 20:00:15.619] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[20März2023 20:00:15.684] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[20März2023 20:00:15.800] [pool-3-thread-1/DEBUG] [mixin/]: Mixing MixinPowderSnowBlock from curios.mixins.json into net.minecraft.world.level.block.PowderSnowBlock
+[20März2023 20:00:16.479] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[20März2023 20:00:17.912] [pool-3-thread-1/DEBUG] [mixin/]: Mixing camera.ANServerPlayerMixin from ars_nouveau.mixins.json into net.minecraft.server.level.ServerPlayer
+[20März2023 20:00:17.940] [pool-3-thread-1/DEBUG] [mixin/]: Mixing MixinEnderMan from curios.mixins.json into net.minecraft.world.entity.monster.EnderMan
+[20März2023 20:00:20.538] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[20März2023 20:00:20.556] [pool-3-thread-1/DEBUG] [mixin/]: Mixing MixinShearsItem from curios.mixins.json into net.minecraft.world.item.ShearsItem
+[20März2023 20:00:20.753] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[20März2023 20:00:20.849] [pool-3-thread-1/DEBUG] [mixin/]: Mixing feature.LevelLightEngineMixin from ae2.mixins.json into net.minecraft.world.level.lighting.LevelLightEngine
+[20März2023 20:00:20.849] [pool-3-thread-1/DEBUG] [mixin/]: ae2.mixins.json:feature.LevelLightEngineMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:20.946] [pool-3-thread-1/DEBUG] [mixin/]: Mixing AccessorSmithingRecipe from patchouli_xplat.mixins.json into net.minecraft.world.item.crafting.UpgradeRecipe
+[20März2023 20:00:21.147] [pool-3-thread-1/DEBUG] [mixin/]: Mixing MixinApplyBonusCount from curios.mixins.json into net.minecraft.world.level.storage.loot.functions.ApplyBonusCount
+[20März2023 20:00:21.399] [pool-3-thread-1/DEBUG] [mixin/]: Mixing PotionRecipeMixin from ars_nouveau.mixins.json into net.minecraft.world.item.alchemy.PotionBrewing
+[20März2023 20:00:21.419] [pool-3-thread-1/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing ars_nouveau directory : C:\Users\maser\OneDrive\Desktop\Mod project\run\config\ars_nouveau
+[20März2023 20:00:23.035] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/maser/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.80_mapped_official_1.18.2/forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/assets/.mcassetsroot' uses unexpected schema
+[20März2023 20:00:23.035] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/maser/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.80_mapped_official_1.18.2/forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2379!/data/.mcassetsroot' uses unexpected schema
+[20März2023 20:00:23.053] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20März2023 20:00:23.084] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[20März2023 20:00:23.086] [Render thread/DEBUG] [mixin/]: Mixing client.AccessorKeyMapping from patchouli_xplat.mixins.json into net.minecraft.client.KeyMapping
+[20März2023 20:00:23.086] [Render thread/DEBUG] [mixin/]: Renaming @Accessor method getAllKeyMappings()Ljava/util/Map; to getAllKeyMappings_$md$dd8ec4$0 in patchouli_xplat.mixins.json:client.AccessorKeyMapping
+[20März2023 20:00:23.405] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[20März2023 20:00:25.503] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5364
+[20März2023 20:00:25.568] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 8 threads for parallel mod-loading
+[20März2023 20:00:25.588] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e - got cpw.mods.cl.ModuleClassLoader@367795c7
+[20März2023 20:00:25.588] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[20März2023 20:00:25.596] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e - got cpw.mods.cl.ModuleClassLoader@367795c7
+[20März2023 20:00:25.597] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.pino.cae.Cae
+[20März2023 20:00:25.599] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e - got cpw.mods.cl.ModuleClassLoader@367795c7
+[20März2023 20:00:25.599] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for top.theillusivec4.curios.Curios
+[20März2023 20:00:25.601] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e - got cpw.mods.cl.ModuleClassLoader@367795c7
+[20März2023 20:00:25.601] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for vazkii.patchouli.forge.common.ForgeModInitializer
+[20März2023 20:00:25.604] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e - got cpw.mods.cl.ModuleClassLoader@367795c7
+[20März2023 20:00:25.604] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for software.bernie.example.GeckoLibMod
+[20März2023 20:00:25.605] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e - got cpw.mods.cl.ModuleClassLoader@367795c7
+[20März2023 20:00:25.605] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.hollingsworth.arsnouveau.ArsNouveau
+[20März2023 20:00:25.606] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e - got cpw.mods.cl.ModuleClassLoader@367795c7
+[20März2023 20:00:25.607] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for appeng.core.AppEngBootstrap
+[20März2023 20:00:25.697] [modloading-worker-0/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraftforge/registries/RegistryObject
+[20März2023 20:00:25.864] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 40.1 from cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e
+[20März2023 20:00:25.865] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 40.1.80
+[20März2023 20:00:25.866] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 40.1
+[20März2023 20:00:25.866] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[20März2023 20:00:25.867] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.18.2 from cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e
+[20März2023 20:00:25.868] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.18.2
+[20März2023 20:00:25.868] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220404.173914
+[20März2023 20:00:25.868] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.80, for MC 1.18.2 with MCP 20220404.173914
+[20März2023 20:00:25.870] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.80 Initialized
+[20März2023 20:00:25.932] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file curios-client.toml for curios tracking
+[20März2023 20:00:25.935] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file curios-server.toml for curios tracking
+[20März2023 20:00:25.937] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for curios
+[20März2023 20:00:25.967] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing top.theillusivec4.curios.Curios$ClientProxy to MOD
+[20März2023 20:00:25.970] [modloading-worker-0/DEBUG] [mixin/]: Mixing light.EntityRendererMixin from ars_nouveau.mixins.json into net.minecraft.client.renderer.entity.EntityRenderer
+[20März2023 20:00:26.004] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing top.theillusivec4.curios.common.CuriosRegistry to MOD
+[20März2023 20:00:26.007] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[20März2023 20:00:26.007] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[20März2023 20:00:26.008] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[20März2023 20:00:26.009] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[20März2023 20:00:26.009] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[20März2023 20:00:26.010] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:253) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:247) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:33) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2378%2385!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:150) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2378%2385!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:67) ~[javafmllanguage-1.18.2-40.1.80.jar%2380!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:106) ~[fmlcore-1.18.2-40.1.80.jar%2383!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[20März2023 20:00:26.014] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[20März2023 20:00:26.015] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 (in module io.netty.all) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.all
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:375) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:366) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2335!/:4.1.68.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:33) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2378%2385!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:150) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2378%2385!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:67) ~[javafmllanguage-1.18.2-40.1.80.jar%2380!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:106) ~[fmlcore-1.18.2-40.1.80.jar%2383!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[20März2023 20:00:26.018] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[20März2023 20:00:26.019] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[20März2023 20:00:26.020] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 8573157376 bytes (maybe)
+[20März2023 20:00:26.021] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\maser\AppData\Local\Temp (java.io.tmpdir)
+[20März2023 20:00:26.021] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20März2023 20:00:26.021] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[20März2023 20:00:26.022] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[20März2023 20:00:26.023] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[20März2023 20:00:26.024] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[20März2023 20:00:26.024] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[20März2023 20:00:26.029] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file patchouli-client.toml for patchouli tracking
+[20März2023 20:00:26.032] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for patchouli
+[20März2023 20:00:26.032] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.forge.client.ForgeClientInitializer to MOD
+[20März2023 20:00:26.036] [modloading-worker-0/DEBUG] [mixin/]: Mixing unlitquad.ModelBakeryMixin from ae2.mixins.json into net.minecraft.client.resources.model.ModelBakery
+[20März2023 20:00:26.036] [modloading-worker-0/DEBUG] [mixin/]: ae2.mixins.json:unlitquad.ModelBakeryMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:26.057] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.forge.common.ForgeModInitializer to MOD
+[20März2023 20:00:26.226] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
+[20März2023 20:00:26.312] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: cae, class com.pino.cae.Cae
+java.lang.reflect.InvocationTargetException: null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:67) ~[javafmllanguage-1.18.2-40.1.80.jar%2380!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:106) ~[fmlcore-1.18.2-40.1.80.jar%2383!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.lang.NullPointerException: Registry Object not present: cae:essentialorb
+	at java.util.Objects.requireNonNull(Objects.java:334) ~[?:?]
+	at net.minecraftforge.registries.RegistryObject.get(RegistryObject.java:320) ~[forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar%2378%2385!/:?]
+	at com.pino.cae.Cae.<init>(Cae.java:43) ~[%2384!/:?]
+	... 14 more
+[20März2023 20:00:26.320] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[20März2023 20:00:26.321] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[20März2023 20:00:26.321] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[20März2023 20:00:26.424] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for geckolib3
+[20März2023 20:00:26.425] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing software.bernie.example.GeckoLibMod to FORGE
+[20März2023 20:00:26.428] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing software.bernie.example.CommonListener to MOD
+[20März2023 20:00:26.431] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing software.bernie.example.ClientListener to MOD
+[20März2023 20:00:26.451] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/projectile.toml for ars_nouveau tracking
+[20März2023 20:00:26.452] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/touch.toml for ars_nouveau tracking
+[20März2023 20:00:26.453] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/self.toml for ars_nouveau tracking
+[20März2023 20:00:26.460] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/break.toml for ars_nouveau tracking
+[20März2023 20:00:26.461] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/harm.toml for ars_nouveau tracking
+[20März2023 20:00:26.463] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/ignite.toml for ars_nouveau tracking
+[20März2023 20:00:26.464] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/phantom_block.toml for ars_nouveau tracking
+[20März2023 20:00:26.465] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/heal.toml for ars_nouveau tracking
+[20März2023 20:00:26.466] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/grow.toml for ars_nouveau tracking
+[20März2023 20:00:26.469] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/gust.toml for ars_nouveau tracking
+[20März2023 20:00:26.470] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[20März2023 20:00:26.470] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[20März2023 20:00:26.471] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/light.toml for ars_nouveau tracking
+[20März2023 20:00:26.473] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
+[20März2023 20:00:26.517] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
+[20März2023 20:00:26.523] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
+[20März2023 20:00:26.540] [modloading-worker-0/DEBUG] [mixin/]: Mixing light.LevelRendererMixin from ars_nouveau.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[20März2023 20:00:26.544] [modloading-worker-0/DEBUG] [mixin/]: Mixing spatial.SkyRenderMixin from ae2.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[20März2023 20:00:26.545] [modloading-worker-0/DEBUG] [mixin/]: ae2.mixins.json:spatial.SkyRenderMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:26.547] [modloading-worker-0/DEBUG] [mixin/]: Mixing camera.LevelRendererMixin from ars_nouveau.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[20März2023 20:00:26.564] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/dispel.toml for ars_nouveau tracking
+[20März2023 20:00:26.565] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/launch.toml for ars_nouveau tracking
+[20März2023 20:00:26.567] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/pull.toml for ars_nouveau tracking
+[20März2023 20:00:26.569] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/blink.toml for ars_nouveau tracking
+[20März2023 20:00:26.682] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/explosion.toml for ars_nouveau tracking
+[20März2023 20:00:26.686] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/lightning.toml for ars_nouveau tracking
+[20März2023 20:00:26.686] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/slowfall.toml for ars_nouveau tracking
+[20März2023 20:00:26.687] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/aquatic.toml for ars_nouveau tracking
+[20März2023 20:00:26.688] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/fangs.toml for ars_nouveau tracking
+[20März2023 20:00:26.690] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/summon_vex.toml for ars_nouveau tracking
+[20März2023 20:00:26.690] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/accelerate.toml for ars_nouveau tracking
+[20März2023 20:00:26.691] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/decelerate.toml for ars_nouveau tracking
+[20März2023 20:00:26.691] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/split.toml for ars_nouveau tracking
+[20März2023 20:00:26.692] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/amplify.toml for ars_nouveau tracking
+[20März2023 20:00:26.692] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/aoe.toml for ars_nouveau tracking
+[20März2023 20:00:26.692] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/extend_time.toml for ars_nouveau tracking
+[20März2023 20:00:26.692] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/pierce.toml for ars_nouveau tracking
+[20März2023 20:00:26.693] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/dampen.toml for ars_nouveau tracking
+[20März2023 20:00:26.693] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/extract.toml for ars_nouveau tracking
+[20März2023 20:00:26.694] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/fortune.toml for ars_nouveau tracking
+[20März2023 20:00:26.694] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/ender_inventory.toml for ars_nouveau tracking
+[20März2023 20:00:26.695] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/harvest.toml for ars_nouveau tracking
+[20März2023 20:00:26.696] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/fell.toml for ars_nouveau tracking
+[20März2023 20:00:26.697] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/pickup.toml for ars_nouveau tracking
+[20März2023 20:00:26.697] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/interact.toml for ars_nouveau tracking
+[20März2023 20:00:26.699] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/place_block.toml for ars_nouveau tracking
+[20März2023 20:00:26.700] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/snare.toml for ars_nouveau tracking
+[20März2023 20:00:26.701] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/smelt.toml for ars_nouveau tracking
+[20März2023 20:00:26.701] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/leap.toml for ars_nouveau tracking
+[20März2023 20:00:26.702] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/delay.toml for ars_nouveau tracking
+[20März2023 20:00:26.703] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/redstone_signal.toml for ars_nouveau tracking
+[20März2023 20:00:26.703] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/intangible.toml for ars_nouveau tracking
+[20März2023 20:00:26.704] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/invisibility.toml for ars_nouveau tracking
+[20März2023 20:00:26.704] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/duration_down.toml for ars_nouveau tracking
+[20März2023 20:00:26.704] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/wither.toml for ars_nouveau tracking
+[20März2023 20:00:26.705] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/exchange.toml for ars_nouveau tracking
+[20März2023 20:00:26.705] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/craft.toml for ars_nouveau tracking
+[20März2023 20:00:26.706] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/flare.toml for ars_nouveau tracking
+[20März2023 20:00:26.706] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/cold_snap.toml for ars_nouveau tracking
+[20März2023 20:00:26.706] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/conjure_water.toml for ars_nouveau tracking
+[20März2023 20:00:26.707] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/gravity.toml for ars_nouveau tracking
+[20März2023 20:00:26.708] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/cut.toml for ars_nouveau tracking
+[20März2023 20:00:26.709] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/crush.toml for ars_nouveau tracking
+[20März2023 20:00:26.709] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/summon_wolves.toml for ars_nouveau tracking
+[20März2023 20:00:26.709] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/summon_steed.toml for ars_nouveau tracking
+[20März2023 20:00:26.711] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/summon_decoy.toml for ars_nouveau tracking
+[20März2023 20:00:26.712] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/hex.toml for ars_nouveau tracking
+[20März2023 20:00:26.713] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/underfoot.toml for ars_nouveau tracking
+[20März2023 20:00:26.713] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/glide.toml for ars_nouveau tracking
+[20März2023 20:00:26.716] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for ae2
+[20März2023 20:00:26.716] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing appeng.datagen.AE2DataGenerators to MOD
+[20März2023 20:00:26.751] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/orbit.toml for ars_nouveau tracking
+[20März2023 20:00:26.751] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/rune.toml for ars_nouveau tracking
+[20März2023 20:00:26.752] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/freeze.toml for ars_nouveau tracking
+[20März2023 20:00:26.752] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/name.toml for ars_nouveau tracking
+[20März2023 20:00:26.752] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/summon_undead.toml for ars_nouveau tracking
+[20März2023 20:00:26.766] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/firework.toml for ars_nouveau tracking
+[20März2023 20:00:26.767] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/toss.toml for ars_nouveau tracking
+[20März2023 20:00:26.767] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/bounce.toml for ars_nouveau tracking
+[20März2023 20:00:26.768] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/sensitive.toml for ars_nouveau tracking
+[20März2023 20:00:26.768] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/wind_shear.toml for ars_nouveau tracking
+[20März2023 20:00:26.768] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/evaporate.toml for ars_nouveau tracking
+[20März2023 20:00:26.770] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/linger.toml for ars_nouveau tracking
+[20März2023 20:00:26.771] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau/sense_magic.toml for ars_nouveau tracking
+[20März2023 20:00:26.822] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau-common.toml for ars_nouveau tracking
+[20März2023 20:00:26.823] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file ars_nouveau-client.toml for ars_nouveau tracking
+[20März2023 20:00:26.836] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for ars_nouveau
+[20März2023 20:00:26.836] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.setup.SoundRegistry$RegistryEvents to MOD
+[20März2023 20:00:26.839] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.setup.RecipeRegistry to MOD
+[20März2023 20:00:26.840] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.setup.ItemsRegistry$RegistrationHandler to MOD
+[20März2023 20:00:26.872] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.setup.Config to MOD
+[20März2023 20:00:26.873] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.setup.BlockRegistry$RegistryEvents to MOD
+[20März2023 20:00:26.949] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.world.BiomeEvent to FORGE
+[20März2023 20:00:26.950] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.ritual.RitualFlight$RitualFlightHandler to FORGE
+[20März2023 20:00:26.954] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.potions.ModPotions$RegistrationHandler to MOD
+[20März2023 20:00:26.957] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.potions.GravityEffect to FORGE
+[20März2023 20:00:26.961] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.potions.BounceEffect to FORGE
+[20März2023 20:00:26.962] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.items.curios.SummoningFocus to FORGE
+[20März2023 20:00:27.008] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.items.curios.CuriosEventHandler to FORGE
+[20März2023 20:00:27.009] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.event.SummonEvents to FORGE
+[20März2023 20:00:27.010] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.event.ScryEvents to FORGE
+[20März2023 20:00:27.012] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.event.ReactiveEvents to FORGE
+[20März2023 20:00:27.016] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.event.ManaCapEvents to FORGE
+[20März2023 20:00:27.022] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.event.LightEvents to FORGE
+[20März2023 20:00:27.024] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.event.FamiliarEvents to FORGE
+[20März2023 20:00:27.032] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.event.EventHandler to FORGE
+[20März2023 20:00:27.085] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.event.ArsEvents to FORGE
+[20März2023 20:00:27.087] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.entity.ModEntities$RegistrationHandler to MOD
+[20März2023 20:00:27.091] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.enchantment.EnchantmentRegistry$RegistrationHandler to MOD
+[20März2023 20:00:27.092] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.datagen.ModDatagen to MOD
+[20März2023 20:00:27.093] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.capability.CapabilityRegistry$EventHandler to FORGE
+[20März2023 20:00:27.095] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.camera.ClientCameraEvents to FORGE
+[20März2023 20:00:27.099] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.camera.CameraEvents to FORGE
+[20März2023 20:00:27.102] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.camera.CameraController to FORGE
+[20März2023 20:00:27.105] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.block.TimerSpellTurret to FORGE
+[20März2023 20:00:27.119] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.block.tile.VitalicSourcelinkTile to FORGE
+[20März2023 20:00:27.125] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.common.block.tile.AgronomicSourcelinkTile to FORGE
+[20März2023 20:00:27.127] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.client.TextureEvent to MOD
+[20März2023 20:00:27.128] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.client.PlayerEvent to FORGE
+[20März2023 20:00:27.130] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.client.particle.ModParticles to MOD
+[20März2023 20:00:27.131] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.client.keybindings.ModKeyBindings to MOD
+[20März2023 20:00:27.132] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.client.keybindings.KeyHandler to FORGE
+[20März2023 20:00:27.135] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.client.gui.RadialMenu.GuiRadialMenu to FORGE
+[20März2023 20:00:27.151] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.client.gui.HUDEventHandler to FORGE
+[20März2023 20:00:27.155] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.client.ClientHandler to MOD
+[20März2023 20:00:27.165] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.ArsNouveau to FORGE
+[20März2023 20:00:27.165] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.api.mana.ManaAttributes to MOD
+[20März2023 20:00:27.166] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.hollingsworth.arsnouveau.api.event.EventQueue to FORGE
+[20März2023 20:00:27.171] [Render thread/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
+[20März2023 20:00:27.256] [Render thread/DEBUG] [mixin/]: Mixing spatial.FixupDimensionsMixin from ae2.mixins.json into net.minecraft.world.level.storage.LevelStorageSource
+[20März2023 20:00:27.257] [Render thread/DEBUG] [mixin/]: ae2.mixins.json:spatial.FixupDimensionsMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:27.424] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.sound.SoundLoadEvent to a broken mod state
+[20März2023 20:00:27.548] [Render thread/DEBUG] [mixin/]: Mixing ItemRendererMixin from ae2.mixins.json into net.minecraft.client.renderer.entity.ItemRenderer
+[20März2023 20:00:27.549] [Render thread/DEBUG] [mixin/]: ae2.mixins.json:ItemRendererMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:27.675] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ColorHandlerEvent$Block to a broken mod state
+[20März2023 20:00:27.678] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ColorHandlerEvent$Item to a broken mod state
+[20März2023 20:00:27.900] [Render thread/DEBUG] [mixin/]: Mixing unlitquad.BlockModelMixin from ae2.mixins.json into net.minecraft.client.renderer.block.model.BlockModel
+[20März2023 20:00:27.900] [Render thread/DEBUG] [mixin/]: ae2.mixins.json:unlitquad.BlockModelMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:28.029] [Render thread/DEBUG] [mixin/]: Mixing unlitquad.BlockPartFaceDeserializerMixin from ae2.mixins.json into net.minecraft.client.renderer.block.model.BlockElementFace$Deserializer
+[20März2023 20:00:28.030] [Render thread/DEBUG] [mixin/]: ae2.mixins.json:unlitquad.BlockPartFaceDeserializerMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:28.068] [Render thread/DEBUG] [mixin/]: Mixing client.AccessorMultiBufferSource from patchouli_xplat.mixins.json into net.minecraft.client.renderer.MultiBufferSource$BufferSource
+[20März2023 20:00:28.161] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RenderLevelStageEvent$RegisterStageEvent to a broken mod state
+[20März2023 20:00:28.174] [Render thread/DEBUG] [mixin/]: Mixing EnchantmentHelperMixin from ae2.mixins.json into net.minecraft.world.item.enchantment.EnchantmentHelper
+[20März2023 20:00:28.175] [Render thread/DEBUG] [mixin/]: ae2.mixins.json:EnchantmentHelperMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:28.301] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[20März2023 20:00:28.301] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[20März2023 20:00:28.302] [Render thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0xef4f0caa9deaedeb
+[20März2023 20:00:28.593] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ParticleFactoryRegisterEvent to a broken mod state
+[20März2023 20:00:28.670] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[20März2023 20:00:28.719] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [cae]
+[20März2023 20:00:28.719] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.event.RegisterGameTestsEvent to a broken mod state
+[20März2023 20:00:28.721] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterClientReloadListenersEvent to a broken mod state
+[20März2023 20:00:28.721] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterLayerDefinitions to a broken mod state
+[20März2023 20:00:28.721] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterRenderers to a broken mod state
+[20März2023 20:00:28.873] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default
+[20März2023 20:00:29.082] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelRegistryEvent to a broken mod state
+[20März2023 20:00:29.231] [Worker-Main-8/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[20März2023 20:00:29.231] [Worker-Main-14/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[20März2023 20:00:29.232] [Worker-Main-13/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[20März2023 20:00:43.476] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[20März2023 20:00:45.078] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[20März2023 20:00:45.088] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[20März2023 20:00:45.141] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[20März2023 20:00:45.223] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[20März2023 20:00:45.265] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[20März2023 20:00:45.297] [Worker-Main-12/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Pre to a broken mod state
+[20März2023 20:00:45.358] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5396
+[20März2023 20:00:45.551] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Lautsprecher (Razer USB Sound Card)
+[20März2023 20:00:45.552] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[20März2023 20:00:45.779] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[20März2023 20:00:45.792] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20März2023 20:00:45.793] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[20März2023 20:00:45.793] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20März2023 20:00:45.793] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20März2023 20:00:45.794] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20März2023 20:00:45.795] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20März2023 20:00:45.796] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20März2023 20:00:45.796] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20März2023 20:00:45.796] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20März2023 20:00:45.797] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20März2023 20:00:45.798] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20März2023 20:00:45.798] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20März2023 20:00:45.798] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20März2023 20:00:45.812] [Render thread/DEBUG] [mixin/]: Mixing unlitquad.BakedQuadAccessor from ae2.mixins.json into net.minecraft.client.renderer.block.model.BakedQuad
+[20März2023 20:00:45.812] [Render thread/DEBUG] [mixin/]: ae2.mixins.json:unlitquad.BakedQuadAccessor: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_11 supports class version 55)
+[20März2023 20:00:46.180] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelBakeEvent to a broken mod state
+[20März2023 20:00:46.362] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.363] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.532] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.538] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.539] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.544] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.544] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.545] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.545] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.549] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.554] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.554] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.555] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.555] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.556] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.558] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.559] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.560] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.565] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.566] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.580] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.580] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20März2023 20:00:46.581] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$AddLayers to a broken mod state
+[20März2023 20:00:47.128] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterShadersEvent to a broken mod state
+[20März2023 20:00:47.327] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[20März2023 20:00:47.328] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20März2023 20:00:47.328] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20März2023 20:00:47.329] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20März2023 20:00:47.329] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20März2023 20:00:47.329] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20März2023 20:00:47.352] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5364
+[20März2023 20:00:48.060] [Render thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@3d96fa9e
+[20März2023 20:00:48.335] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID fadf12b1-2881-4627-99fb-497c1fea6092
+[20März2023 20:00:48.336] [Render thread/FATAL] [net.minecraftforge.client.loading.ClientModLoader/]: Crash report saved to .\crash-reports\crash-2023-03-20_20.00.48-fml.txt
+[20März2023 20:00:48.338] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 691fdaeb-ccbc-4578-8437-62e80f9b88e1
+[20März2023 20:03:28.779] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
