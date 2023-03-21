@@ -28,13 +28,14 @@ public class essentialOrb extends Animal implements IAnimatable {
     }
     public static AttributeSupplier setAttributes() {
         return Animal.createMobAttributes()
-                .add(Attributes.MAX_HEALTH,1D)
+                .add(Attributes.MAX_HEALTH,1.0D)
                 .add(Attributes.MOVEMENT_SPEED, 0.01f).build();
     }
     protected void registerGoals() {
         this.goalSelector.addGoal(1, new FloatGoal(this));
         this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, Player.class, 8.0F));
     }
+
 
     @Nullable
     @Override
