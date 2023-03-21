@@ -8,6 +8,7 @@ import com.pino.cae.init.ItemInit;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
@@ -28,13 +29,18 @@ public class Cae
         ItemInit.ITEMS.register(modEventBus);
         ModEntityTypes.ENTITIES.register(modEventBus);
         modEventBus.addListener(this::setup);
-        EntityRenderers.register(ModEntityTypes.ESSENTIALORB.get(), OrbRender::new);
+        modEventBus.addListener(this::clientSetup);
         GeckoLib.initialize();
+
     }
 
     private void setup(final FMLCommonSetupEvent event) {
 
     }
+    private void clientSetup(final FMLClientSetupEvent event){
+        EntityRenderers.register(ModEntityTypes.ESSENTIALORB.get(), OrbRender::new);
+    }
+
 
 }
 

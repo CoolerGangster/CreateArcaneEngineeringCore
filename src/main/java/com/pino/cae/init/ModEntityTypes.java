@@ -24,4 +24,4 @@ public class ModEntityTypes {
                             .sized(0.25f, 0.31f)
                             .build(new ResourceLocation(Cae.MOD_ID, "essentialorb").toString()));
 
-}   
+}
