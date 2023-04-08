@@ -172,6 +172,14 @@ dependencies {
     implementation fg.deobf("curse.maven:ars_nouveau-401955:3950802")
     implementation fg.deobf("curse.maven:patchouli-306770:3809917")
     implementation fg.deobf("curse.maven:geckolib-388172:4181370")
+    implementation fg.deobf("curse.maven:thermal_expansion-69163:4382343")
+    implementation fg.deobf("curse.maven:thermal_innovation-291737:4382344")
+    implementation fg.deobf("curse.maven:thermal_foundation-222880:4382339")
+    implementation fg.deobf("curse.maven:thermal_locomotion-406959:4382347")
+    implementation fg.deobf("curse.maven:cofh_core-69162:4385215")
+    implementation fg.deobf("curse.maven:forbidden_arcanus-309858:4442836")
+    implementation fg.deobf("curse.maven:valhelsia_core-416935:3886212")
+
 
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.

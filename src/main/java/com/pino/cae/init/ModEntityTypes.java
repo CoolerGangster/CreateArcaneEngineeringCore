@@ -21,7 +21,8 @@ public class ModEntityTypes {
     public static final RegistryObject<EntityType<essentialOrb>> ESSENTIALORB =
             ENTITIES.register("essentialorb",
                     () -> EntityType.Builder.of(essentialOrb::new, MobCategory.CREATURE)
-                            .sized(0.25f, 0.31f)
+                            .sized(0.25f, 1.00f)
+                            .fireImmune()
                             .build(new ResourceLocation(Cae.MOD_ID, "essentialorb").toString()));
 
 }

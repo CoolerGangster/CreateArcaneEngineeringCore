@@ -17,7 +17,7 @@ public class OrbRender extends GeoEntityRenderer<essentialOrb> {
     }
     @Override
     public ResourceLocation getTextureLocation(essentialOrb instance) {
-        return new ResourceLocation(Cae.MOD_ID, "textures/entity/raccoon/raccoon.png");
+        return new ResourceLocation(Cae.MOD_ID, "textures/entity/orb/essentialorb.png");
     }
 
     @Override

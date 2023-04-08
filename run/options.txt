@@ -38,7 +38,7 @@ biomeBlendRadius:2
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:localhost:25565
 lang:en_us
 soundDevice:
 chatVisibility:0
@@ -69,7 +69,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:false
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -122,12 +122,14 @@ key_key.ars_nouveau.qc7:key.keyboard.unknown
 key_key.ars_nouveau.qc8:key.keyboard.unknown
 key_key.ars_nouveau.qc9:key.keyboard.unknown
 key_key.ars_nouveau.qc10:key.keyboard.unknown
-key_key.curios.open.desc:key.keyboard.g
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
-soundCategory_master:0.0
-soundCategory_music:1.0
+key_key.curios.open.desc:key.keyboard.g
+key_key.cofh.mode_change_increment:key.keyboard.v
+key_key.cofh.mode_change_decrement:key.keyboard.b
+soundCategory_master:1.0
+soundCategory_music:0.0073888646
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

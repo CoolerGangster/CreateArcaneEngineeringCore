@@ -1,6 +1,7 @@
 package com.pino.cae;
 
 import com.mojang.logging.LogUtils;
+import com.pino.cae.init.FluidInit;
 import com.pino.cae.init.ModEntityTypes;
 import com.pino.cae.entity.OrbRender;
 import com.pino.cae.init.BlockInit;
@@ -25,8 +26,9 @@ public class Cae
 
     public Cae() {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        BlockInit.BLOCKS.register(modEventBus);
         ItemInit.ITEMS.register(modEventBus);
+        BlockInit.BLOCKS.register(modEventBus);
+        FluidInit.FLUIDS.register(modEventBus);
         ModEntityTypes.ENTITIES.register(modEventBus);
         modEventBus.addListener(this::setup);
         modEventBus.addListener(this::clientSetup);

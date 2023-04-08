@@ -12,7 +12,7 @@ public class OrbModel extends AnimatedGeoModel<essentialOrb> {
 
     @Override
     public ResourceLocation getTextureLocation(essentialOrb essentialOrb) {
-        return new ResourceLocation(Cae.MOD_ID,"textures/entity/orb/orb.png");
+        return new ResourceLocation(Cae.MOD_ID,"textures/entity/orb/essentialorb.png");
     }
 
     @Override
