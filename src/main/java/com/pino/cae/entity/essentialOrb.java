@@ -88,49 +88,51 @@ public class essentialOrb extends Animal implements IAnimatable {
             return false;
     }
     public void aiStep() {
+
         super.aiStep();
         if (!this.level.isClientSide()){
             this.entityData.set(STAGE, this.stage);
             this.entityData.set(CASHOUT, this.cashout);
-            if (this.entityData.get(STAGE) == 1){
-                for(Entity entity : level.getEntities(this, (new AABB(this.blockPosition()).inflate(2,1,2)))){
-                    if (entity.getType().toString().contains("entity.thermal.ender_tnt")){
-                        this.setStage(250);
-                        entity.kill();
-                    }
-                }
-            }
-            if (this.stage == 2 && this.getFeetBlockState().toString().contains("Block{forbidden_arcanus:black_hole}") && this.level.getBlockState(this.blockPosition().offset(0,1,0)).toString().contains("Block{cae:lst}")){
-                this.level.setBlockAndUpdate(this.blockPosition().offset(0,1,0), Blocks.AIR.defaultBlockState());
-                this.level.setBlockAndUpdate(this.blockPosition(), Blocks.AIR.defaultBlockState());
-                this.level.playLocalSound(this.getX(),this.getY(),this.getZ(), SoundEvents.ANVIL_BREAK, SoundSource.BLOCKS,1, 1, true);
-                this.stage = 3;
-                this.lifeTime = 160;
-            }
-            if (this.stage == 3){
-                for(Entity entity : level.getEntities(this, (new AABB(this.blockPosition()).inflate(0.5,0.5,0.5)))){
-                    if (entity.getType().toString().contains("entity.ae2.singularity") && this.entityData.get(CASHOUT) < 7){
-                        entity.kill();
-                        this.cashout++;
-                    }
-                }
-            }
+        }
 
-            if (!this.level.isClientSide && --this.lifeTime <= 0) {
-                if (this.entityData.get(CASHOUT) >= 6 && this.entityData.get(STAGE) == 3){
-                    spawnAtLocation(ORB_OF_TEMPORARY_FLIGHT);
-                    this.discard();
+        if (this.entityData.get(STAGE) == 1){
+            for(Entity entity : level.getEntities(this, (new AABB(this.blockPosition()).inflate(2,1,2)))){
+                if (entity.getType().toString().contains("entity.thermal.ender_tnt")){
+                    this.setStage(250);
+                    entity.kill();
                 }
-                else{
-                    Explosion.BlockInteraction explosion$blockinteraction = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(this.level, this) ? Explosion.BlockInteraction.BREAK : Explosion.BlockInteraction.NONE;
-                    this.level.explode(this, this.getX(), this.getY(), this.getZ(), 1, explosion$blockinteraction);
-                    this.discard();
+            }
+        }
+        if (this.stage == 2 && this.getFeetBlockState().toString().contains("Block{forbidden_arcanus:black_hole}") && this.level.getBlockState(this.blockPosition().offset(0,1,0)).toString().contains("Block{cae:lst}")){
+            this.level.setBlockAndUpdate(this.blockPosition().offset(0,1,0), Blocks.AIR.defaultBlockState());
+            this.level.setBlockAndUpdate(this.blockPosition(), Blocks.AIR.defaultBlockState());
+            this.level.playLocalSound(this.getX(),this.getY(),this.getZ(), SoundEvents.ANVIL_BREAK, SoundSource.BLOCKS,1, 1, true);
+            this.stage = 3;
+            this.lifeTime = 160;
+        }
+        if (this.stage == 3){
+            for(Entity entity : level.getEntities(this, (new AABB(this.blockPosition()).inflate(0.5,0.5,0.5)))){
+                if (entity.getType().toString().contains("entity.ae2.singularity") && this.entityData.get(CASHOUT) < 7){
+                    entity.kill();
+                    this.cashout++;
                 }
             }
         }
 
-
+        if (--this.lifeTime <= 0) {
+            if (this.entityData.get(CASHOUT) >= 6 && this.entityData.get(STAGE) == 3){
+                spawnAtLocation(ORB_OF_TEMPORARY_FLIGHT, 1);
+                this.discard();
+            }
+            else{
+                Explosion.BlockInteraction explosion$blockinteraction = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(this.level, this) ? Explosion.BlockInteraction.BREAK : Explosion.BlockInteraction.NONE;
+                this.level.explode(this, this.getX(), this.getY(), this.getZ(), 1, explosion$blockinteraction);
+                this.discard();
+            }
+        }
     }
+
+
     public void setStage(int ticks){
 
         stage++;
