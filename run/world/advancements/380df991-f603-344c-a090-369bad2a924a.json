@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-04-06 17:29:09 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/forbidden_arcanus/dark_rune": {
+    "criteria": {
+      "has_dust": "2023-04-06 17:27:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:swamp": "2023-04-06 17:26:21 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

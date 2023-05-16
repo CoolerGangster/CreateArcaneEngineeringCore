@@ -1,0 +1,2818 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 20, 2023, 8:38:56 PM
+
+#forge:cobblestone/mossy
+- minecraft:mossy_cobblestone
+
+#forge:glass_panes/magenta
+- minecraft:magenta_stained_glass_pane
+
+#forge:nuggets
+- #forge:nuggets/iron
+- #forge:nuggets/gold
+- #forge:nuggets/copper
+- #forge:nuggets/netherite
+- #forge:nuggets/enderium
+- #forge:nuggets/lumium
+- #forge:nuggets/signalum
+- #forge:nuggets/lead
+- #forge:nuggets/nickel
+- #forge:nuggets/silver
+- #forge:nuggets/tin
+- #forge:nuggets/bronze
+- #forge:nuggets/constantan
+- #forge:nuggets/electrum
+- #forge:nuggets/invar
+- #forge:nuggets/arcane_gold
+- #forge:nuggets/ender_pearl
+
+#forge:glass/tinted
+- minecraft:tinted_glass
+
+#forge:gears
+- #forge:gears/copper
+- #forge:gears/gold
+- #forge:gears/iron
+- #forge:gears/netherite
+- #forge:gears/diamond
+- #forge:gears/emerald
+- #forge:gears/lapis
+- #forge:gears/quartz
+- #forge:gears/enderium
+- #forge:gears/lumium
+- #forge:gears/signalum
+- #forge:gears/lead
+- #forge:gears/nickel
+- #forge:gears/silver
+- #forge:gears/tin
+- #forge:gears/bronze
+- #forge:gears/constantan
+- #forge:gears/electrum
+- #forge:gears/invar
+- #forge:gears/ruby
+- #forge:gears/sapphire
+
+#forge:plates
+- #forge:plates/copper
+- #forge:plates/gold
+- #forge:plates/iron
+- #forge:plates/netherite
+- #forge:plates/enderium
+- #forge:plates/lumium
+- #forge:plates/signalum
+- #forge:plates/lead
+- #forge:plates/nickel
+- #forge:plates/silver
+- #forge:plates/tin
+- #forge:plates/bronze
+- #forge:plates/constantan
+- #forge:plates/electrum
+- #forge:plates/invar
+
+#forge:dyes/gray
+- minecraft:gray_dye
+
+#ars_nouveau:summon_bed
+- ars_nouveau:red_sbed
+- ars_nouveau:green_sbed
+- ars_nouveau:yellow_sbed
+- ars_nouveau:blue_sbed
+- ars_nouveau:orange_sbed
+- ars_nouveau:purple_sbed
+
+#minecraft:occludes_vibration_signals
+- #minecraft:wool
+
+#forge:dusts/corrupti
+- forbidden_arcanus:corrupti_dust
+
+#forge:nuggets/electrum
+- thermal:electrum_nugget
+
+#forge:plates/netherite
+- thermal:netherite_plate
+
+#forge:gems/sulfur
+- thermal:sulfur
+
+#forge:rods/blaze
+- minecraft:blaze_rod
+
+#forbidden_arcanus:obsidian_skulls
+- forbidden_arcanus:obsidian_skull
+- forbidden_arcanus:eternal_obsidian_skull
+
+#forge:storage_blocks/source
+- ars_nouveau:source_gem_block
+
+#forge:storage_blocks/netherite
+- minecraft:netherite_block
+
+#forge:glass_panes/white
+- minecraft:white_stained_glass_pane
+
+#forge:coins/invar
+- thermal:invar_coin
+
+#forge:ingots/silver
+- thermal:silver_ingot
+
+#forge:glass_panes/light_gray
+- minecraft:light_gray_stained_glass_pane
+
+#forge:dusts/lumium
+- thermal:lumium_dust
+
+#forge:storage_blocks/nickel
+- thermal:nickel_block
+
+#forge:ores/niter
+- thermal:niter_ore
+- thermal:deepslate_niter_ore
+
+#forge:nuggets/bronze
+- thermal:bronze_nugget
+
+#forge:dusts/constantan
+- thermal:constantan_dust
+
+#forge:armor/diamond
+- minecraft:diamond_boots
+- minecraft:diamond_chestplate
+- minecraft:diamond_helmet
+- minecraft:diamond_leggings
+
+#forge:glass/pink
+- minecraft:pink_stained_glass
+
+#forge:chests
+- #forge:chests/ender
+- #forge:chests/trapped
+- #forge:chests/wooden
+
+#forge:storage_blocks/emerald
+- minecraft:emerald_block
+
+#forge:ores/redstone
+- #minecraft:redstone_ores
+
+#forge:gears/silver
+- thermal:silver_gear
+
+#ae2:p2p_attunements/fluid_p2p_tunnel
+- minecraft:bucket
+- minecraft:milk_bucket
+- minecraft:water_bucket
+- minecraft:lava_bucket
+
+#forge:glass/red
+- minecraft:red_stained_glass
+
+#forge:dusts/lapis
+- thermal:lapis_dust
+
+#forge:ender_pearls
+- minecraft:ender_pearl
+
+#forge:cobblestone/deepslate
+- minecraft:cobbled_deepslate
+
+#forge:glass_panes/green
+- minecraft:green_stained_glass_pane
+
+#ae2:interface
+- ae2:cable_interface
+- ae2:interface
+
+#forge:chests/trapped
+- minecraft:trapped_chest
+
+#forge:fence_gates
+- #forge:fence_gates/wooden
+- ars_nouveau:archwood_fence_gate
+
+#curios:an_focus
+- ars_nouveau:summon_focus
+- ars_nouveau:shapers_focus
+
+#forge:ingots
+- #forge:ingots/brick
+- #forge:ingots/copper
+- #forge:ingots/gold
+- #forge:ingots/iron
+- #forge:ingots/netherite
+- #forge:ingots/nether_brick
+- #forge:ingots/enderium
+- #forge:ingots/lumium
+- #forge:ingots/signalum
+- #forge:ingots/lead
+- #forge:ingots/nickel
+- #forge:ingots/silver
+- #forge:ingots/tin
+- #forge:ingots/bronze
+- #forge:ingots/constantan
+- #forge:ingots/electrum
+- #forge:ingots/invar
+- #forge:ingots/arcane_gold
+- #forge:ingots/obsidian
+
+#thermal:crafting/casts
+- thermal:chiller_ball_cast
+- thermal:chiller_ingot_cast
+- thermal:chiller_rod_cast
+
+#forge:coins/silver
+- thermal:silver_coin
+
+#forge:crops/nether_wart
+- minecraft:nether_wart
+
+#forge:sandstone
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
+- forbidden_arcanus:soulless_sandstone
+- forbidden_arcanus:cut_soulless_sandstone
+- forbidden_arcanus:polished_soulless_sandstone
+
+#forge:storage_blocks/copper
+- minecraft:copper_block
+
+#forge:glass_panes/colorless
+- minecraft:glass_pane
+- #forge:glass_panes/dark_runic
+- #forge:glass_panes/runic
+
+#minecraft:coals
+- minecraft:coal
+- minecraft:charcoal
+
+#ae2:quartz_sword
+- ae2:certus_quartz_sword
+- ae2:nether_quartz_sword
+
+#minecraft:piglin_food
+- minecraft:porkchop
+- minecraft:cooked_porkchop
+
+#forge:storage_blocks/cinnabar
+- thermal:cinnabar_block
+
+#forge:dusts/invar
+- thermal:invar_dust
+
+#forge:plates/constantan
+- thermal:constantan_plate
+
+#forge:ingots/nether_brick
+- minecraft:nether_brick
+
+#forge:gears/enderium
+- thermal:enderium_gear
+
+#forge:cobblestone/infested
+- minecraft:infested_cobblestone
+
+#forge:ingots/arcane_gold
+- forbidden_arcanus:arcane_gold_ingot
+
+#forge:coins/gold
+- thermal:gold_coin
+
+#forge:storage_blocks/lapis
+- minecraft:lapis_block
+
+#minecraft:beds
+- minecraft:red_bed
+- minecraft:black_bed
+- minecraft:blue_bed
+- minecraft:brown_bed
+- minecraft:cyan_bed
+- minecraft:gray_bed
+- minecraft:green_bed
+- minecraft:light_blue_bed
+- minecraft:light_gray_bed
+- minecraft:lime_bed
+- minecraft:magenta_bed
+- minecraft:orange_bed
+- minecraft:pink_bed
+- minecraft:purple_bed
+- minecraft:white_bed
+- minecraft:yellow_bed
+
+#forge:ores/diamond
+- #minecraft:diamond_ores
+
+#forge:ores/lead
+- thermal:lead_ore
+- thermal:deepslate_lead_ore
+
+#minecraft:doors
+- #minecraft:wooden_doors
+- minecraft:iron_door
+- ars_nouveau:archwood_door
+- forbidden_arcanus:arcane_gold_door
+
+#ae2:glass_cable
+- ae2:white_glass_cable
+- ae2:orange_glass_cable
+- ae2:magenta_glass_cable
+- ae2:light_blue_glass_cable
+- ae2:yellow_glass_cable
+- ae2:lime_glass_cable
+- ae2:pink_glass_cable
+- ae2:gray_glass_cable
+- ae2:light_gray_glass_cable
+- ae2:cyan_glass_cable
+- ae2:purple_glass_cable
+- ae2:blue_glass_cable
+- ae2:brown_glass_cable
+- ae2:green_glass_cable
+- ae2:red_glass_cable
+- ae2:black_glass_cable
+- ae2:fluix_glass_cable
+
+#thermal:crafting/dies
+- thermal:press_coin_die
+- thermal:press_gear_die
+- thermal:press_packing_2x2_die
+- thermal:press_packing_3x3_die
+- thermal:press_unpacking_die
+
+#ae2:quartz_shovel
+- ae2:certus_quartz_shovel
+- ae2:nether_quartz_shovel
+
+#forge:ore_rates/dense
+- minecraft:copper_ore
+- minecraft:deepslate_copper_ore
+- minecraft:deepslate_lapis_ore
+- minecraft:deepslate_redstone_ore
+- minecraft:lapis_ore
+- minecraft:redstone_ore
+
+#forge:dyes/orange
+- minecraft:orange_dye
+
+#forge:storage_blocks/sugar_cane
+- thermal:sugar_cane_block
+
+#forge:storage_blocks/signalum
+- thermal:signalum_block
+
+#forge:storage_blocks/invar
+- thermal:invar_block
+
+#forge:dusts/bronze
+- thermal:bronze_dust
+
+#forge:coins/tin
+- thermal:tin_coin
+
+#forbidden_arcanus:indestructible_blacklisted
+
+#forge:plates/silver
+- thermal:silver_plate
+
+#forge:ores/tin
+- thermal:tin_ore
+- thermal:deepslate_tin_ore
+
+#forge:glass/white
+- minecraft:white_stained_glass
+
+#minecraft:signs
+- minecraft:oak_sign
+- minecraft:spruce_sign
+- minecraft:birch_sign
+- minecraft:acacia_sign
+- minecraft:jungle_sign
+- minecraft:dark_oak_sign
+- minecraft:crimson_sign
+- minecraft:warped_sign
+- forbidden_arcanus:fungyss_sign
+- forbidden_arcanus:cherrywood_sign
+- forbidden_arcanus:mysterywood_sign
+- forbidden_arcanus:edelwood_sign
+
+#forge:glass_panes/red
+- minecraft:red_stained_glass_pane
+
+#forge:ores/xpetrified_ore
+- forbidden_arcanus:xpetrified_ore
+
+#minecraft:fishes
+- minecraft:cod
+- minecraft:cooked_cod
+- minecraft:salmon
+- minecraft:cooked_salmon
+- minecraft:pufferfish
+- minecraft:tropical_fish
+
+#forge:storage_blocks/certus_quartz
+- ae2:quartz_block
+
+#ars_nouveau:golem/shard
+- minecraft:amethyst_shard
+
+#forge:dusts/wood
+- thermal:sawdust
+
+#forge:storage_blocks/raw_nickel
+- thermal:raw_nickel_block
+
+#forge:cobblestone/normal
+- minecraft:cobblestone
+
+#forge:storage_blocks/sapphire
+- thermal:sapphire_block
+
+#forge:sand/colorless
+- minecraft:sand
+
+#forge:coins/constantan
+- thermal:constantan_coin
+
+#minecraft:redstone_ores
+- minecraft:redstone_ore
+- minecraft:deepslate_redstone_ore
+
+#forge:raw_materials/iron
+- minecraft:raw_iron
+
+#forge:ingots/invar
+- thermal:invar_ingot
+
+#forge:gems/arcane_crystal
+- forbidden_arcanus:arcane_crystal
+
+#forge:foods/fish/raw
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+
+#forge:storage_blocks/charcoal
+- thermal:charcoal_block
+
+#forge:ingots/enderium
+- thermal:enderium_ingot
+
+#forge:armor/netherite
+- minecraft:netherite_boots
+- minecraft:netherite_chestplate
+- minecraft:netherite_helmet
+- minecraft:netherite_leggings
+
+#forge:gems/diamond
+- minecraft:diamond
+
+#minecraft:walls
+- minecraft:cobblestone_wall
+- minecraft:mossy_cobblestone_wall
+- minecraft:brick_wall
+- minecraft:prismarine_wall
+- minecraft:red_sandstone_wall
+- minecraft:mossy_stone_brick_wall
+- minecraft:granite_wall
+- minecraft:stone_brick_wall
+- minecraft:nether_brick_wall
+- minecraft:andesite_wall
+- minecraft:red_nether_brick_wall
+- minecraft:sandstone_wall
+- minecraft:end_stone_brick_wall
+- minecraft:diorite_wall
+- minecraft:blackstone_wall
+- minecraft:polished_blackstone_brick_wall
+- minecraft:polished_blackstone_wall
+- minecraft:cobbled_deepslate_wall
+- minecraft:polished_deepslate_wall
+- minecraft:deepslate_tile_wall
+- minecraft:deepslate_brick_wall
+- forbidden_arcanus:darkstone_wall
+- forbidden_arcanus:polished_darkstone_wall
+- forbidden_arcanus:polished_darkstone_brick_wall
+- forbidden_arcanus:arcane_polished_darkstone_wall
+- forbidden_arcanus:soulless_sandstone_wall
+
+#ae2:all_fluix
+- ae2:fluix_crystal
+
+#ae2:p2p_attunements/fe_p2p_tunnel
+- ae2:dense_energy_cell
+- ae2:energy_acceptor
+- ae2:energy_cell
+- ae2:creative_energy_cell
+
+#forge:glass/green
+- minecraft:green_stained_glass
+
+#forge:storage_blocks/lead
+- thermal:lead_block
+
+#minecraft:music_discs
+- #minecraft:creeper_drop_music_discs
+- minecraft:music_disc_pigstep
+- minecraft:music_disc_otherside
+
+#ae2:all_quartz
+- #forge:gems/quartz
+- #forge:gems/certus_quartz
+- ae2:charged_certus_quartz_crystal
+
+#forge:gems
+- #forge:gems/amethyst
+- #forge:gems/diamond
+- #forge:gems/emerald
+- #forge:gems/lapis
+- #forge:gems/prismarine
+- #forge:gems/quartz
+- ae2:certus_quartz_crystal
+- ae2:charged_certus_quartz_crystal
+- ae2:fluix_crystal
+- ars_nouveau:source_gem
+- #forge:gems/apatite
+- #forge:gems/cinnabar
+- #forge:gems/niter
+- #forge:gems/sulfur
+- #forge:gems/ruby
+- #forge:gems/sapphire
+- #forge:gems/arcane_crystal
+
+#minecraft:sand
+- minecraft:sand
+- minecraft:red_sand
+
+#forge:plates/bronze
+- thermal:bronze_plate
+
+#forge:end_stones
+- minecraft:end_stone
+
+#forge:ores/sulfur
+- thermal:sulfur_ore
+- thermal:deepslate_sulfur_ore
+
+#forge:fences/wooden
+- #minecraft:wooden_fences
+- ars_nouveau:archwood_fence
+- forbidden_arcanus:fungyss_fence
+- forbidden_arcanus:cherrywood_fence
+- forbidden_arcanus:mysterywood_fence
+- forbidden_arcanus:edelwood_fence
+
+#forge:dusts/netherite
+- thermal:netherite_dust
+
+#forge:dusts/emerald
+- thermal:emerald_dust
+
+#forge:dyes/light_gray
+- minecraft:light_gray_dye
+
+#forge:storage_blocks
+- #forge:storage_blocks/amethyst
+- #forge:storage_blocks/coal
+- #forge:storage_blocks/copper
+- #forge:storage_blocks/diamond
+- #forge:storage_blocks/emerald
+- #forge:storage_blocks/gold
+- #forge:storage_blocks/iron
+- #forge:storage_blocks/lapis
+- #forge:storage_blocks/quartz
+- #forge:storage_blocks/raw_copper
+- #forge:storage_blocks/raw_gold
+- #forge:storage_blocks/raw_iron
+- #forge:storage_blocks/redstone
+- #forge:storage_blocks/netherite
+- #forge:storage_blocks/certus_quartz
+- ars_nouveau:source_gem_block
+- #forge:storage_blocks/enderium
+- #forge:storage_blocks/lumium
+- #forge:storage_blocks/signalum
+- #forge:storage_blocks/bamboo
+- #forge:storage_blocks/charcoal
+- #forge:storage_blocks/gunpowder
+- #forge:storage_blocks/sugar_cane
+- #forge:storage_blocks/bitumen
+- #forge:storage_blocks/coal_coke
+- #forge:storage_blocks/slag
+- #forge:storage_blocks/tar
+- #forge:storage_blocks/apatite
+- #forge:storage_blocks/cinnabar
+- #forge:storage_blocks/niter
+- #forge:storage_blocks/sulfur
+- #forge:storage_blocks/raw_lead
+- #forge:storage_blocks/raw_nickel
+- #forge:storage_blocks/raw_silver
+- #forge:storage_blocks/raw_tin
+- #forge:storage_blocks/lead
+- #forge:storage_blocks/nickel
+- #forge:storage_blocks/silver
+- #forge:storage_blocks/tin
+- #forge:storage_blocks/bronze
+- #forge:storage_blocks/constantan
+- #forge:storage_blocks/electrum
+- #forge:storage_blocks/invar
+- #forge:storage_blocks/ruby
+- #forge:storage_blocks/sapphire
+- #forge:storage_blocks/arcane_crystal
+- #forge:storage_blocks/arcane_gold
+- #forge:storage_blocks/dark_nether_star
+- #forge:storage_blocks/stellarite
+
+#forge:coins/lead
+- thermal:lead_coin
+
+#forge:ingots/bronze
+- thermal:bronze_ingot
+
+#forge:glass_panes/orange
+- minecraft:orange_stained_glass_pane
+
+#minecraft:beacon_payment_items
+- minecraft:netherite_ingot
+- minecraft:emerald
+- minecraft:diamond
+- minecraft:gold_ingot
+- minecraft:iron_ingot
+- ars_nouveau:source_gem
+
+#forge:ingots/copper
+- minecraft:copper_ingot
+- minecraft:copper_ingot
+
+#forge:ores/quartz
+- minecraft:nether_quartz_ore
+
+#forge:nuggets/signalum
+- thermal:signalum_nugget
+
+#ae2:smart_cable
+- ae2:white_smart_cable
+- ae2:orange_smart_cable
+- ae2:magenta_smart_cable
+- ae2:light_blue_smart_cable
+- ae2:yellow_smart_cable
+- ae2:lime_smart_cable
+- ae2:pink_smart_cable
+- ae2:gray_smart_cable
+- ae2:light_gray_smart_cable
+- ae2:cyan_smart_cable
+- ae2:purple_smart_cable
+- ae2:blue_smart_cable
+- ae2:brown_smart_cable
+- ae2:green_smart_cable
+- ae2:red_smart_cable
+- ae2:black_smart_cable
+- ae2:fluix_smart_cable
+
+#forge:ingots/brick
+- minecraft:brick
+
+#forge:glass/blue
+- minecraft:blue_stained_glass
+
+#minecraft:coal_ores
+- minecraft:coal_ore
+- minecraft:deepslate_coal_ore
+
+#forge:plates/electrum
+- thermal:electrum_plate
+
+#minecraft:wooden_trapdoors
+- minecraft:acacia_trapdoor
+- minecraft:birch_trapdoor
+- minecraft:dark_oak_trapdoor
+- minecraft:jungle_trapdoor
+- minecraft:oak_trapdoor
+- minecraft:spruce_trapdoor
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- ars_nouveau:archwood_trapdoor
+- forbidden_arcanus:fungyss_trapdoor
+- forbidden_arcanus:cherrywood_trapdoor
+- forbidden_arcanus:mysterywood_trapdoor
+- forbidden_arcanus:edelwood_trapdoor
+
+#forge:storage_blocks/coal
+- minecraft:coal_block
+
+#forge:glass/light_blue
+- minecraft:light_blue_stained_glass
+
+#forge:dragon_scales
+- forbidden_arcanus:dragon_scale
+- forbidden_arcanus:silver_dragon_scale
+- forbidden_arcanus:golden_dragon_scale
+- forbidden_arcanus:aquatic_dragon_scale
+
+#forge:glass_panes/runic
+- forbidden_arcanus:runic_glass_pane
+
+#forge:coins/electrum
+- thermal:electrum_coin
+
+#forge:storage_blocks/redstone
+- minecraft:redstone_block
+
+#forge:gems/sapphire
+- thermal:sapphire
+
+#forge:storage_blocks/amethyst
+- minecraft:amethyst_block
+
+#minecraft:stairs
+- #minecraft:wooden_stairs
+- minecraft:cobblestone_stairs
+- minecraft:sandstone_stairs
+- minecraft:nether_brick_stairs
+- minecraft:stone_brick_stairs
+- minecraft:brick_stairs
+- minecraft:purpur_stairs
+- minecraft:quartz_stairs
+- minecraft:red_sandstone_stairs
+- minecraft:prismarine_brick_stairs
+- minecraft:prismarine_stairs
+- minecraft:dark_prismarine_stairs
+- minecraft:polished_granite_stairs
+- minecraft:smooth_red_sandstone_stairs
+- minecraft:mossy_stone_brick_stairs
+- minecraft:polished_diorite_stairs
+- minecraft:mossy_cobblestone_stairs
+- minecraft:end_stone_brick_stairs
+- minecraft:stone_stairs
+- minecraft:smooth_sandstone_stairs
+- minecraft:smooth_quartz_stairs
+- minecraft:granite_stairs
+- minecraft:andesite_stairs
+- minecraft:red_nether_brick_stairs
+- minecraft:polished_andesite_stairs
+- minecraft:diorite_stairs
+- minecraft:blackstone_stairs
+- minecraft:polished_blackstone_brick_stairs
+- minecraft:polished_blackstone_stairs
+- minecraft:cobbled_deepslate_stairs
+- minecraft:polished_deepslate_stairs
+- minecraft:deepslate_tile_stairs
+- minecraft:deepslate_brick_stairs
+- minecraft:oxidized_cut_copper_stairs
+- minecraft:weathered_cut_copper_stairs
+- minecraft:exposed_cut_copper_stairs
+- minecraft:cut_copper_stairs
+- minecraft:waxed_weathered_cut_copper_stairs
+- minecraft:waxed_exposed_cut_copper_stairs
+- minecraft:waxed_cut_copper_stairs
+- minecraft:waxed_oxidized_cut_copper_stairs
+- ars_nouveau:archwood_stairs
+- forbidden_arcanus:darkstone_stairs
+- forbidden_arcanus:polished_darkstone_stairs
+- forbidden_arcanus:polished_darkstone_brick_stairs
+- forbidden_arcanus:arcane_polished_darkstone_stairs
+- forbidden_arcanus:soulless_sandstone_stairs
+- forbidden_arcanus:polished_soulless_sandstone_stairs
+
+#forge:logs/archwood
+- ars_nouveau:red_archwood_log
+- ars_nouveau:blue_archwood_log
+- ars_nouveau:purple_archwood_log
+- ars_nouveau:green_archwood_log
+- ars_nouveau:red_archwood_wood
+- ars_nouveau:blue_archwood_wood
+- ars_nouveau:green_archwood_wood
+- ars_nouveau:purple_archwood_wood
+- ars_nouveau:stripped_blue_archwood_log
+- ars_nouveau:stripped_blue_archwood_wood
+- ars_nouveau:stripped_green_archwood_log
+- ars_nouveau:stripped_green_archwood_wood
+- ars_nouveau:stripped_red_archwood_log
+- ars_nouveau:stripped_red_archwood_wood
+- ars_nouveau:stripped_purple_archwood_log
+- ars_nouveau:stripped_purple_archwood_wood
+
+#forbidden_arcanus:magical_farmland_blacklisted
+- minecraft:wheat_seeds
+- minecraft:beetroot_seeds
+- minecraft:melon_seeds
+- minecraft:pumpkin_seeds
+- forbidden_arcanus:golden_orchid_seeds
+
+#minecraft:logs
+- #minecraft:logs_that_burn
+- #minecraft:crimson_stems
+- #minecraft:warped_stems
+- ars_nouveau:red_archwood_log
+- ars_nouveau:blue_archwood_log
+- ars_nouveau:purple_archwood_log
+- ars_nouveau:green_archwood_log
+- ars_nouveau:red_archwood_wood
+- ars_nouveau:blue_archwood_wood
+- ars_nouveau:green_archwood_wood
+- ars_nouveau:purple_archwood_wood
+- ars_nouveau:stripped_blue_archwood_log
+- ars_nouveau:stripped_blue_archwood_wood
+- ars_nouveau:stripped_green_archwood_log
+- ars_nouveau:stripped_green_archwood_wood
+- ars_nouveau:stripped_red_archwood_log
+- ars_nouveau:stripped_red_archwood_wood
+- ars_nouveau:stripped_purple_archwood_log
+- ars_nouveau:stripped_purple_archwood_wood
+- #forbidden_arcanus:fungyss_stems
+- #forbidden_arcanus:cherrywood_logs
+- #forbidden_arcanus:mysterywood_logs
+- #forbidden_arcanus:edelwood_logs
+
+#forge:ores/cinnabar
+- thermal:cinnabar_ore
+- thermal:deepslate_cinnabar_ore
+
+#forge:raw_materials/gold
+- minecraft:raw_gold
+
+#forge:nuggets/arcane_gold
+- forbidden_arcanus:arcane_gold_nugget
+
+#forge:slag
+- thermal:slag
+
+#forge:plates/enderium
+- thermal:enderium_plate
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:tipped_arrow
+- minecraft:spectral_arrow
+- forbidden_arcanus:boom_arrow
+- forbidden_arcanus:draco_arcanus_arrow
+
+#forge:foods/fish/cooked
+- minecraft:cooked_cod
+- minecraft:cooked_salmon
+
+#forge:dusts/sapphire
+- thermal:sapphire_dust
+
+#minecraft:wooden_doors
+- minecraft:oak_door
+- minecraft:spruce_door
+- minecraft:birch_door
+- minecraft:jungle_door
+- minecraft:acacia_door
+- minecraft:dark_oak_door
+- minecraft:crimson_door
+- minecraft:warped_door
+- ars_nouveau:archwood_door
+- forbidden_arcanus:fungyss_door
+- forbidden_arcanus:cherrywood_door
+- forbidden_arcanus:mysterywood_door
+- forbidden_arcanus:edelwood_door
+
+#forge:ores/certus_quartz
+- ae2:quartz_ore
+- ae2:deepslate_quartz_ore
+
+#forge:nuggets/invar
+- thermal:invar_nugget
+
+#ae2:p2p_attunements/light_p2p_tunnel
+- minecraft:torch
+- minecraft:glowstone
+
+#forge:tools/diamond
+- minecraft:diamond_axe
+- minecraft:diamond_hoe
+- minecraft:diamond_pickaxe
+- minecraft:diamond_shovel
+- minecraft:diamond_sword
+
+#forge:gears/bronze
+- thermal:bronze_gear
+
+#minecraft:emerald_ores
+- minecraft:emerald_ore
+- minecraft:deepslate_emerald_ore
+
+#forge:ingots/constantan
+- thermal:constantan_ingot
+
+#forge:glass/purple
+- minecraft:purple_stained_glass
+
+#forge:dyes/magenta
+- minecraft:magenta_dye
+
+#minecraft:crimson_stems
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+
+#minecraft:ignored_by_piglin_babies
+- minecraft:leather
+
+#forbidden_arcanus:modifier/eternal_incompatible
+
+#minecraft:stone_tool_materials
+- minecraft:cobblestone
+- minecraft:blackstone
+- minecraft:cobbled_deepslate
+
+#forge:dyes/cyan
+- minecraft:cyan_dye
+
+#ars_nouveau:wilden_drop
+- ars_nouveau:wilden_horn
+- ars_nouveau:wilden_spike
+- ars_nouveau:wilden_wing
+
+#minecraft:terracotta
+- minecraft:terracotta
+- minecraft:white_terracotta
+- minecraft:orange_terracotta
+- minecraft:magenta_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:yellow_terracotta
+- minecraft:lime_terracotta
+- minecraft:pink_terracotta
+- minecraft:gray_terracotta
+- minecraft:light_gray_terracotta
+- minecraft:cyan_terracotta
+- minecraft:purple_terracotta
+- minecraft:blue_terracotta
+- minecraft:brown_terracotta
+- minecraft:green_terracotta
+- minecraft:red_terracotta
+- minecraft:black_terracotta
+
+#cofh_core:crafting/securable
+- thermal:satchel
+
+#forge:nuggets/netherite
+- thermal:netherite_nugget
+
+#forge:coins/copper
+- thermal:copper_coin
+
+#forge:storage_blocks/ruby
+- thermal:ruby_block
+
+#forge:seeds/wheat
+- minecraft:wheat_seeds
+
+#forge:ingots/iron
+- minecraft:iron_ingot
+
+#thermal:dynamos
+- thermal:dynamo_stirling
+- thermal:dynamo_compression
+- thermal:dynamo_magmatic
+- thermal:dynamo_numismatic
+- thermal:dynamo_lapidary
+- thermal:dynamo_disenchantment
+- thermal:dynamo_gourmand
+
+#forge:dyes/purple
+- minecraft:purple_dye
+
+#curios:ring
+- ars_nouveau:ring_of_lesser_discount
+- ars_nouveau:ring_of_greater_discount
+
+#forge:ores_in_ground/deepslate
+- minecraft:deepslate_coal_ore
+- minecraft:deepslate_copper_ore
+- minecraft:deepslate_diamond_ore
+- minecraft:deepslate_emerald_ore
+- minecraft:deepslate_gold_ore
+- minecraft:deepslate_iron_ore
+- minecraft:deepslate_lapis_ore
+- minecraft:deepslate_redstone_ore
+
+#ae2:illuminated_panel
+- ae2:monitor
+- ae2:semi_dark_monitor
+- ae2:dark_monitor
+
+#minecraft:anvil
+- minecraft:anvil
+- minecraft:chipped_anvil
+- minecraft:damaged_anvil
+
+#forge:storage_blocks/enderium
+- thermal:enderium_block
+
+#forge:sand
+- #forge:sand/colorless
+- #forge:sand/red
+- #forge:sand/soulless
+
+#thermal:rockwool
+- thermal:white_rockwool
+- thermal:orange_rockwool
+- thermal:magenta_rockwool
+- thermal:light_blue_rockwool
+- thermal:yellow_rockwool
+- thermal:lime_rockwool
+- thermal:pink_rockwool
+- thermal:gray_rockwool
+- thermal:light_gray_rockwool
+- thermal:cyan_rockwool
+- thermal:purple_rockwool
+- thermal:blue_rockwool
+- thermal:brown_rockwool
+- thermal:green_rockwool
+- thermal:red_rockwool
+- thermal:black_rockwool
+
+#forge:storage_blocks/tar
+- thermal:tar_block
+
+#forge:dyes/yellow
+- minecraft:yellow_dye
+
+#forge:gems/apatite
+- thermal:apatite
+
+#forge:storage_blocks/raw_gold
+- minecraft:raw_gold_block
+
+#forge:gems/prismarine
+- minecraft:prismarine_crystals
+
+#ae2:can_remove_color
+- minecraft:water_bucket
+- minecraft:snowball
+
+#minecraft:iron_ores
+- minecraft:iron_ore
+- minecraft:deepslate_iron_ore
+
+#forge:dusts/ruby
+- thermal:ruby_dust
+
+#forge:storage_blocks/silver
+- thermal:silver_block
+
+#forge:ores/gold
+- #minecraft:gold_ores
+
+#forge:pumpkins/carved
+- minecraft:carved_pumpkin
+
+#forge:tar
+- thermal:tar
+
+#forge:raw_materials
+- #forge:raw_materials/copper
+- #forge:raw_materials/gold
+- #forge:raw_materials/iron
+- #forge:raw_materials/lead
+- #forge:raw_materials/nickel
+- #forge:raw_materials/silver
+- #forge:raw_materials/tin
+
+#minecraft:stone_crafting_materials
+- minecraft:cobblestone
+- minecraft:blackstone
+- minecraft:cobbled_deepslate
+
+#minecraft:piglin_repellents
+- minecraft:soul_torch
+- minecraft:soul_lantern
+- minecraft:soul_campfire
+
+#forge:raw_materials/silver
+- thermal:raw_silver
+
+#forge:glass/black
+- minecraft:black_stained_glass
+
+#forge:gears/lead
+- thermal:lead_gear
+
+#forge:fences/nether_brick
+- minecraft:nether_brick_fence
+
+#forge:rods
+- #forge:rods/blaze
+- #forge:rods/wooden
+
+#forge:glass/lime
+- minecraft:lime_stained_glass
+
+#ae2:knife
+- ae2:certus_quartz_cutting_knife
+- ae2:nether_quartz_cutting_knife
+
+#forge:chests/wooden
+- minecraft:chest
+- minecraft:trapped_chest
+
+#forge:ores/iron
+- #minecraft:iron_ores
+
+#ars_nouveau:whirlisprig/denied_drop
+- minecraft:dirt
+- #forge:seeds
+
+#forge:dusts/copper
+- thermal:copper_dust
+
+#forge:dusts/arcane_crystal
+- forbidden_arcanus:arcane_crystal_dust
+
+#forge:storage_blocks/sulfur
+- thermal:sulfur_block
+
+#forge:gems/emerald
+- minecraft:emerald
+
+#minecraft:wooden_stairs
+- minecraft:oak_stairs
+- minecraft:spruce_stairs
+- minecraft:birch_stairs
+- minecraft:jungle_stairs
+- minecraft:acacia_stairs
+- minecraft:dark_oak_stairs
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- ars_nouveau:archwood_stairs
+- forbidden_arcanus:fungyss_stairs
+- forbidden_arcanus:cherrywood_stairs
+- forbidden_arcanus:mysterywood_stairs
+- forbidden_arcanus:edelwood_stairs
+
+#thermal:glass/hardened
+- thermal:obsidian_glass
+- thermal:signalum_glass
+- thermal:lumium_glass
+- thermal:enderium_glass
+
+#minecraft:carpets
+- minecraft:white_carpet
+- minecraft:orange_carpet
+- minecraft:magenta_carpet
+- minecraft:light_blue_carpet
+- minecraft:yellow_carpet
+- minecraft:lime_carpet
+- minecraft:pink_carpet
+- minecraft:gray_carpet
+- minecraft:light_gray_carpet
+- minecraft:cyan_carpet
+- minecraft:purple_carpet
+- minecraft:blue_carpet
+- minecraft:brown_carpet
+- minecraft:green_carpet
+- minecraft:red_carpet
+- minecraft:black_carpet
+
+#minecraft:wooden_buttons
+- minecraft:oak_button
+- minecraft:spruce_button
+- minecraft:birch_button
+- minecraft:jungle_button
+- minecraft:acacia_button
+- minecraft:dark_oak_button
+- minecraft:crimson_button
+- minecraft:warped_button
+- ars_nouveau:archwood_button
+- forbidden_arcanus:fungyss_button
+- forbidden_arcanus:cherrywood_button
+- forbidden_arcanus:mysterywood_button
+- forbidden_arcanus:edelwood_button
+
+#forge:storage_blocks/dark_nether_star
+- forbidden_arcanus:dark_nether_star_block
+
+#forge:glass_panes/dark_runic
+- forbidden_arcanus:dark_runic_glass_pane
+
+#minecraft:stone_bricks
+- minecraft:stone_bricks
+- minecraft:mossy_stone_bricks
+- minecraft:cracked_stone_bricks
+- minecraft:chiseled_stone_bricks
+
+#ae2:quartz_wrench
+- ae2:certus_quartz_wrench
+- ae2:nether_quartz_wrench
+
+#forge:storage_blocks/quartz
+- minecraft:quartz_block
+
+#forge:gears/tin
+- thermal:tin_gear
+
+#forge:nuggets/nickel
+- thermal:nickel_nugget
+
+#forge:glass/orange
+- minecraft:orange_stained_glass
+
+#forge:coins/nickel
+- thermal:nickel_coin
+
+#ae2:blacklisted/annihilation_plane
+
+#forge:gems/fluix
+- ae2:fluix_crystal
+
+#forge:dyes/green
+- minecraft:green_dye
+
+#forge:plates/gold
+- thermal:gold_plate
+
+#forge:planks/archwood
+- ars_nouveau:archwood_planks
+
+#minecraft:slabs
+- #minecraft:wooden_slabs
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:stone_brick_slab
+- minecraft:sandstone_slab
+- minecraft:purpur_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:brick_slab
+- minecraft:cobblestone_slab
+- minecraft:nether_brick_slab
+- minecraft:petrified_oak_slab
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:dark_prismarine_slab
+- minecraft:polished_granite_slab
+- minecraft:smooth_red_sandstone_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:cut_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- minecraft:blackstone_slab
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_slab
+- minecraft:cobbled_deepslate_slab
+- minecraft:polished_deepslate_slab
+- minecraft:deepslate_tile_slab
+- minecraft:deepslate_brick_slab
+- minecraft:waxed_weathered_cut_copper_slab
+- minecraft:waxed_exposed_cut_copper_slab
+- minecraft:waxed_cut_copper_slab
+- minecraft:oxidized_cut_copper_slab
+- minecraft:weathered_cut_copper_slab
+- minecraft:exposed_cut_copper_slab
+- minecraft:cut_copper_slab
+- minecraft:waxed_oxidized_cut_copper_slab
+- ars_nouveau:archwood_slab
+- forbidden_arcanus:darkstone_slab
+- forbidden_arcanus:polished_darkstone_slab
+- forbidden_arcanus:polished_darkstone_brick_slab
+- forbidden_arcanus:arcane_polished_darkstone_slab
+- forbidden_arcanus:soulless_sandstone_slab
+- forbidden_arcanus:cut_soulless_sandstone_slab
+- forbidden_arcanus:polished_soulless_sandstone_slab
+
+#forge:ores/emerald
+- #minecraft:emerald_ores
+
+#forge:storage_blocks/bitumen
+- thermal:bitumen_block
+
+#forge:dyes/lime
+- minecraft:lime_dye
+
+#forge:glass/dark_runic
+- forbidden_arcanus:dark_runic_glass
+
+#forge:dusts/diamond
+- thermal:diamond_dust
+
+#ae2:p2p_attunements/me_p2p_tunnel
+- #ae2:covered_cable
+- #ae2:covered_dense_cable
+- #ae2:glass_cable
+- #ae2:smart_cable
+- #ae2:smart_dense_cable
+
+#forge:ores/apatite
+- thermal:apatite_ore
+- thermal:deepslate_apatite_ore
+
+#forge:gears/sapphire
+- thermal:sapphire_gear
+
+#minecraft:buttons
+- #minecraft:wooden_buttons
+- minecraft:stone_button
+- minecraft:polished_blackstone_button
+- ars_nouveau:archwood_button
+- forbidden_arcanus:polished_darkstone_button
+
+#forge:plates/iron
+- thermal:iron_plate
+
+#forge:nuggets/lumium
+- thermal:lumium_nugget
+
+#minecraft:rails
+- minecraft:rail
+- minecraft:powered_rail
+- minecraft:detector_rail
+- minecraft:activator_rail
+
+#ae2:all_quartz_dust
+- #forge:dusts/certus_quartz
+
+#forge:nuggets/silver
+- thermal:silver_nugget
+
+#forge:barrels/wooden
+- minecraft:barrel
+
+#forge:dusts/certus_quartz
+- ae2:certus_quartz_dust
+- ae2:certus_quartz_dust
+
+#forge:storage_blocks/niter
+- thermal:niter_block
+
+#forge:storage_blocks/raw_iron
+- minecraft:raw_iron_block
+
+#minecraft:wooden_pressure_plates
+- minecraft:oak_pressure_plate
+- minecraft:spruce_pressure_plate
+- minecraft:birch_pressure_plate
+- minecraft:jungle_pressure_plate
+- minecraft:acacia_pressure_plate
+- minecraft:dark_oak_pressure_plate
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- ars_nouveau:archwood_pressure_plate
+- forbidden_arcanus:fungyss_pressure_plate
+- forbidden_arcanus:cherrywood_pressure_plate
+- forbidden_arcanus:mysterywood_pressure_plate
+- forbidden_arcanus:edelwood_pressure_plate
+
+#forge:ores/arcane_crystal
+- forbidden_arcanus:arcane_crystal_ore
+
+#ae2:smart_dense_cable
+- ae2:white_smart_dense_cable
+- ae2:orange_smart_dense_cable
+- ae2:magenta_smart_dense_cable
+- ae2:light_blue_smart_dense_cable
+- ae2:yellow_smart_dense_cable
+- ae2:lime_smart_dense_cable
+- ae2:pink_smart_dense_cable
+- ae2:gray_smart_dense_cable
+- ae2:light_gray_smart_dense_cable
+- ae2:cyan_smart_dense_cable
+- ae2:purple_smart_dense_cable
+- ae2:blue_smart_dense_cable
+- ae2:brown_smart_dense_cable
+- ae2:green_smart_dense_cable
+- ae2:red_smart_dense_cable
+- ae2:black_smart_dense_cable
+- ae2:fluix_smart_dense_cable
+
+#minecraft:tall_flowers
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:peony
+- minecraft:rose_bush
+
+#forge:ingots/obsidian
+- forbidden_arcanus:obsidian_ingot
+
+#forge:plates/tin
+- thermal:tin_plate
+
+#forge:bookshelves
+- minecraft:bookshelf
+
+#forbidden_arcanus:edelwood_logs
+- forbidden_arcanus:edelwood_log
+- forbidden_arcanus:carved_edelwood_log
+
+#forge:ores_in_ground/stone
+- minecraft:coal_ore
+- minecraft:copper_ore
+- minecraft:diamond_ore
+- minecraft:emerald_ore
+- minecraft:gold_ore
+- minecraft:iron_ore
+- minecraft:lapis_ore
+- minecraft:redstone_ore
+
+#minecraft:gold_ores
+- minecraft:gold_ore
+- minecraft:nether_gold_ore
+- minecraft:deepslate_gold_ore
+
+#forge:dyes
+- #forge:dyes/white
+- #forge:dyes/orange
+- #forge:dyes/magenta
+- #forge:dyes/light_blue
+- #forge:dyes/yellow
+- #forge:dyes/lime
+- #forge:dyes/pink
+- #forge:dyes/gray
+- #forge:dyes/light_gray
+- #forge:dyes/cyan
+- #forge:dyes/purple
+- #forge:dyes/blue
+- #forge:dyes/brown
+- #forge:dyes/green
+- #forge:dyes/red
+- #forge:dyes/black
+
+#forge:glass_panes/pink
+- minecraft:pink_stained_glass_pane
+
+#minecraft:dirt
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:podzol
+- minecraft:coarse_dirt
+- minecraft:mycelium
+- minecraft:rooted_dirt
+- minecraft:moss_block
+
+#forge:netherrack
+- minecraft:netherrack
+
+#forge:gears/constantan
+- thermal:constantan_gear
+
+#minecraft:cluster_max_harvestables
+- minecraft:diamond_pickaxe
+- minecraft:golden_pickaxe
+- minecraft:iron_pickaxe
+- minecraft:netherite_pickaxe
+- minecraft:stone_pickaxe
+- minecraft:wooden_pickaxe
+- thermal:flux_drill
+
+#minecraft:soul_fire_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#forge:gears/electrum
+- thermal:electrum_gear
+
+#forge:eggs
+- minecraft:egg
+
+#forge:dusts/mundabitur
+- forbidden_arcanus:mundabitur_dust
+
+#forge:dyes/red
+- minecraft:red_dye
+
+#ae2:p2p_attunements/redstone_p2p_tunnel
+- minecraft:redstone
+- minecraft:repeater
+- minecraft:redstone_lamp
+- minecraft:comparator
+- minecraft:daylight_detector
+- minecraft:redstone_torch
+- minecraft:redstone_block
+- minecraft:lever
+
+#forge:gravel
+- minecraft:gravel
+
+#forge:glass_panes/cyan
+- minecraft:cyan_stained_glass_pane
+
+#forge:armor/gold
+- minecraft:golden_boots
+- minecraft:golden_chestplate
+- minecraft:golden_helmet
+- minecraft:golden_leggings
+
+#forge:plates/signalum
+- thermal:signalum_plate
+
+#forge:dyes/black
+- minecraft:black_dye
+
+#forge:coins/signalum
+- thermal:signalum_coin
+
+#forge:dusts/glowstone
+- minecraft:glowstone_dust
+
+#minecraft:wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+
+#forge:glass/colorless
+- minecraft:glass
+- #forge:glass/dark_runic
+- #forge:glass/runic
+
+#forge:glass_panes/light_blue
+- minecraft:light_blue_stained_glass_pane
+
+#forge:dusts/cinnabar
+- thermal:cinnabar_dust
+
+#forge:nuggets/constantan
+- thermal:constantan_nugget
+
+#forge:ores/netherite_scrap
+- minecraft:ancient_debris
+
+#forge:nuggets/copper
+- thermal:copper_nugget
+
+#forge:stained_glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+
+#forge:crops/carrot
+- minecraft:carrot
+
+#forge:raw_materials/lead
+- thermal:raw_lead
+
+#forge:plates/invar
+- thermal:invar_plate
+
+#forge:nuggets/gold
+- minecraft:gold_nugget
+
+#forge:tools/netherite
+- minecraft:netherite_axe
+- minecraft:netherite_hoe
+- minecraft:netherite_pickaxe
+- minecraft:netherite_shovel
+- minecraft:netherite_sword
+
+#minecraft:warped_stems
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+
+#forge:nether_stars
+- minecraft:nether_star
+- forbidden_arcanus:dark_nether_star
+
+#forge:dusts/ender_pearl
+- ae2:ender_dust
+- thermal:ender_pearl_dust
+
+#forge:ingots/tin
+- thermal:tin_ingot
+
+#forge:storage_blocks/coal_coke
+- thermal:coal_coke_block
+
+#forge:dyes/blue
+- minecraft:blue_dye
+
+#forge:storage_blocks/iron
+- minecraft:iron_block
+
+#ae2:quartz_hoe
+- ae2:certus_quartz_hoe
+- ae2:nether_quartz_hoe
+
+#forge:glass_panes/brown
+- minecraft:brown_stained_glass_pane
+
+#forge:heads
+- minecraft:creeper_head
+- minecraft:dragon_head
+- minecraft:player_head
+- minecraft:skeleton_skull
+- minecraft:wither_skeleton_skull
+- minecraft:zombie_head
+- #forbidden_arcanus:obsidian_skulls
+
+#forge:ores/sapphire
+- thermal:sapphire_ore
+- thermal:deepslate_sapphire_ore
+
+#minecraft:dark_oak_logs
+- minecraft:dark_oak_log
+- minecraft:dark_oak_wood
+- minecraft:stripped_dark_oak_log
+- minecraft:stripped_dark_oak_wood
+
+#forge:bones
+- minecraft:bone
+
+#forge:gems/cinnabar
+- thermal:cinnabar
+
+#forge:glass_panes
+- #forge:glass_panes/colorless
+- #forge:stained_glass_panes
+
+#forge:enchanting_fuels
+- #forge:gems/lapis
+
+#forge:storage_blocks/lumium
+- thermal:lumium_block
+
+#minecraft:non_flammable_wood
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- minecraft:crimson_button
+- minecraft:warped_button
+- minecraft:crimson_door
+- minecraft:warped_door
+- minecraft:crimson_sign
+- minecraft:warped_sign
+
+#forge:dusts/iron
+- thermal:iron_dust
+
+#forge:nuggets/enderium
+- thermal:enderium_nugget
+
+#forge:mushrooms
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+
+#forge:gears/iron
+- thermal:iron_gear
+
+#forge:sand/soulless
+- forbidden_arcanus:soulless_sand
+
+#minecraft:lapis_ores
+- minecraft:lapis_ore
+- minecraft:deepslate_lapis_ore
+
+#forge:gears/emerald
+- thermal:emerald_gear
+
+#forge:storage_blocks/bronze
+- thermal:bronze_block
+
+#forge:ingots/signalum
+- thermal:signalum_ingot
+
+#forge:storage_blocks/raw_lead
+- thermal:raw_lead_block
+
+#forge:dusts/signalum
+- thermal:signalum_dust
+
+#forge:ingots/netherite
+- minecraft:netherite_ingot
+
+#minecraft:fences
+- #minecraft:wooden_fences
+- minecraft:nether_brick_fence
+- ars_nouveau:archwood_fence
+
+#minecraft:saplings
+- minecraft:oak_sapling
+- minecraft:spruce_sapling
+- minecraft:birch_sapling
+- minecraft:jungle_sapling
+- minecraft:acacia_sapling
+- minecraft:dark_oak_sapling
+- minecraft:azalea
+- minecraft:flowering_azalea
+- ars_nouveau:red_archwood_sapling
+- ars_nouveau:blue_archwood_sapling
+- ars_nouveau:green_archwood_sapling
+- ars_nouveau:purple_archwood_sapling
+- forbidden_arcanus:cherrywood_sapling
+- forbidden_arcanus:mysterywood_sapling
+
+#forge:storage_blocks/tin
+- thermal:tin_block
+
+#forge:foods/meat/raw
+- minecraft:porkchop
+- minecraft:beef
+- minecraft:rabbit
+- minecraft:chicken
+- minecraft:mutton
+
+#forge:ores/copper
+- #minecraft:copper_ores
+
+#forge:seeds/beetroot
+- minecraft:beetroot_seeds
+
+#forge:coins/lumium
+- thermal:lumium_coin
+
+#forbidden_arcanus:mysterywood_logs
+- forbidden_arcanus:mysterywood_log
+- forbidden_arcanus:mysterywood
+- forbidden_arcanus:stripped_mysterywood_log
+- forbidden_arcanus:stripped_mysterywood
+
+#forge:gears/quartz
+- thermal:quartz_gear
+
+#ae2:paint_balls
+- ae2:white_paint_ball
+- ae2:orange_paint_ball
+- ae2:magenta_paint_ball
+- ae2:light_blue_paint_ball
+- ae2:yellow_paint_ball
+- ae2:lime_paint_ball
+- ae2:pink_paint_ball
+- ae2:gray_paint_ball
+- ae2:light_gray_paint_ball
+- ae2:cyan_paint_ball
+- ae2:purple_paint_ball
+- ae2:blue_paint_ball
+- ae2:brown_paint_ball
+- ae2:green_paint_ball
+- ae2:red_paint_ball
+- ae2:black_paint_ball
+
+#forge:fruits/berry
+- ars_nouveau:source_berry
+
+#minecraft:banners
+- minecraft:white_banner
+- minecraft:orange_banner
+- minecraft:magenta_banner
+- minecraft:light_blue_banner
+- minecraft:yellow_banner
+- minecraft:lime_banner
+- minecraft:pink_banner
+- minecraft:gray_banner
+- minecraft:light_gray_banner
+- minecraft:cyan_banner
+- minecraft:purple_banner
+- minecraft:blue_banner
+- minecraft:brown_banner
+- minecraft:green_banner
+- minecraft:red_banner
+- minecraft:black_banner
+
+#forge:storage_blocks/electrum
+- thermal:electrum_block
+
+#minecraft:wooden_fences
+- minecraft:oak_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- ars_nouveau:archwood_fence
+- forbidden_arcanus:fungyss_fence
+- forbidden_arcanus:cherrywood_fence
+- forbidden_arcanus:mysterywood_fence
+- forbidden_arcanus:edelwood_fence
+
+#forge:gears/gold
+- thermal:gold_gear
+
+#forge:obsidian
+- minecraft:obsidian
+
+#curios:necklace
+- ars_nouveau:amulet_of_mana_boost
+- ars_nouveau:amulet_of_mana_regen
+
+#forbidden_arcanus:blacksmith_gavel
+- forbidden_arcanus:wooden_blacksmith_gavel
+- forbidden_arcanus:stone_blacksmith_gavel
+- forbidden_arcanus:golden_blacksmith_gavel
+- forbidden_arcanus:iron_blacksmith_gavel
+- forbidden_arcanus:diamond_blacksmith_gavel
+- forbidden_arcanus:netherite_blacksmith_gavel
+- forbidden_arcanus:arcane_golden_blacksmith_gavel
+- forbidden_arcanus:reinforced_arcane_golden_blacksmith_gavel
+
+#forge:coins/netherite
+- thermal:netherite_coin
+
+#forge:ore_rates/singular
+- minecraft:ancient_debris
+- minecraft:coal_ore
+- minecraft:deepslate_coal_ore
+- minecraft:deepslate_diamond_ore
+- minecraft:deepslate_emerald_ore
+- minecraft:deepslate_gold_ore
+- minecraft:deepslate_iron_ore
+- minecraft:diamond_ore
+- minecraft:emerald_ore
+- minecraft:gold_ore
+- minecraft:iron_ore
+- minecraft:nether_quartz_ore
+
+#forge:gems/niter
+- thermal:niter
+
+#forge:raw_materials/copper
+- minecraft:raw_copper
+
+#forge:storage_blocks/raw_silver
+- thermal:raw_silver_block
+
+#forge:glass/magenta
+- minecraft:magenta_stained_glass
+
+#forge:ores/coal
+- #minecraft:coal_ores
+
+#forge:storage_blocks/constantan
+- thermal:constantan_block
+
+#forge:storage_blocks/raw_tin
+- thermal:raw_tin_block
+
+#forge:feathers
+- minecraft:feather
+- forbidden_arcanus:golden_feather
+
+#forge:dusts/fluix
+- ae2:fluix_dust
+
+#forbidden_arcanus:fungyss_stems
+- forbidden_arcanus:fungyss_stem
+- forbidden_arcanus:fungyss_hyphae
+
+#forge:dusts/silver
+- thermal:silver_dust
+
+#forge:plates/lead
+- thermal:lead_plate
+
+#forge:string
+- minecraft:string
+
+#minecraft:trapdoors
+- #minecraft:wooden_trapdoors
+- minecraft:iron_trapdoor
+- ars_nouveau:archwood_trapdoor
+- forbidden_arcanus:arcane_gold_trapdoor
+
+#forge:raw_materials/nickel
+- thermal:raw_nickel
+
+#forge:ingots/gold
+- minecraft:gold_ingot
+
+#forge:glass/cyan
+- minecraft:cyan_stained_glass
+
+#forge:leather
+- minecraft:leather
+- forbidden_arcanus:rotten_leather
+
+#forge:glass
+- #forge:glass/colorless
+- #forge:stained_glass
+- #forge:glass/tinted
+
+#forge:storage_blocks/gunpowder
+- thermal:gunpowder_block
+
+#forge:raw_materials/tin
+- thermal:raw_tin
+
+#minecraft:boats
+- minecraft:oak_boat
+- minecraft:spruce_boat
+- minecraft:birch_boat
+- minecraft:jungle_boat
+- minecraft:acacia_boat
+- minecraft:dark_oak_boat
+
+#forge:nuggets/iron
+- minecraft:iron_nugget
+
+#forge:gems/certus_quartz
+- ae2:certus_quartz_crystal
+- ae2:charged_certus_quartz_crystal
+
+#forge:dusts/enderium
+- thermal:enderium_dust
+
+#forge:silicon
+- ae2:silicon
+
+#minecraft:leaves
+- minecraft:jungle_leaves
+- minecraft:oak_leaves
+- minecraft:spruce_leaves
+- minecraft:dark_oak_leaves
+- minecraft:acacia_leaves
+- minecraft:birch_leaves
+- minecraft:azalea_leaves
+- minecraft:flowering_azalea_leaves
+- forbidden_arcanus:cherrywood_leaves
+- forbidden_arcanus:mysterywood_leaves
+- forbidden_arcanus:nuggety_mysterywood_leaves
+
+#forge:ores_in_ground/netherrack
+- minecraft:nether_gold_ore
+- minecraft:nether_quartz_ore
+
+#forge:crops/potato
+- minecraft:potato
+
+#ae2:p2p_attunements/item_p2p_tunnel
+- ae2:storage_bus
+- ae2:export_bus
+- ae2:import_bus
+- minecraft:hopper
+- minecraft:chest
+- minecraft:trapped_chest
+- #ae2:interface
+
+#ars_nouveau:magic_food
+- ars_nouveau:source_berry_pie
+- ars_nouveau:source_berry_roll
+
+#forge:glass_panes/gray
+- minecraft:gray_stained_glass_pane
+
+#forge:gears/netherite
+- thermal:netherite_gear
+
+#forge:ores/ruby
+- thermal:ruby_ore
+- thermal:deepslate_ruby_ore
+
+#minecraft:acacia_logs
+- minecraft:acacia_log
+- minecraft:acacia_wood
+- minecraft:stripped_acacia_log
+- minecraft:stripped_acacia_wood
+
+#forge:storage_blocks/arcane_gold
+- forbidden_arcanus:arcane_gold_block
+
+#forge:dusts/apatite
+- thermal:apatite_dust
+
+#minecraft:piglin_loved
+- #minecraft:gold_ores
+- minecraft:gold_block
+- minecraft:gilded_blackstone
+- minecraft:light_weighted_pressure_plate
+- minecraft:gold_ingot
+- minecraft:bell
+- minecraft:clock
+- minecraft:golden_carrot
+- minecraft:glistering_melon_slice
+- minecraft:golden_apple
+- minecraft:enchanted_golden_apple
+- minecraft:golden_helmet
+- minecraft:golden_chestplate
+- minecraft:golden_leggings
+- minecraft:golden_boots
+- minecraft:golden_horse_armor
+- minecraft:golden_sword
+- minecraft:golden_pickaxe
+- minecraft:golden_shovel
+- minecraft:golden_axe
+- minecraft:golden_hoe
+- minecraft:raw_gold
+- minecraft:raw_gold_block
+
+#forge:tools/wrench
+- ae2:certus_quartz_wrench
+- ae2:nether_quartz_wrench
+- ae2:network_tool
+- immersiveengineering:hammer?
+- thermal:wrench
+
+#forge:stained_glass_panes
+- minecraft:white_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:black_stained_glass_pane
+
+#forge:nuggets/tin
+- thermal:tin_nugget
+
+#forge:sand/red
+- minecraft:red_sand
+
+#forge:dusts/nickel
+- thermal:nickel_dust
+
+#forbidden_arcanus:runic_stones
+- forbidden_arcanus:runic_stone
+- forbidden_arcanus:runic_deepslate
+- forbidden_arcanus:runic_darkstone
+
+#minecraft:copper_ores
+- minecraft:copper_ore
+- minecraft:deepslate_copper_ore
+
+#forge:glass/brown
+- minecraft:brown_stained_glass
+
+#forge:dusts/gold
+- thermal:gold_dust
+
+#minecraft:logs_that_burn
+- #minecraft:dark_oak_logs
+- #minecraft:oak_logs
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
+- #minecraft:jungle_logs
+- #minecraft:spruce_logs
+- ars_nouveau:red_archwood_log
+- ars_nouveau:blue_archwood_log
+- ars_nouveau:purple_archwood_log
+- ars_nouveau:green_archwood_log
+- ars_nouveau:red_archwood_wood
+- ars_nouveau:blue_archwood_wood
+- ars_nouveau:green_archwood_wood
+- ars_nouveau:purple_archwood_wood
+- ars_nouveau:stripped_blue_archwood_log
+- ars_nouveau:stripped_blue_archwood_wood
+- ars_nouveau:stripped_green_archwood_log
+- ars_nouveau:stripped_green_archwood_wood
+- ars_nouveau:stripped_red_archwood_log
+- ars_nouveau:stripped_red_archwood_wood
+- ars_nouveau:stripped_purple_archwood_log
+- ars_nouveau:stripped_purple_archwood_wood
+
+#forge:glass/gray
+- minecraft:gray_stained_glass
+
+#forge:glass/light_gray
+- minecraft:light_gray_stained_glass
+
+#ae2:memory_cards
+- ae2:memory_card_white
+- ae2:memory_card_orange
+- ae2:memory_card_magenta
+- ae2:memory_card_light_blue
+- ae2:memory_card_yellow
+- ae2:memory_card_lime
+- ae2:memory_card_pink
+- ae2:memory_card_gray
+- ae2:memory_card_light_gray
+- ae2:memory_card_cyan
+- ae2:memory_card_purple
+- ae2:memory_card_blue
+- ae2:memory_card_brown
+- ae2:memory_card_green
+- ae2:memory_card_red
+- ae2:memory_card_black
+- ae2:memory_card
+
+#forge:plates/lumium
+- thermal:lumium_plate
+
+#forge:dyes/light_blue
+- minecraft:light_blue_dye
+
+#minecraft:wooden_slabs
+- minecraft:oak_slab
+- minecraft:spruce_slab
+- minecraft:birch_slab
+- minecraft:jungle_slab
+- minecraft:acacia_slab
+- minecraft:dark_oak_slab
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- ars_nouveau:archwood_slab
+- forbidden_arcanus:fungyss_slab
+- forbidden_arcanus:cherrywood_slab
+- forbidden_arcanus:mysterywood_slab
+- forbidden_arcanus:edelwood_slab
+
+#forge:dyes/white
+- minecraft:white_dye
+
+#minecraft:small_flowers
+- minecraft:dandelion
+- minecraft:poppy
+- minecraft:blue_orchid
+- minecraft:allium
+- minecraft:azure_bluet
+- minecraft:red_tulip
+- minecraft:orange_tulip
+- minecraft:white_tulip
+- minecraft:pink_tulip
+- minecraft:oxeye_daisy
+- minecraft:cornflower
+- minecraft:lily_of_the_valley
+- minecraft:wither_rose
+- forbidden_arcanus:yellow_orchid
+
+#forge:coins/enderium
+- thermal:enderium_coin
+
+#thermal:machines
+- thermal:machine_furnace
+- thermal:machine_sawmill
+- thermal:machine_pulverizer
+- thermal:machine_smelter
+- thermal:machine_insolator
+- thermal:machine_centrifuge
+- thermal:machine_press
+- thermal:machine_crucible
+- thermal:machine_chiller
+- thermal:machine_refinery
+- thermal:machine_pyrolyzer
+- thermal:machine_bottler
+- thermal:machine_brewer
+- thermal:machine_crystallizer
+- thermal:machine_crafter
+
+#forge:bitumen
+- thermal:bitumen
+
+#ae2:quartz_axe
+- ae2:certus_quartz_axe
+- ae2:nether_quartz_axe
+
+#forge:seeds/pumpkin
+- minecraft:pumpkin_seeds
+
+#forge:ore_bearing_ground/stone
+- minecraft:stone
+
+#forge:glass_panes/black
+- minecraft:black_stained_glass_pane
+
+#forge:gears/nickel
+- thermal:nickel_gear
+
+#forge:dusts/redstone
+- minecraft:redstone
+
+#forge:dyes/pink
+- minecraft:pink_dye
+
+#minecraft:axolotl_tempt_items
+- minecraft:tropical_fish_bucket
+
+#forge:gems/quartz
+- minecraft:quartz
+
+#forge:gears/lapis
+- thermal:lapis_gear
+
+#forge:crops/beetroot
+- minecraft:beetroot
+
+#forge:glass_panes/blue
+- minecraft:blue_stained_glass_pane
+
+#forge:seeds/melon
+- minecraft:melon_seeds
+
+#forge:ingots/electrum
+- thermal:electrum_ingot
+
+#forge:coins/bronze
+- thermal:bronze_coin
+
+#forge:crops/wheat
+- minecraft:wheat
+
+#minecraft:creeper_drop_music_discs
+- minecraft:music_disc_13
+- minecraft:music_disc_cat
+- minecraft:music_disc_blocks
+- minecraft:music_disc_chirp
+- minecraft:music_disc_far
+- minecraft:music_disc_mall
+- minecraft:music_disc_mellohi
+- minecraft:music_disc_stal
+- minecraft:music_disc_strad
+- minecraft:music_disc_ward
+- minecraft:music_disc_11
+- minecraft:music_disc_wait
+
+#forge:ores/stella_arcanum
+- forbidden_arcanus:stella_arcanum
+
+#forbidden_arcanus:modifier/fiery_incompatible
+
+#forge:gears/copper
+- thermal:copper_gear
+
+#forge:gears/signalum
+- thermal:signalum_gear
+
+#forge:stone
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:infested_stone
+- minecraft:stone
+- minecraft:polished_andesite
+- minecraft:polished_diorite
+- minecraft:polished_granite
+- minecraft:deepslate
+- minecraft:polished_deepslate
+- minecraft:infested_deepslate
+- minecraft:tuff
+- forbidden_arcanus:darkstone
+
+#forge:nuggets/lead
+- thermal:lead_nugget
+
+#forge:glass_panes/yellow
+- minecraft:yellow_stained_glass_pane
+
+#forge:gems/lapis
+- minecraft:lapis_lazuli
+
+#forge:gunpowder
+- minecraft:gunpowder
+
+#forbidden_arcanus:rune_blocks
+- forbidden_arcanus:rune_block
+- forbidden_arcanus:dark_rune_block
+
+#forge:ingots/nickel
+- thermal:nickel_ingot
+
+#forge:ore_rates/sparse
+- minecraft:nether_gold_ore
+
+#forge:crops
+- #forge:crops/beetroot
+- #forge:crops/carrot
+- #forge:crops/nether_wart
+- #forge:crops/potato
+- #forge:crops/wheat
+
+#forge:ore_bearing_ground/netherrack
+- minecraft:netherrack
+
+#forge:storage_blocks/apatite
+- thermal:apatite_block
+
+#forge:plates/nickel
+- thermal:nickel_plate
+
+#curios:charm
+- thermal:flux_capacitor
+- thermal:flux_magnet
+- thermal:fluid_reservoir
+- thermal:potion_infuser
+
+#forge:ores/silver
+- thermal:silver_ore
+- thermal:deepslate_silver_ore
+
+#minecraft:birch_logs
+- minecraft:birch_log
+- minecraft:birch_wood
+- minecraft:stripped_birch_log
+- minecraft:stripped_birch_wood
+
+#ae2:metal_ingots
+- #forge:ingots/copper?
+- #forge:ingots/tin?
+- #forge:ingots/iron?
+- #forge:ingots/gold?
+- #forge:ingots/brass?
+- #forge:ingots/nickel?
+- #forge:ingots/aluminium?
+
+#forge:glass_panes/purple
+- minecraft:purple_stained_glass_pane
+
+#forge:dusts
+- #forge:dusts/glowstone
+- #forge:dusts/prismarine
+- #forge:dusts/redstone
+- ae2:certus_quartz_dust
+- ae2:ender_dust
+- ae2:fluix_dust
+- ae2:sky_dust
+- #forge:dusts/copper
+- #forge:dusts/gold
+- #forge:dusts/iron
+- #forge:dusts/netherite
+- #forge:dusts/diamond
+- #forge:dusts/emerald
+- #forge:dusts/lapis
+- #forge:dusts/quartz
+- #forge:dusts/enderium
+- #forge:dusts/lumium
+- #forge:dusts/signalum
+- #forge:dusts/apatite
+- #forge:dusts/cinnabar
+- #forge:dusts/niter
+- #forge:dusts/sulfur
+- #forge:dusts/lead
+- #forge:dusts/nickel
+- #forge:dusts/silver
+- #forge:dusts/tin
+- #forge:dusts/bronze
+- #forge:dusts/constantan
+- #forge:dusts/electrum
+- #forge:dusts/invar
+- #forge:dusts/ruby
+- #forge:dusts/sapphire
+- #forge:dusts/arcane_crystal
+- #forge:dusts/mundabitur
+- #forge:dusts/corrupti
+
+#forge:glass/yellow
+- minecraft:yellow_stained_glass
+
+#forge:gears/ruby
+- thermal:ruby_gear
+
+#forbidden_arcanus:arcane_crystal_ores
+- forbidden_arcanus:arcane_crystal_ore
+- forbidden_arcanus:deepslate_arcane_crystal_ore
+
+#forge:seeds
+- #forge:seeds/beetroot
+- #forge:seeds/melon
+- #forge:seeds/pumpkin
+- #forge:seeds/wheat
+- ars_nouveau:magebloom_crop
+- forbidden_arcanus:golden_orchid_seeds
+
+#minecraft:oak_logs
+- minecraft:oak_log
+- minecraft:oak_wood
+- minecraft:stripped_oak_log
+- minecraft:stripped_oak_wood
+
+#forge:coins
+- #forge:coins/copper
+- #forge:coins/gold
+- #forge:coins/iron
+- #forge:coins/netherite
+- #forge:coins/enderium
+- #forge:coins/lumium
+- #forge:coins/signalum
+- #forge:coins/lead
+- #forge:coins/nickel
+- #forge:coins/silver
+- #forge:coins/tin
+- #forge:coins/bronze
+- #forge:coins/constantan
+- #forge:coins/electrum
+- #forge:coins/invar
+
+#forge:gears/invar
+- thermal:invar_gear
+
+#forge:gems/source
+- ars_nouveau:source_gem
+
+#forge:barrels
+- #forge:barrels/wooden
+
+#ae2:all_nether_quartz
+- #forge:gems/quartz
+
+#forge:ores/lapis
+- #minecraft:lapis_ores
+
+#forge:foods/meat/cooked
+- minecraft:cooked_porkchop
+- minecraft:cooked_beef
+- minecraft:cooked_rabbit
+- minecraft:cooked_chicken
+- minecraft:cooked_mutton
+
+#curios:belt
+- ars_nouveau:belt_of_levitation
+- ars_nouveau:belt_of_unstable_gifts
+- thermal:satchel
+- thermal:potion_quiver
+
+#forge:coal_coke
+- thermal:coal_coke
+
+#forge:slimeballs
+- minecraft:slime_ball
+
+#forge:ores/nickel
+- thermal:nickel_ore
+- thermal:deepslate_nickel_ore
+
+#forge:tools/gold
+- minecraft:golden_axe
+- minecraft:golden_hoe
+- minecraft:golden_pickaxe
+- minecraft:golden_shovel
+- minecraft:golden_sword
+
+#minecraft:jungle_logs
+- minecraft:jungle_log
+- minecraft:jungle_wood
+- minecraft:stripped_jungle_log
+- minecraft:stripped_jungle_wood
+
+#forge:glass/runic
+- forbidden_arcanus:runic_glass
+
+#forge:storage_blocks/stellarite
+- forbidden_arcanus:stellarite_block
+
+#forge:sawdust
+- thermal:sawdust
+
+#minecraft:lectern_books
+- minecraft:written_book
+- minecraft:writable_book
+- patchouli:guide_book
+
+#forge:chests/ender
+- minecraft:ender_chest
+
+#forge:dusts/niter
+- thermal:niter_dust
+
+#minecraft:spruce_logs
+- minecraft:spruce_log
+- minecraft:spruce_wood
+- minecraft:stripped_spruce_log
+- minecraft:stripped_spruce_wood
+
+#forge:armor/iron
+- minecraft:iron_boots
+- minecraft:iron_chestplate
+- minecraft:iron_helmet
+- minecraft:iron_leggings
+
+#forge:fence_gates/wooden
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:acacia_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- ars_nouveau:archwood_fence_gate
+- forbidden_arcanus:fungyss_fence_gate
+- forbidden_arcanus:cherrywood_fence_gate
+- forbidden_arcanus:mysterywood_fence_gate
+- forbidden_arcanus:edelwood_fence_gate
+
+#forge:storage_blocks/raw_copper
+- minecraft:raw_copper_block
+
+#forge:glass_panes/lime
+- minecraft:lime_stained_glass_pane
+
+#forge:shears
+- minecraft:shears
+
+#forge:gems/ruby
+- thermal:ruby
+
+#cofh_core:crafting/locks
+- thermal:lock
+
+#forge:ingots/lumium
+- thermal:lumium_ingot
+
+#forge:ingots/lead
+- thermal:lead_ingot
+
+#forge:dusts/electrum
+- thermal:electrum_dust
+
+#forbidden_arcanus:cherrywood_logs
+- forbidden_arcanus:cherrywood_log
+- forbidden_arcanus:cherrywood
+- forbidden_arcanus:stripped_cherrywood_log
+- forbidden_arcanus:stripped_cherrywood
+- forbidden_arcanus:thin_cherrywood_log
+
+#ae2:covered_cable
+- ae2:white_covered_cable
+- ae2:orange_covered_cable
+- ae2:magenta_covered_cable
+- ae2:light_blue_covered_cable
+- ae2:yellow_covered_cable
+- ae2:lime_covered_cable
+- ae2:pink_covered_cable
+- ae2:gray_covered_cable
+- ae2:light_gray_covered_cable
+- ae2:cyan_covered_cable
+- ae2:purple_covered_cable
+- ae2:blue_covered_cable
+- ae2:brown_covered_cable
+- ae2:green_covered_cable
+- ae2:red_covered_cable
+- ae2:black_covered_cable
+- ae2:fluix_covered_cable
+
+#ae2:quartz_pickaxe
+- ae2:certus_quartz_pickaxe
+- ae2:nether_quartz_pickaxe
+
+#forge:gears/diamond
+- thermal:diamond_gear
+
+#minecraft:flowers
+- #minecraft:small_flowers
+- #minecraft:tall_flowers
+- minecraft:flowering_azalea_leaves
+- minecraft:flowering_azalea
+
+#forge:dusts/quartz
+- thermal:quartz_dust
+
+#ae2:covered_dense_cable
+- ae2:white_covered_dense_cable
+- ae2:orange_covered_dense_cable
+- ae2:magenta_covered_dense_cable
+- ae2:light_blue_covered_dense_cable
+- ae2:yellow_covered_dense_cable
+- ae2:lime_covered_dense_cable
+- ae2:pink_covered_dense_cable
+- ae2:gray_covered_dense_cable
+- ae2:light_gray_covered_dense_cable
+- ae2:cyan_covered_dense_cable
+- ae2:purple_covered_dense_cable
+- ae2:blue_covered_dense_cable
+- ae2:brown_covered_dense_cable
+- ae2:green_covered_dense_cable
+- ae2:red_covered_dense_cable
+- ae2:black_covered_dense_cable
+- ae2:fluix_covered_dense_cable
+
+#minecraft:planks
+- minecraft:oak_planks
+- minecraft:spruce_planks
+- minecraft:birch_planks
+- minecraft:jungle_planks
+- minecraft:acacia_planks
+- minecraft:dark_oak_planks
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- ars_nouveau:archwood_planks
+- forbidden_arcanus:fungyss_planks
+- forbidden_arcanus:cherrywood_planks
+- forbidden_arcanus:carved_cherrywood_planks
+- forbidden_arcanus:mysterywood_planks
+- forbidden_arcanus:edelwood_planks
+- forbidden_arcanus:arcane_edelwood_planks
+
+#forge:dusts/tin
+- thermal:tin_dust
+
+#minecraft:fox_food
+- minecraft:sweet_berries
+- minecraft:glow_berries
+
+#forge:cobblestone
+- #forge:cobblestone/normal
+- #forge:cobblestone/infested
+- #forge:cobblestone/mossy
+- #forge:cobblestone/deepslate
+
+#minecraft:diamond_ores
+- minecraft:diamond_ore
+- minecraft:deepslate_diamond_ore
+
+#forge:gems/amethyst
+- minecraft:amethyst_shard
+
+#forge:glass/silica
+- minecraft:glass
+- minecraft:black_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:green_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:red_stained_glass
+- minecraft:white_stained_glass
+- minecraft:yellow_stained_glass
+
+#forge:dusts/sulfur
+- thermal:sulfur_dust
+
+#forge:dyes/brown
+- minecraft:brown_dye
+
+#forge:storage_blocks/arcane_crystal
+- forbidden_arcanus:arcane_crystal_block
+
+#forge:storage_blocks/gold
+- minecraft:gold_block
+
+#forge:gears/lumium
+- thermal:lumium_gear
+
+#forge:ores
+- #forge:ores/coal
+- #forge:ores/copper
+- #forge:ores/diamond
+- #forge:ores/emerald
+- #forge:ores/gold
+- #forge:ores/iron
+- #forge:ores/lapis
+- #forge:ores/redstone
+- #forge:ores/quartz
+- #forge:ores/netherite_scrap
+- #forge:ores/certus_quartz
+- #forge:ores/apatite
+- #forge:ores/cinnabar
+- #forge:ores/niter
+- #forge:ores/sulfur
+- #forge:ores/lead
+- #forge:ores/nickel
+- #forge:ores/silver
+- #forge:ores/tin
+- #forge:ores/ruby
+- #forge:ores/sapphire
+- #forge:ores/arcane_crystal
+- #forge:ores/stella_arcanum
+- #forge:ores/xpetrified_ore
+
+#minecraft:candles
+- minecraft:candle
+- minecraft:white_candle
+- minecraft:orange_candle
+- minecraft:magenta_candle
+- minecraft:light_blue_candle
+- minecraft:yellow_candle
+- minecraft:lime_candle
+- minecraft:pink_candle
+- minecraft:gray_candle
+- minecraft:light_gray_candle
+- minecraft:cyan_candle
+- minecraft:purple_candle
+- minecraft:blue_candle
+- minecraft:brown_candle
+- minecraft:green_candle
+- minecraft:red_candle
+- minecraft:black_candle
+
+#forbidden_arcanus:black_hole_unaffected
+- forbidden_arcanus:stellarite_piece
+- forbidden_arcanus:stellarite_block
+- forbidden_arcanus:stella_arcanum
+- forbidden_arcanus:eternal_stella
+- forbidden_arcanus:hephaestus_forge
+- forbidden_arcanus:dark_nether_star
+- forbidden_arcanus:dark_nether_star_block
+- minecraft:nether_star
+- minecraft:bedrock
+- minecraft:obsidian
+- minecraft:crying_obsidian
+- minecraft:enchanting_table
+- minecraft:end_portal_frame
+- minecraft:ender_chest
+- minecraft:respawn_anchor
+
+#forge:rods/wooden
+- minecraft:stick
+
+#curios:curio
+
+#forge:dusts/prismarine
+- minecraft:prismarine_shard
+
+#forge:fences
+- #forge:fences/nether_brick
+- #forge:fences/wooden
+- ars_nouveau:archwood_fence
+
+#forge:tools/iron
+- minecraft:iron_axe
+- minecraft:iron_hoe
+- minecraft:iron_pickaxe
+- minecraft:iron_shovel
+- minecraft:iron_sword
+- minecraft:shears
+
+#forge:coins/iron
+- thermal:iron_coin
+
+#curios:back
+- thermal:satchel
+- thermal:potion_quiver
+
+#ae2:all_certus_quartz
+- #forge:gems/certus_quartz
+- ae2:charged_certus_quartz_crystal
+
+#forge:storage_blocks/diamond
+- minecraft:diamond_block
+
+#forge:dusts/lead
+- thermal:lead_dust
+
+#forge:storage_blocks/bamboo
+- thermal:bamboo_block
+
+#minecraft:freeze_immune_wearables
+- minecraft:leather_boots
+- minecraft:leather_leggings
+- minecraft:leather_chestplate
+- minecraft:leather_helmet
+- minecraft:leather_horse_armor
+
+#forge:storage_blocks/slag
+- thermal:slag_block
+
+#ae2:pattern_provider
+- ae2:cable_pattern_provider
+- ae2:pattern_provider
+
+#forge:nuggets/ender_pearl
+- forbidden_arcanus:ender_pearl_fragment
+
+#forge:plates/copper
+- thermal:copper_plate
+
+#forge:ore_bearing_ground/deepslate
+- minecraft:deepslate

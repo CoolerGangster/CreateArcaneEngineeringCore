@@ -1,0 +1,168 @@
+{
+  "ae2:recipes/ae2.main/shaped/slabs/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2023-05-16 16:59:45 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/tools/tools/certus_quartz_cutting_knife": {
+    "criteria": {
+      "has_certus_quartz": "2023-05-16 17:07:23 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/shaped/stairs/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2023-05-16 16:59:45 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/decorative/certus_quartz_block": {
+    "criteria": {
+      "has_certus_crystal": "2023-05-16 17:07:23 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/shaped/walls/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2023-05-16 16:59:45 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/block_cutter/stairs/sky_stone_stairs": {
+    "criteria": {
+      "has_sky_stone_block": "2023-05-16 16:59:45 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/combat/tools/certus_quartz_sword": {
+    "criteria": {
+      "has_certus_quartz": "2023-05-16 17:07:23 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/smelting/smooth_sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2023-05-16 16:59:45 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/compass": {
+    "criteria": {
+      "compass": "2023-05-16 16:58:55 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/block_cutter/walls/sky_stone_wall": {
+    "criteria": {
+      "has_sky_stone_block": "2023-05-16 16:59:45 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/network/blocks/energy_energy_cell": {
+    "criteria": {
+      "has_crystals/certus": "2023-05-16 17:07:23 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/block_cutter/slabs/sky_stone_slab": {
+    "criteria": {
+      "has_sky_stone_block": "2023-05-16 16:59:45 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/presses": {
+    "criteria": {
+      "calc": "2023-05-16 17:07:23 +0200",
+      "eng": "2023-05-16 16:59:45 +0200"
+    },
+    "done": false
+  },
+  "ae2:recipes/tools/tools/certus_quartz_spade": {
+    "criteria": {
+      "has_certus_quartz": "2023-05-16 17:07:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2023-05-16 16:59:45 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/tools/tools/certus_quartz_hoe": {
+    "criteria": {
+      "has_certus_quartz": "2023-05-16 17:07:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2023-05-16 17:10:38 +0200",
+      "minecraft:wooded_badlands": "2023-05-16 16:59:20 +0200",
+      "minecraft:badlands": "2023-05-16 16:59:17 +0200",
+      "minecraft:beach": "2023-05-16 17:10:51 +0200",
+      "minecraft:river": "2023-05-16 16:59:12 +0200",
+      "minecraft:cold_ocean": "2023-05-16 17:09:55 +0200",
+      "minecraft:forest": "2023-05-16 17:08:24 +0200",
+      "minecraft:lush_caves": "2023-05-16 17:10:13 +0200",
+      "minecraft:desert": "2023-05-16 16:59:04 +0200",
+      "minecraft:ocean": "2023-05-16 17:08:29 +0200",
+      "minecraft:jungle": "2023-05-16 17:07:02 +0200",
+      "minecraft:flower_forest": "2023-05-16 17:10:34 +0200",
+      "minecraft:meadow": "2023-05-16 17:07:20 +0200",
+      "minecraft:savanna": "2023-05-16 16:58:11 +0200",
+      "minecraft:plains": "2023-05-16 17:07:15 +0200"
+    },
+    "done": false
+  },
+  "ae2:recipes/tools/tools/certus_quartz_pickaxe": {
+    "criteria": {
+      "has_certus_quartz": "2023-05-16 17:07:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2023-05-16 16:59:45 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/tools/tools/certus_quartz_wrench": {
+    "criteria": {
+      "has_certus_quartz": "2023-05-16 17:07:23 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/tools/tools/certus_quartz_axe": {
+    "criteria": {
+      "has_certus_quartz": "2023-05-16 17:07:23 +0200"
+    },
+    "done": true
+  },
+  "integrateddynamics:root": {
+    "criteria": {
+      "criteria_0": "2023-05-16 16:58:37 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/quartz_crystal": {
+    "criteria": {
+      "certus": "2023-05-16 17:07:23 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/misc/tank_sky_stone": {
+    "criteria": {
+      "has_sky_stone_block": "2023-05-16 16:59:45 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/misc/chests_sky_stone": {
+    "criteria": {
+      "has_sky_stone_block": "2023-05-16 16:59:45 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}
