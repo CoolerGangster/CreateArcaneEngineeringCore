@@ -66,6 +66,7 @@ public class essentialOrb extends Animal implements IAnimatable {
     private static final Logger LOGGER = LogUtils.getLogger();
     public int lifeTime = 420;
     public int stage = 0;
+    public boolean kubejsdoshit = false;
     private AnimationFactory factory = new AnimationFactory(this);
     public essentialOrb(EntityType<? extends Animal> p_27557_, Level p_27558_) {
         super(p_27557_, p_27558_);
@@ -93,7 +94,7 @@ public class essentialOrb extends Animal implements IAnimatable {
         if (!this.level.isClientSide()){
             this.entityData.set(STAGE, this.stage);
             this.entityData.set(CASHOUT, this.cashout);
-        }
+
 
         if (this.entityData.get(STAGE) == 1){
             for(Entity entity : level.getEntities(this, (new AABB(this.blockPosition()).inflate(2,1,2)))){
@@ -121,8 +122,8 @@ public class essentialOrb extends Animal implements IAnimatable {
 
         if (--this.lifeTime <= 0) {
             if (this.entityData.get(CASHOUT) >= 6 && this.entityData.get(STAGE) == 3){
-                spawnAtLocation(ORB_OF_TEMPORARY_FLIGHT, 1);
-                this.discard();
+                this.kubejsdoshit = true;
+                //for some code readers. normally it should drop a orb of flight at location and kill entity, but some forge desync bug prevents that. so Im doing it thru kubejs. Chapter5.js locates the kubecode
             }
             else{
                 Explosion.BlockInteraction explosion$blockinteraction = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(this.level, this) ? Explosion.BlockInteraction.BREAK : Explosion.BlockInteraction.NONE;
@@ -130,6 +131,7 @@ public class essentialOrb extends Animal implements IAnimatable {
                 this.discard();
             }
         }
+    }
     }
 
 
@@ -148,6 +150,7 @@ public class essentialOrb extends Animal implements IAnimatable {
         fortnite.putInt("TimeTillDETH", this.lifeTime);
         fortnite.putInt("Stage", this.stage);
         fortnite.putInt("Cashout",this.cashout);
+        fortnite.putBoolean("kubejsdoshit",this.kubejsdoshit);
 
     }
     @SubscribeEvent

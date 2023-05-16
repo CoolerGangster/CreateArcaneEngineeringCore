@@ -23,11 +23,11 @@ mouseSensitivity:0.059072403169014125
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.5
+gamma:1.0
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
-guiScale:0
+guiScale:3
 particles:0
 maxFps:120
 difficulty:2
@@ -108,6 +108,9 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
+key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
+key_key.curios.open.desc:key.keyboard.g
 key_key.ars_nouveau.open_book:key.keyboard.c
 key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.ars_nouveau.previous_slot:key.keyboard.z
@@ -125,7 +128,6 @@ key_key.ars_nouveau.qc10:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
-key_key.curios.open.desc:key.keyboard.g
 key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.cofh.mode_change_decrement:key.keyboard.b
 soundCategory_master:1.0

@@ -6,6 +6,10 @@ import com.pino.cae.init.ModEntityTypes;
 import com.pino.cae.entity.OrbRender;
 import com.pino.cae.init.BlockInit;
 import com.pino.cae.init.ItemInit;
+import com.pino.cae.init.blockEntity.ModBlockEntities;
+import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -30,6 +34,7 @@ public class Cae
         BlockInit.BLOCKS.register(modEventBus);
         FluidInit.FLUIDS.register(modEventBus);
         ModEntityTypes.ENTITIES.register(modEventBus);
+        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
         modEventBus.addListener(this::setup);
         modEventBus.addListener(this::clientSetup);
         GeckoLib.initialize();
@@ -37,11 +42,14 @@ public class Cae
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-
+        ModidPacketHandler.register();
     }
     private void clientSetup(final FMLClientSetupEvent event){
         EntityRenderers.register(ModEntityTypes.ESSENTIALORB.get(), OrbRender::new);
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.TIME_CRYSTAL.get(), RenderType.translucent());
     }
+
+    
 
 
 }

@@ -1,4 +1,4 @@
-/*
+package com.pino.cae.mixin;/*
 package com.pino.cae.mixin;
 import com.hollingsworth.arsnouveau.common.block.PortalBlock;
 import com.hollingsworth.arsnouveau.common.block.tile.ModdedTile;
@@ -41,4 +41,62 @@ public abstract class ArsMixin extends ModdedTile {
 
     }
 }
+
+
+import com.hollingsworth.arsnouveau.common.entity.EntityProjectileSpell;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.level.Level;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Overwrite;
+import org.spongepowered.asm.mixin.Shadow;
+
+@Mixin(EntityProjectileSpell.class)
+public abstract class ArsMixin extends Entity {
+    public ArsMixin(EntityType<?> p_19870_, Level p_19871_) {
+        super(p_19870_, p_19871_);
+    }
+
+    @Shadow
+    public void dumbNBTshit(CompoundTag tag){
+        tag.putInt("kubejsdoshit",1);
+    }
+}
 */
+
+import appeng.core.AEConfig;
+import appeng.core.definitions.AEBlockEntities;
+import appeng.worldgen.meteorite.MeteoriteBlockPutter;
+import appeng.worldgen.meteorite.MeteoritePlacer;
+import com.pino.cae.init.BlockInit;
+import com.pino.cae.init.SkystoneCatalyst;
+import io.netty.channel.epoll.EpollDatagramChannel;
+import net.minecraft.core.BlockPos;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Overwrite;
+import org.spongepowered.asm.mixin.Shadow;
+import net.minecraft.world.level.LevelAccessor;
+
+@Mixin(value = MeteoritePlacer.class, remap = false)
+public abstract class ArsMixin {
+
+    @Shadow
+    private final LevelAccessor level;
+    @Shadow
+    private MeteoriteBlockPutter putter;
+    @Shadow
+    private BlockPos pos;
+
+    protected ArsMixin(LevelAccessor level) {
+        this.level = level;
+    }
+
+    @Overwrite
+    private void placeChest() {
+        if (AEConfig.instance().isSpawnPressesInMeteoritesEnabled()) {
+            this.putter.put(this.level, this.pos, BlockInit.SKYSTONE_CATALYST.get().defaultBlockState());
+        }
+
+    }
+}

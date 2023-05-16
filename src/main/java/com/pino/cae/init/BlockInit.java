@@ -19,6 +19,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.function.Supplier;
+
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BlockInit {
@@ -36,9 +38,13 @@ public class BlockInit {
             registry.register(blockItem);
         });
     }
+    private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
+        return BLOCKS.register(name, block);
+    }
+
     public static final RegistryObject<Block> SKYSTONE_CATALYST = BLOCKS.register("skystone_catalyst",
             () -> new SkystoneCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 9)));
 
-    //public static final RegistryObject<Block> TIME_CRYSTAL = BLOCKS.register("source_time_crystal",
-    //        () -> new SourceTimeBlock(Block.Properties.copy(Blocks.BUDDING_AMETHYST)));
+    public static final RegistryObject<Block> TIME_CRYSTAL = BLOCKS.register("source_time_crystal",
+            () -> new SourceTimeBlock(Block.Properties.copy(Blocks.BUDDING_AMETHYST).noOcclusion()));
 }

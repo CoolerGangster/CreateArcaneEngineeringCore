@@ -155,6 +155,21 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    maven {
+        // Shedaniel's maven (Architectury API)
+        url = "https://maven.architectury.dev"
+        content {
+            includeGroup "dev.architectury"
+        }
+    }
+    maven {
+        // saps.dev Maven (KubeJS and Rhino)
+        url = "https://maven.saps.dev/minecraft"
+        content {
+            includeGroup "dev.latvian.mods"
+            includeGroup "dev.ftb.mods"
+        }
+    }
     // Put repositories for dependencies here
     // ForgeGradle automatically adds the Forge maven and Maven Central for you
 
@@ -179,6 +194,15 @@ dependencies {
     implementation fg.deobf("curse.maven:cofh_core-69162:4385215")
     implementation fg.deobf("curse.maven:forbidden_arcanus-309858:4442836")
     implementation fg.deobf("curse.maven:valhelsia_core-416935:3886212")
+    implementation fg.deobf("dev.latvian.mods:kubejs-forge:1802.5.5-build.556")
+    implementation fg.deobf("curse.maven:rhino-416294:4069880")
+    implementation fg.deobf("dev.architectury:architectury-forge:4.5.76")
+
+    implementation fg.deobf("curse.maven:integrated_dynamics-236307:4422753")
+    implementation fg.deobf("curse.maven:cyclops_core-232758:4493154")
+    implementation fg.deobf("curse.maven:common_capabilities-247007:4391353")
+    implementation fg.deobf("curse.maven:integrated_nbt-380998:3824420")
+
 
 
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
