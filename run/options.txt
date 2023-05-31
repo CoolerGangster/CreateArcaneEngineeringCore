@@ -128,6 +128,8 @@ key_key.ars_nouveau.qc10:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.cofh.mode_change_decrement:key.keyboard.b
 soundCategory_master:1.0

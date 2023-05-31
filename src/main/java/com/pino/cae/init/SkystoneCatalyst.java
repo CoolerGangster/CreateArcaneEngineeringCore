@@ -40,6 +40,8 @@ import appeng.core.definitions.AEItems;
 import appeng.datagen.providers.tags.ConventionTags;
 import appeng.recipes.handlers.InscriberProcessType;
 
+import static net.minecraft.world.item.Items.REDSTONE;
+
 @Mod.EventBusSubscriber
 
 public class SkystoneCatalyst extends Block {
@@ -61,7 +63,7 @@ public class SkystoneCatalyst extends Block {
          int RADIUS = RAND.nextInt(4) + 2; // using finals is considered a good practice.
          int CHANCE = 60 / RADIUS; // chance in %, in case it's too dense / densen't
 
-        if (!world.isClientSide() && held.getItem() == AEItems.CERTUS_QUARTZ_KNIFE.asItem()){
+        if (!world.isClientSide() && held.getItem() == REDSTONE.asItem()){
             if (!player.getAbilities().instabuild) held.shrink(1); // first shrink, becasue we don't want to delay on that
 
             for (int x = -RADIUS; x <= RADIUS; x++) {

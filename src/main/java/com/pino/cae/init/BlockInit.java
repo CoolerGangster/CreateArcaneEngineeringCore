@@ -43,7 +43,15 @@ public class BlockInit {
     }
 
     public static final RegistryObject<Block> SKYSTONE_CATALYST = BLOCKS.register("skystone_catalyst",
-            () -> new SkystoneCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 9)));
+            () -> new SkystoneCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 15)));
+    public static final RegistryObject<Block> VERIDIUM_CATALYST = BLOCKS.register("veridium_catalyst",
+            () -> new VeridiumCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 15)));
+    public static final RegistryObject<Block> OCHRUM_CATALYST = BLOCKS.register("ochrum_catalyst",
+            () -> new OchrumCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 15)));
+    public static final RegistryObject<Block> ASURINE_CATALYST = BLOCKS.register("asurine_catalyst",
+            () -> new AsurineCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 15)));
+    public static final RegistryObject<Block> CRIMSITE_CATALYST = BLOCKS.register("crimsite_catalyst",
+            () -> new CrimsiteCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 15)));
 
     public static final RegistryObject<Block> TIME_CRYSTAL = BLOCKS.register("source_time_crystal",
             () -> new SourceTimeBlock(Block.Properties.copy(Blocks.BUDDING_AMETHYST).noOcclusion()));

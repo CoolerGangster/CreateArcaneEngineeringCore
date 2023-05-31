@@ -1,0 +1,16 @@
+Java Launcher: C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\maser\.gradle\caches\modules-2\files-2.1\curse.maven\create-328085\3934676\752272ed4a12ea2ecf4a11cca91344727bc47e57\create-328085-3934676.jar, --output, C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\create-328085\3934676_mapped_official_1.18.2\create-328085-3934676_mapped_official_1.18.2.jar, --mcp, C:\Users\maser\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.18.2\mapping-1.18.2-mapping.zip, --strip-signatures'
+Classpath:
+ - C:\Users\maser\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.2\installertools-1.3.2-fatjar.jar
+Working directory: C:\Users\maser\OneDrive\Desktop\Mod project\build\_RenameSrg2Mcp_554749546
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\maser\.gradle\caches\modules-2\files-2.1\curse.maven\create-328085\3934676\752272ed4a12ea2ecf4a11cca91344727bc47e57\create-328085-3934676.jar
+Output: C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\create-328085\3934676_mapped_official_1.18.2\create-328085-3934676_mapped_official_1.18.2.jar
+MCP:    C:\Users\maser\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.18.2\mapping-1.18.2-mapping.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Stripped Manifest of sha digests
+Process complete

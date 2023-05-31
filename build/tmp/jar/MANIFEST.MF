@@ -5,6 +5,6 @@ Specification-Version: 1
 Implementation-Title: Mod project
 Implementation-Version: 1.0
 Implementation-Vendor: caesareus
-Implementation-Timestamp: 2023-05-16T16:55:42+0200
+Implementation-Timestamp: 2023-05-31T18:54:26+0200
 MixinConfigs: cae.mixins.json
 

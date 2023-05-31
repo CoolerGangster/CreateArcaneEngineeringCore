@@ -1,31 +1,7 @@
 {
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_obsidian": "2023-04-20 21:33:04 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_slab": {
-    "criteria": {
-      "has_sandstone": "2023-04-21 13:33:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_deepslate_wall": {
-    "criteria": {
-      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_sandstone": {
-    "criteria": {
-      "has_sandstone": "2023-04-21 13:33:31 +0200"
     },
     "done": true
   },
@@ -35,27 +11,9 @@
     },
     "done": true
   },
-  "minecraft:story/enter_the_nether": {
+  "create:recipes/create.palettes/cut_veridium_brick_slab_from_stone_types_veridium_stonecutting": {
     "criteria": {
-      "entered_nether": "2023-04-20 21:33:42 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap": {
-    "criteria": {
-      "has_ancient_debris": "2023-04-26 11:57:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
-    "criteria": {
-      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_stairs": {
-    "criteria": {
-      "has_sandstone": "2023-04-21 13:33:31 +0200"
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
     },
     "done": true
   },
@@ -65,19 +23,13 @@
     },
     "done": true
   },
-  "minecraft:husbandry/balanced_diet": {
+  "create:recipes/create.base/crafting/logistics/powered_latch": {
     "criteria": {
-      "cooked_porkchop": "2023-04-23 14:29:10 +0200"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
-    "criteria": {
-      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
+      "has_item": "2023-05-30 23:44:10 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
     },
@@ -95,28 +47,141 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/polished_cut_veridium_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_veridium_brick_wall_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-04-20 21:04:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2023-04-26 11:57:30 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/network/cells/item_cell_housing": {
+    "criteria": {
+      "has_dusts/redstone": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_brick_wall_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2023-04-26 11:57:30 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_veridium_wall_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2023-04-20 21:33:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_veridium_brick_wall": {
+    "criteria": {
+      "has_small_veridium_bricks": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_brick_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_bricks_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_veridium_slab_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_brick_slab_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2023-04-21 13:33:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_porkchop": "2023-04-23 14:29:10 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2023-04-21 13:33:31 +0200"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "create:recipes/create.palettes/small_veridium_bricks_from_stone_types_veridium_stonecutting": {
     "criteria": {
-      "minecraft:desert": "2023-04-20 20:59:52 +0200"
-    },
-    "done": false
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:crimson_forest": "2023-04-20 21:33:42 +0200",
-      "minecraft:nether_wastes": "2023-04-20 21:34:22 +0200"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/deepslate_bricks": {
-    "criteria": {
-      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
     },
     "done": true
   },
@@ -126,15 +191,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/sandstone_wall": {
+  "create:recipes/create.palettes/veridium_pillar_from_veridium_stonecutting": {
     "criteria": {
-      "has_sandstone": "2023-04-21 13:33:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting": {
-    "criteria": {
-      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
+      "has_veridium": "2023-05-31 17:35:53 +0200"
     },
     "done": true
   },
@@ -156,15 +215,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
+  "create:recipes/create.palettes/polished_cut_veridium_from_stone_types_veridium_stonecutting": {
     "criteria": {
-      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
     },
     "done": true
   },
@@ -174,15 +233,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/root": {
+  "create:recipes/create.base/crafting/logistics/powered_toggle_latch": {
     "criteria": {
-      "consumed_item": "2023-04-23 14:29:10 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2023-04-20 21:04:49 +0200"
+      "has_item": "2023-05-30 23:44:10 +0200"
     },
     "done": true
   },
@@ -192,9 +245,9 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_ancient_debris": {
+  "minecraft:recipes/redstone/note_block": {
     "criteria": {
-      "ancient_debris": "2023-04-26 11:57:30 +0200"
+      "has_redstone": "2023-05-30 23:44:10 +0200"
     },
     "done": true
   },
@@ -204,15 +257,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
+  "ae2:recipes/ae2.main/network/cells/fluid_cell_housing": {
     "criteria": {
-      "has_obsidian": "2023-04-20 21:33:04 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_deepslate_slab": {
-    "criteria": {
-      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
+      "has_dusts/redstone": "2023-05-30 23:44:10 +0200"
     },
     "done": true
   },
@@ -228,9 +275,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+  "minecraft:recipes/redstone/dropper": {
     "criteria": {
-      "has_ancient_debris": "2023-04-26 11:57:30 +0200"
+      "has_redstone": "2023-05-30 23:44:10 +0200"
     },
     "done": true
   },
@@ -240,9 +287,123 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2023-04-20 21:33:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_veridium_brick_slab_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2023-04-21 13:33:31 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_veridium_brick_slab_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2023-04-21 13:33:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_veridium_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/layered_veridium_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_veridium_brick_stairs": {
+    "criteria": {
+      "has_small_veridium_bricks": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_stairs_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/pulse_repeater": {
+    "criteria": {
+      "has_item": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2023-04-20 20:59:52 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-04-23 14:29:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_bricks_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/veridium_pillar_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2023-04-20 21:33:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab": {
+    "criteria": {
+      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
     },
     "done": true
   },
@@ -252,9 +413,190 @@
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
+  "create:recipes/create.palettes/small_veridium_brick_stairs_from_veridium_stonecutting": {
     "criteria": {
-      "obsidian": "2023-04-20 21:33:04 +0200"
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_wall_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/layered_veridium_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall": {
+    "criteria": {
+      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_veridium_brick_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_veridium_stairs_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-04-20 21:33:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2023-04-26 11:57:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_veridium_bricks_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/pulse_extender": {
+    "criteria": {
+      "has_item": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2023-04-20 21:33:42 +0200",
+      "minecraft:nether_wastes": "2023-04-20 21:34:22 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks": {
+    "criteria": {
+      "has_polished_deepslate": "2023-04-23 17:02:38 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_brick_stairs_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/rose_quartz": {
+    "criteria": {
+      "has_item": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2023-04-21 13:33:31 +0200"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2023-05-30 23:43:50 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/network/cables/smart_fluix": {
+    "criteria": {
+      "has_dusts/redstone": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/ae2.main/network/cables/dense_smart_fluix": {
+    "criteria": {
+      "has_dusts/redstone": "2023-05-30 23:44:10 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_veridium_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_veridium_slab_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_veridium_brick_slab": {
+    "criteria": {
+      "has_small_veridium_bricks": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2023-04-21 13:33:31 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_slab_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_slab_from_veridium_stonecutting": {
+    "criteria": {
+      "has_veridium": "2023-05-31 17:35:53 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_veridium_brick_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_veridium_brick_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2023-05-31 17:35:14 +0200"
     },
     "done": true
   },
