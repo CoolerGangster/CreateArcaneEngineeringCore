@@ -1,5 +1,10 @@
-[19:01:15] [INFO ] Loaded script server_scripts:OrbMagic.js in 0.008 s
-[19:01:15] [INFO ] Loaded 1/1 KubeJS server scripts in 0.014 s
-[19:01:15] [INFO ] Scripts loaded
-[19:01:15] [WARN ] Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
-[19:01:15] [INFO ] Scanning recipes...
+[18:18:41] [INFO ] Loaded script server_scripts:OrbMagic.js in 0.009 s
+[18:18:41] [INFO ] Loaded 1/1 KubeJS server scripts in 0.018 s
+[18:18:41] [INFO ] Scripts loaded
+[18:18:41] [WARN ] Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
+[18:18:41] [INFO ] Scanning recipes...
+[18:19:18] [INFO ] Found 6252 recipes and 0 failed recipes in 222.2 ms
+[18:19:18] [INFO ] Posted recipe events in 17.40 μs
+[18:19:18] [INFO ] Modified & removed recipes in 81.17 ms
+[18:19:18] [INFO ] Added recipes in 988.7 μs
+[18:19:18] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes

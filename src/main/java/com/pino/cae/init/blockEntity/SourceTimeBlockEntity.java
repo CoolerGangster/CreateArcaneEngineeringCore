@@ -167,7 +167,7 @@ public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
             if (entity instanceof AreaEffectCloud) {
                 FunkyStage++;
                 entity.discard();
-                LOGGER.debug(String.valueOf(FunkyStage));
+               // LOGGER.debug(String.valueOf(FunkyStage));
             }
         }
     }

@@ -115,7 +115,12 @@ public class essentialOrb extends Animal implements IAnimatable {
             for(Entity entity : level.getEntities(this, (new AABB(this.blockPosition()).inflate(0.5,0.5,0.5)))){
                 if (entity.getType().toString().contains("entity.ae2.singularity") && this.entityData.get(CASHOUT) < 7){
                     entity.kill();
-                    this.cashout++;
+                    this.cashout += entity.serializeNBT().getCompound("Item").getInt("Count");
+                    /*LOGGER.debug(String.valueOf(entity.serializeNBT().getCompound("Item").toString()));
+                    LOGGER.debug(String.valueOf(entity.serializeNBT().toString()));
+                    LOGGER.debug(String.valueOf(entity.serializeNBT().getCompound("Item").getInt("Count")));
+                    LOGGER.debug(String.valueOf(this.cashout));
+                    LOGGER.debug(String.valueOf(this.entityData.get(CASHOUT)));*/
                 }
             }
         }
@@ -125,6 +130,7 @@ public class essentialOrb extends Animal implements IAnimatable {
                 this.kubejsdoshit = true;
                 //for some code readers. normally it should drop a orb of flight at location and kill entity, but some forge desync bug prevents that. so Im doing it thru kubejs. Chapter5.js locates the kubecode
             }
+
             else{
                 Explosion.BlockInteraction explosion$blockinteraction = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(this.level, this) ? Explosion.BlockInteraction.BREAK : Explosion.BlockInteraction.NONE;
                 this.level.explode(this, this.getX(), this.getY(), this.getZ(), 1, explosion$blockinteraction);

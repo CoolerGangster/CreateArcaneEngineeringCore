@@ -1,11 +1,13 @@
 Java Launcher: C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe
-Arguments: '--in-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\libs\cae-1.0.jar, --out-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\reobfJar\output.jar, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\createMcpToSrg\output.tsrg, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\tmp\compileJava\compileJava-mappings.tsrg, --live'
+Arguments: '--in-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\libs\cae-1.2.jar, --out-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\reobfJar\output.jar, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\createMcpToSrg\output.tsrg, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\tmp\compileJava\compileJava-mappings.tsrg, --live'
 Classpath:
  - C:\Users\maser\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\applied_energistics_2-223794\4105168_mapped_official_1.18.2\applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\curios-309927\4418032_mapped_official_1.18.2\curios-309927-4418032_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\create-328085\3934676_mapped_official_1.18.2\create-328085-3934676_mapped_official_1.18.2.jar
+ - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\autoreglib-250363\3642382_mapped_official_1.18.2\autoreglib-250363-3642382_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\flywheel-486392\3934664_mapped_official_1.18.2\flywheel-486392-3934664_mapped_official_1.18.2.jar
+ - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\quark-243121\3800462_mapped_official_1.18.2\quark-243121-3800462_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\ars_nouveau-401955\3950802_mapped_official_1.18.2\ars_nouveau-401955-3950802_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\patchouli-306770\3809917_mapped_official_1.18.2\patchouli-306770-3809917_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\geckolib-388172\4181370_mapped_official_1.18.2\geckolib-388172-4181370_mapped_official_1.18.2.jar
@@ -19,6 +21,7 @@ Classpath:
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\dev\latvian\mods\kubejs-forge\1802.5.5-build.556_mapped_official_1.18.2\kubejs-forge-1802.5.5-build.556_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\rhino-416294\4069880_mapped_official_1.18.2\rhino-416294-4069880_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\dev\architectury\architectury-forge\4.5.76_mapped_official_1.18.2\architectury-forge-4.5.76_mapped_official_1.18.2.jar
+ - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\thermal-integration-626708\4382885_mapped_official_1.18.2\thermal-integration-626708-4382885_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\integrated_dynamics-236307\4422753_mapped_official_1.18.2\integrated_dynamics-236307-4422753_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\cyclops_core-232758\4493154_mapped_official_1.18.2\cyclops_core-232758-4493154_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\common_capabilities-247007\4391353_mapped_official_1.18.2\common_capabilities-247007-4391353_mapped_official_1.18.2.jar
@@ -119,13 +122,13 @@ Loading mappings... 50%
 0 packages, 6399 classes, 28861 fields, 53847 methods
 Remapping final jar
 Remapping jar...  1%
-Remapping jar... 11%
-Remapping jar... 21%
+Remapping jar... 10%
+Remapping jar... 20%
 Remapping jar... 30%
-Remapping jar... 40%
+Remapping jar... 41%
 Remapping jar... 50%
-Remapping jar... 61%
-Remapping jar... 71%
+Remapping jar... 60%
+Remapping jar... 70%
 Remapping jar... 80%
-Remapping jar... 90%
+Remapping jar... 91%
 Remapping jar... 100%

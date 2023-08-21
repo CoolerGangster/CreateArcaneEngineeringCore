@@ -4,7 +4,14 @@
 	let addition = 0.05 //used to be +0.05 and no delay but for whatever reason that broke
 	let endpoint = 0.3	// this is literally just the same circle though
 	let delay = 1
-
+    onEvent('level.tick', event => {
+      event.level.getEntities('@e[type=cae:essentialorb]').forEach(Orb => {
+        if (Orb.fullNBT.getInt('kubejsdoshit')){
+          Orb.block.popItem('forbidden_arcanus:orb_of_temporary_flight')
+          Orb.remove()
+        }
+      });
+    })
 	onEvent('level.tick', event =>{
 		if (event.level.getDimension() != 'minecraft:overworld') {return}
 		event.level.getEntities('@e[type=ars_nouveau:spell_proj]').forEach(spell => {

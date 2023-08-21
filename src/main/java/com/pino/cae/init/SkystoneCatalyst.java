@@ -40,6 +40,7 @@ import appeng.core.definitions.AEItems;
 import appeng.datagen.providers.tags.ConventionTags;
 import appeng.recipes.handlers.InscriberProcessType;
 
+import static com.pino.cae.init.BlockInit.FAKESKYSTONE;
 import static net.minecraft.world.item.Items.REDSTONE;
 
 @Mod.EventBusSubscriber
@@ -72,7 +73,7 @@ public class SkystoneCatalyst extends Block {
                         var temp = pos.offset(x, y, z);
                         int random = RAND.nextInt(100);
                         // BlockState block = world.getBlockState(pos); - redunant line, we already have "BlockState state"
-                        if (x == 0 && y == 0 && z == 0) continue;// not sure what did this line do, so I replaced it with central block check.
+                       if (x == 0 && y == 0 && z == 0 || world.getBlockState(temp).toString().contains("create")) continue;// not sure what did this line do, so I replaced it with central block check.
                         // if (!world.getBlockState(temp).is(Blocks.AIR)) continue; // uncomment if you only want to convert AIR blocks.
                         if (random <= CHANCE) // 23 works, 71 dosn't (if CHANCE = 50)
                         {
@@ -107,7 +108,7 @@ public class SkystoneCatalyst extends Block {
             if (tuple.getA() <= 0) {
                 //LOGGER.debug("good bye");
                 removeMe.add(blockPos);
-                tuple.getB().setBlock(blockPos, AEBlocks.SKY_STONE_BLOCK.block().defaultBlockState(), 3);
+                tuple.getB().setBlock(blockPos, FAKESKYSTONE.get().defaultBlockState(), 3);
                 return;
             }
             tuple.setA(tuple.getA() - 1);

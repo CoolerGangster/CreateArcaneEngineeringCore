@@ -5,6 +5,7 @@
   "block.cae.ochrum_catalyst": "Ochrum Catalyst",
   "block.cae.asurine_catalyst": "Asurine Catalyst",
   "block.cae.crimsite_catalyst": "Crimsite Catalyst",
-  "entity.cae.essentialorb": "Arcane Space Time Construct"
+  "entity.cae.essentialorb": "Arcane Space Time Construct",
+  "block.cae.source_time_crystal": "Source Time Crystal"
 
 }

@@ -16,14 +16,14 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class FluidInit {
-    public static final ResourceLocation WATER_STILL_RL = new ResourceLocation("block/water_still");
-    public static final ResourceLocation WATER_FLOWING_RL = new ResourceLocation("block/water_flow");
-    public static final ResourceLocation WATER_OVERLAY_RL = new ResourceLocation("block/water_overlay");
+    public static final ResourceLocation WATER_STILL_RL = new ResourceLocation("cae:block/lst_still");
+    public static final ResourceLocation WATER_FLOWING_RL = new ResourceLocation("cae:block/lst_flow");
+    public static final ResourceLocation WATER_OVERLAY_RL = new ResourceLocation("cae:block/lst_flow");
 
     public static final DeferredRegister<Fluid> FLUIDS
             = DeferredRegister.create(ForgeRegistries.FLUIDS, Cae.MOD_ID);
 
-
+    /*
     public static final RegistryObject<FlowingFluid> LST_FLUID
             = FLUIDS.register("lst_fluid", () -> new ForgeFlowingFluid.Source(FluidInit.LST_PROPERTIES));
 
@@ -42,7 +42,7 @@ public class FluidInit {
                     .noCollission().strength(-2f).noDrops()));
 
 
-
+*/
     public static void register(IEventBus eventBus) {
         FLUIDS.register(eventBus);
     }

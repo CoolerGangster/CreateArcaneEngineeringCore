@@ -9,6 +9,10 @@ import net.minecraft.world.level.block.Blocks;
 
 import com.pino.cae.Cae;
 
+import net.minecraft.world.level.block.NetherPortalBlock;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
@@ -42,16 +46,26 @@ public class BlockInit {
         return BLOCKS.register(name, block);
     }
 
+    public static final RegistryObject<Block> FAKESKYSTONE = BLOCKS.register("sky_stone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.0F).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> VOID_PORTAL = BLOCKS.register("void_portal",
+            () -> new Block(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().strength(-1.0F).sound(SoundType.GLASS).lightLevel((state) -> 6)));
+    public static final RegistryObject<Block> ARCANE_PORTAL = BLOCKS.register("arcane_portal",
+            () -> new Block(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().strength(-1.0F).sound(SoundType.GLASS).lightLevel((state) -> 6)));
+    public static final RegistryObject<Block> START_PORTAL = BLOCKS.register("start_portal",
+            () -> new Block(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().strength(-1.0F).sound(SoundType.GLASS).lightLevel((state) -> 6)));
+    public static final RegistryObject<Block> END_PORTAL = BLOCKS.register("end_portal",
+            () -> new Block(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().strength(-1.0F).sound(SoundType.GLASS).lightLevel((state) -> 6)));
     public static final RegistryObject<Block> SKYSTONE_CATALYST = BLOCKS.register("skystone_catalyst",
             () -> new SkystoneCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> VERIDIUM_CATALYST = BLOCKS.register("veridium_catalyst",
-            () -> new VeridiumCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 15)));
+            () -> new VeridiumCatalyst(Block.Properties.copy(Blocks.OBSIDIAN).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> OCHRUM_CATALYST = BLOCKS.register("ochrum_catalyst",
-            () -> new OchrumCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 15)));
+            () -> new OchrumCatalyst(Block.Properties.copy(Blocks.OBSIDIAN).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> ASURINE_CATALYST = BLOCKS.register("asurine_catalyst",
-            () -> new AsurineCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 15)));
+            () -> new AsurineCatalyst(Block.Properties.copy(Blocks.OBSIDIAN).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> CRIMSITE_CATALYST = BLOCKS.register("crimsite_catalyst",
-            () -> new CrimsiteCatalyst(Block.Properties.copy(Blocks.BEDROCK).lightLevel((state) -> 15)));
+            () -> new CrimsiteCatalyst(Block.Properties.copy(Blocks.OBSIDIAN).lightLevel((state) -> 15)));
 
     public static final RegistryObject<Block> TIME_CRYSTAL = BLOCKS.register("source_time_crystal",
             () -> new SourceTimeBlock(Block.Properties.copy(Blocks.BUDDING_AMETHYST).noOcclusion()));
