@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2023-08-23 17:54:52 +0200"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2023-04-23 14:29:10 +0200"
@@ -62,6 +68,12 @@
   "create:chute": {
     "criteria": {
       "0": "2023-06-16 22:05:14 +0200"
+    },
+    "done": true
+  },
+  "create:encased_fan": {
+    "criteria": {
+      "0": "2023-08-23 18:47:27 +0200"
     },
     "done": true
   },

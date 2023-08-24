@@ -110,11 +110,10 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
-key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.g
+key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.z
 key_key.ars_nouveau.open_book:key.keyboard.c
 key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.ars_nouveau.previous_slot:key.keyboard.z
@@ -129,7 +128,10 @@ key_key.ars_nouveau.qc7:key.keyboard.unknown
 key_key.ars_nouveau.qc8:key.keyboard.unknown
 key_key.ars_nouveau.qc9:key.keyboard.unknown
 key_key.ars_nouveau.qc10:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.change_hotbar:key.keyboard.z
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -154,8 +156,6 @@ key_quark.keybind.shift_lock:key.keyboard.unknown
 key_quark.keybind.lock_rotation:key.keyboard.k
 key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.keybind.back:key.mouse.4
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.cofh.mode_change_increment:key.keyboard.v

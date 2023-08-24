@@ -1,29 +1,27 @@
 package com.pino.cae.init.blockEntity;
 
+import com.hollingsworth.arsnouveau.api.spell.AbstractAugment;
+import com.hollingsworth.arsnouveau.api.spell.AbstractSpellPart;
 import com.hollingsworth.arsnouveau.api.spell.Spell;
 import com.hollingsworth.arsnouveau.client.particle.ParticleColor;
 import com.hollingsworth.arsnouveau.common.entity.EntityProjectileSpell;
+import com.hollingsworth.arsnouveau.common.spell.augment.AugmentPierce;
 import com.mojang.logging.LogUtils;
-import com.pino.cae.ModidPacketHandler;
-import com.pino.cae.S2CPacket;
 import com.pino.cae.idk.DumbClassInterface;
-import com.pino.cae.idk.MyCapImplemt;
-import net.minecraft.commands.CommandSource;
-import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.core.BlockPos;
-import net.minecraft.network.chat.Component;
-import net.minecraft.server.level.ServerLevel;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.ListTag;
+import net.minecraft.nbt.StringTag;
 import net.minecraft.world.entity.*;
-import net.minecraft.world.entity.decoration.ArmorStand;
+import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.AABB;
-import net.minecraft.world.phys.Vec2;
-import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityManager;
 import net.minecraftforge.common.capabilities.CapabilityToken;
+import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import software.bernie.geckolib3.core.IAnimatable;
 import software.bernie.geckolib3.core.PlayState;
@@ -33,10 +31,9 @@ import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
 import software.bernie.geckolib3.core.manager.AnimationData;
 import software.bernie.geckolib3.core.manager.AnimationFactory;
 import net.minecraft.world.level.block.Blocks;
-import com.hollingsworth.arsnouveau.common.entity.ModEntities;
+
 import java.security.SecureRandom;
-import java.util.Objects;
-import java.util.UUID;
+import java.util.*;
 
 public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
     private AnimationFactory factory = new AnimationFactory(this);
@@ -50,6 +47,9 @@ public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
     public String e= spells[rand.nextInt(8,10)];
     public String[] list = {a,b,c,d,e};
     public int TimeTillDeth = 200;
+
+    public List<AbstractSpellPart> piercespam = new ArrayList();
+
     public int Kill = 0;
 
      int[] Colr = {255,0,255};
@@ -70,6 +70,25 @@ public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
     int[] values = {255,85,51,17,5,3};
     int amt = 0;
 
+   /* AbstractSpellPart pierce = new AbstractSpellPart("projectile","projectile") {
+        @Override
+        public int getDefaultManaCost() {
+            return 0;
+        }
+
+        @NotNull
+        @Override
+        public Set<AbstractAugment> getCompatibleAugments() {
+            return Collections.singleton(new AbstractAugment("projectile", "projectile") {
+                @Override
+                public int getDefaultManaCost() {
+                    return 0;
+                }
+            });
+        }
+    };
+    Spell spll = new Spell();
+**/
     int lecoldown = 50;
     int FunkyStage = 0;
     public void setFunkyStage(int i){
@@ -83,6 +102,7 @@ public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
     public SourceTimeBlockEntity(BlockPos p_155229_, BlockState p_155230_) {
         super(ModBlockEntities.TIME_CRYSTAL_ENTITY.get(), p_155229_, p_155230_);
     }
+    
     public void fortnite(String pog) {
         LOGGER.debug(pog);
     }
@@ -106,7 +126,7 @@ public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
         return PlayState.CONTINUE;
     }
     public void changCol(){
-
+        
         //phases: Purp to red ( 255,0,255 -> 255,0,0 ) Red to yellow ( 255,0,0 -> 255,255,0 ) Yellow green ( 255,255,0  -> 0,255,0 ) Green Turquois  ( 0,255,0  -> 0,255,255 ), Turqoise Blue ( 0,255,255  -> 0,0,255 ) Blue Purp ( 0,0,255  -> 255,0,255 )
         if (phase == 0 && Colr[2] != 0) {
             Colr[2] -= colorinc;
@@ -158,7 +178,17 @@ public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
     }
 
     public void setarrnull(int i) {
-        list[i] = "1212121212121";
+        list[i] = "null";
+    }
+    public int countArray(String serialization){
+        int out = 0;
+        for (int i = 0; i < serialization.length(); i++) {
+            if(serialization.charAt(i) == ','){
+                out++;
+            }
+
+        }
+        return(out);
     }
     public void tick(Level level, BlockPos blockPos, BlockState blockState) {
 
@@ -174,9 +204,13 @@ public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
 
        // LOGGER.debug(String.valueOf(FunkyStage));
         if (!level.isClientSide()){
+
+            Entity AoeCloud = new AreaEffectCloud(level,blockPos.getX(),blockPos.getY(),blockPos.getZ());
+            AoeCloud.getCapability(INSTANCE).ifPresent(MyCapImplemt -> MyCapImplemt.setMyValue("IM ALIVE"));
+
             changCol();
             if (
-                    Objects.equals(list[0], "1212121212121") && Objects.equals(list[1], "1212121212121") && Objects.equals(list[2], "1212121212121") && Objects.equals(list[3], "1212121212121") && Objects.equals(list[4], "1212121212121")
+                    Objects.equals(list[0], "null") && Objects.equals(list[1], "null") && Objects.equals(list[2], "null") && Objects.equals(list[3], "null") && Objects.equals(list[4], "null")
             ){
                 TimeTillDeth--;
             }
@@ -192,6 +226,7 @@ public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
                         }
                     }
                 }
+                level.addFreshEntity(AoeCloud);
                 this.level.setBlockAndUpdate(this.getBlockPos(), Blocks.AIR.defaultBlockState());
             }
 
@@ -207,30 +242,60 @@ public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
                             entity.getCapability(INSTANCE).ifPresent(MyCapImplemt -> MyCapImplemt.setMyInt(finalD));
                         }
                     }
+
                     if (entity instanceof EntityProjectileSpell) {
+                        if(entity.serializeNBT().getCompound("ForgeCaps").getCompound("cae:properties").getString("kubejsdoshit").contains("doit")){
+                            ((EntityProjectileSpell) entity).spellResolver.spellContext.withSpell(Spell.deserialize("pierce"));
+                        }
                         if (((EntityProjectileSpell) entity).spellResolver != null){
+                            /*LOGGER.debug(String.valueOf(((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize()));
+                            LOGGER.debug(String.valueOf(countArray(((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize())));*/
                             ((EntityProjectileSpell) entity).setColor(color);
+                            boolean bool = false;
                             for (int i = 0; i < list.length; i++) {
+
                                 if (((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize().contains(list[i]) && Cooldown <= 0 && !entity.serializeNBT().getCompound("ForgeCaps").getCompound("cae:properties").getString("kubejsdoshit").contains("doit")){
-                                    //LOGGER.debug(((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize() + "THE SPELL");
-                                    setarrnull(i);
-                                    amt++;
-                                    Speed = values[amt];
-                                    colorinc = 255/Speed;
-
-                                    //LOGGER.debug(String.valueOf(i));
-                                    Cooldown = lecoldown;
-                                    //setFunkyStage(FunkyStage + 1);
-                                    entity.getCapability(INSTANCE).ifPresent(MyCapImplemt -> MyCapImplemt.setMyValue("doit"));
-                                    ((EntityProjectileSpell) entity).spellResolver.spellContext.withSpell(Spell.EMPTY);
-                                    ModidPacketHandler.sendToPlayer(new S2CPacket(),level.getChunkAt(blockPos));
-
-                                    entity.serializeNBT().getCompound("ForgeCaps").getCompound("cae:properties").putString("kubejsdoshit", "doit");
-                                    //LOGGER.debug(entity.serializeNBT().getCompound("ForgeCaps").getCompound("cae:properties").getString("kubejsdoshit") + "NBT");
-                                    //LOGGER.debug(Arrays.toString(list) + "the ARRAY");
-
+                                    bool = true;
+                                    LOGGER.debug("true");
                                 }
                             }
+                            if(!bool && Cooldown <= 0 && !entity.serializeNBT().getCompound("ForgeCaps").getCompound("cae:properties").getString("kubejsdoshit").contains("doit")){
+                                Cooldown += 200;
+                                LOGGER.debug("false");
+                            }
+                            for (int i = 0; i < list.length; i++) {
+                                if (((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize().contains(list[i]) && Cooldown <= 0 && !entity.serializeNBT().getCompound("ForgeCaps").getCompound("cae:properties").getString("kubejsdoshit").contains("doit")){
+                                    LOGGER.debug("wow");
+
+                                    LOGGER.debug(String.valueOf(((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize()));
+                                    if((countArray(((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize())) <= 1){
+                                        //LOGGER.debug(((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize() + "THE SPELL");
+                                        setarrnull(i);
+                                        amt++;
+                                        Speed = values[amt];
+                                        colorinc = 255/Speed;
+
+                                        //LOGGER.debug(String.valueOf(i));
+                                        Cooldown = lecoldown;
+                                        //setFunkyStage(FunkyStage + 1);
+                                        entity.getCapability(INSTANCE).ifPresent(MyCapImplemt -> MyCapImplemt.setMyValue("doit"));
+                                        /*((EntityProjectileSpell) entity).spellResolver.spellContext.withSpell(Spell.EMPTY);
+                                        LOGGER.debug(((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize());
+                                        ((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().add(AugmentPierce.INSTANCE,100);
+                                        ((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().recipe.add(0, pierce);
+                                        LOGGER.debug(((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize());*/
+
+                                        //ModidPacketHandler.sendToPlayer(new S2CPacket(),level.getChunkAt(blockPos));
+
+                                        entity.serializeNBT().getCompound("ForgeCaps").getCompound("cae:properties").putString("kubejsdoshit", "doit");
+                                        //LOGGER.debug(entity.serializeNBT().getCompound("ForgeCaps").getCompound("cae:properties").getString("kubejsdoshit") + "NBT");
+                                        //LOGGER.debug(Arrays.toString(list) + "the ARRAY");
+                                        }else{
+                                            Cooldown += 200;
+                                        }
+                                }
+                            }
+                            //this wont work, cause we have to check this before the thing above
                         }
                     }
                 }
@@ -239,6 +304,17 @@ public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
                 }
             //LOGGER.debug(String.valueOf(Cooldown));
         }
+    }
+    @Override
+    public void saveAdditional(CompoundTag nbt) {
+        super.saveAdditional(nbt);
+        ListTag spellarray = new ListTag();
+        for (String str : list) {
+            spellarray.add(StringTag.valueOf(str));
+        }
+        nbt.put("RemainingSpells",spellarray);
+        nbt.putInt("CoolDown",this.Cooldown);
+
     }
 
 

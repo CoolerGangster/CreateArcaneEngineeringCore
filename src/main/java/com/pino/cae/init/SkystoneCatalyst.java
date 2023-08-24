@@ -73,7 +73,7 @@ public class SkystoneCatalyst extends Block {
                         var temp = pos.offset(x, y, z);
                         int random = RAND.nextInt(100);
                         // BlockState block = world.getBlockState(pos); - redunant line, we already have "BlockState state"
-                       if (x == 0 && y == 0 && z == 0 || world.getBlockState(temp).toString().contains("create")) continue;// not sure what did this line do, so I replaced it with central block check.
+                        if (x == 0 && y == 0 && z == 0 || !world.getBlockState(temp).toString().contains("minecraft:air")) continue;// not sure what did this line do, so I replaced it with central block check.
                         // if (!world.getBlockState(temp).is(Blocks.AIR)) continue; // uncomment if you only want to convert AIR blocks.
                         if (random <= CHANCE) // 23 works, 71 dosn't (if CHANCE = 50)
                         {
