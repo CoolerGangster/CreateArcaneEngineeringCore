@@ -1,5 +1,5 @@
 Java Launcher: C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe
-Arguments: '--in-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\libs\cae-1.4.jar, --out-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\reobfJar\output.jar, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\createMcpToSrg\output.tsrg, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\tmp\compileJava\compileJava-mappings.tsrg, --live'
+Arguments: '--in-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\libs\cae-1.5.jar, --out-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\reobfJar\output.jar, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\createMcpToSrg\output.tsrg, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\tmp\compileJava\compileJava-mappings.tsrg, --live'
 Classpath:
  - C:\Users\maser\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\applied_energistics_2-223794\4105168_mapped_official_1.18.2\applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar
@@ -122,13 +122,13 @@ Loading mappings... 50%
 0 packages, 6399 classes, 28861 fields, 53847 methods
 Remapping final jar
 Remapping jar...  1%
-Remapping jar... 11%
-Remapping jar... 21%
+Remapping jar... 10%
+Remapping jar... 20%
 Remapping jar... 30%
 Remapping jar... 40%
 Remapping jar... 50%
 Remapping jar... 60%
 Remapping jar... 70%
-Remapping jar... 80%
-Remapping jar... 90%
+Remapping jar... 81%
+Remapping jar... 91%
 Remapping jar... 100%

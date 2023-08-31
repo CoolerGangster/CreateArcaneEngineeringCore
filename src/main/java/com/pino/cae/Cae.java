@@ -7,6 +7,7 @@ import com.pino.cae.entity.OrbRender;
 import com.pino.cae.init.BlockInit;
 import com.pino.cae.init.ItemInit;
 import com.pino.cae.init.blockEntity.ModBlockEntities;
+import com.pino.cae.sounds.soundinit;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -40,6 +41,7 @@ public class Cae
         FluidInit.FLUIDS.register(modEventBus);
         ModEntityTypes.ENTITIES.register(modEventBus);
         ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
+        soundinit.register(modEventBus);
         modEventBus.addListener(this::setup);
         modEventBus.addListener(this::clientSetup);
         modEventBus.addListener(this::curioPresent);
