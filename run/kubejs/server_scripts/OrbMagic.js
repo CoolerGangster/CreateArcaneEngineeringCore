@@ -4,7 +4,55 @@ let blck
 let addition = 0.05 //used to be +0.05 and no delay but for whatever reason that broke
 let endpoint = 0.3	// this is literally just the same circle though
 let delay = 1
+onEvent('item.right_click',event =>{
 
+    if (event.item.id == "minecraft:stick"){
+    // Online Javascript Editor for free
+    // Write, Edit and Run your Javascript code using JS Online Compiler
+    let megastring = "";
+    for (let i = 1; i < 11; i++){
+        for(let dir = 1; dir < 7; dir++){
+               let direc = "";
+              let rotx= 0;
+              let roty= 0;
+            if(dir == 1){
+                direc = "west"
+            }else{
+            if(dir == 2){
+                direc = "north"
+                rotx = 90
+            }else{
+            if(dir == 3){
+                direc = "south"
+                rotx = 180
+            }else{
+            if(dir == 4){
+                direc = "east"
+                rotx = 270
+            }else{
+            if(dir == 5){
+                direc = "up"
+                roty = 180
+
+            }else{
+            if(dir = 6){
+
+                direc = "down"
+                roty = 460
+            }
+            }
+            }
+            }
+            }
+            }
+            megastring += `,\n "facing=${direc},half=bottom,stage=${i}": { \n "model": "cae:block/vein_${i}", \n "x": ${rotx},  \n "y": ${roty} \n}`
+        }
+
+
+    }
+    console.log(megastring)
+    }
+})
 onEvent('level.tick', event =>{
 	if (event.level.getDimension() != 'minecraft:overworld') {return}
 	event.level.getEntities('@e[type=minecraft:area_effect_cloud]').forEach(spell => {

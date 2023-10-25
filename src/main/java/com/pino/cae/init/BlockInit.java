@@ -1,6 +1,14 @@
 package com.pino.cae.init;
 
 import appeng.decorative.solid.SkyStoneBlock;
+import com.simibubi.create.AllBlocks;
+import com.simibubi.create.AllSpriteShifts;
+import com.simibubi.create.Create;
+import com.simibubi.create.content.contraptions.base.CasingBlock;
+import com.simibubi.create.foundation.data.BuilderTransformers;
+import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.tterrag.registrate.builders.BlockBuilder;
+import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 
@@ -14,6 +22,7 @@ import net.minecraft.world.level.block.NetherPortalBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
@@ -28,9 +37,11 @@ import java.util.function.Supplier;
 
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class BlockInit {
+public class BlockInit{
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Cae.MOD_ID);
-
+    private static final CreateRegistrate REGISTRATE = (CreateRegistrate) Create.registrate().creativeModeTab(() -> {
+        return Create.BASE_CREATIVE_TAB;
+    });
 
     @SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
@@ -70,4 +81,20 @@ public class BlockInit {
 
     public static final RegistryObject<Block> TIME_CRYSTAL = BLOCKS.register("source_time_crystal",
             () -> new SourceTimeBlock(Block.Properties.copy(Blocks.BUDDING_AMETHYST).noOcclusion()));
-}
+
+    public static final RegistryObject<Block> SINGULARITY_BLOCK = BLOCKS.register("singularity_core",
+            () -> new SingularityB(Block.Properties.copy(Blocks.BEDROCK).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGULARITY_VEIN = BLOCKS.register("singularity_vein",
+            () -> new SingularityVein(Block.Properties.copy(Blocks.BEDROCK).noOcclusion()));
+    public static final BlockEntry<CasingBlock> FORTNITE_CASING;
+    static {
+        FORTNITE_CASING = ((BlockBuilder)REGISTRATE.block("fortnite_casing", CasingBlock::new).properties((p) -> {
+            return p.color(MaterialColor.PODZOL);
+        }).transform(BuilderTransformers.casing(() -> {
+            return AllSpriteShifts.ANDESITE_CASING;
+        }))).register();
+    }
+
+
+}   

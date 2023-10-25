@@ -22,5 +22,23 @@
     "sounds": [
       "cae:obelisk_break"
     ]
+  },
+  "developer": {
+    "subtitle": "sounds.cae.developer",
+    "sounds": [
+      "cae:developer"
+    ]
+  },
+  "forge_create": {
+    "subtitle": "sounds.cae.forge_create",
+    "sounds": [
+      "cae:forge_create"
+    ]
+  },
+  "forge_start": {
+    "subtitle": "sounds.cae.developer.forge_start",
+    "sounds": [
+      "cae:forge_start"
+    ]
   }
 }

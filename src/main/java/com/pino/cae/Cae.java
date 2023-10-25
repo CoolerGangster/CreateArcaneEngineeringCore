@@ -8,6 +8,7 @@ import com.pino.cae.init.BlockInit;
 import com.pino.cae.init.ItemInit;
 import com.pino.cae.init.blockEntity.ModBlockEntities;
 import com.pino.cae.sounds.soundinit;
+import com.tterrag.registrate.Registrate;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -29,14 +30,16 @@ import top.theillusivec4.curios.api.SlotTypePreset;
 @Mod(Cae.MOD_ID)
 public class Cae
 {
+
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final String MOD_ID = "cae";
-
+    public static final Registrate REGISTRATE = Registrate.create(MOD_ID);
 
     public Cae() {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ItemInit.ITEMS.register(modEventBus);
+
         BlockInit.BLOCKS.register(modEventBus);
         FluidInit.FLUIDS.register(modEventBus);
         ModEntityTypes.ENTITIES.register(modEventBus);

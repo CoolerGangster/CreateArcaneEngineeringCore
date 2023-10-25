@@ -20,7 +20,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.spongepowered.mixin'
 
 
-version = '1.5'
+version = '1.7'
 group = 'com.pino.cae' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'cae'
 
@@ -50,6 +50,8 @@ minecraft {
     // These can be tweaked, removed, or duplicated as needed.
     runs {
         client {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
             workingDirectory project.file('run')
 
             // Recommended logging data for a userdev environment
@@ -77,6 +79,8 @@ minecraft {
         }
 
         server {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
             workingDirectory project.file('run')
 
             property 'forge.logging.markers', 'REGISTRIES'
@@ -98,6 +102,8 @@ minecraft {
         // By default, the server will crash when no gametests are provided.
         // The gametest system is also enabled by default for other run configs under the /test command.
         gameTestServer {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
             workingDirectory project.file('run')
 
             // Recommended logging data for a userdev environment
@@ -123,6 +129,8 @@ minecraft {
         }
 
         data {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
             workingDirectory project.file('run')
 
             property 'forge.logging.markers', 'REGISTRIES'
@@ -170,6 +178,10 @@ repositories {
             includeGroup "dev.ftb.mods"
         }
     }
+    maven {
+        name = 'tterrag maven'
+        url = 'https://maven.tterrag.com/'
+    }
     // Put repositories for dependencies here
     // ForgeGradle automatically adds the Forge maven and Maven Central for you
 
@@ -194,6 +206,7 @@ dependencies {
     implementation fg.deobf("curse.maven:thermal_expansion-69163:4382343")
     implementation fg.deobf("curse.maven:thermal_innovation-291737:4382344")
     implementation fg.deobf("curse.maven:thermal_foundation-222880:4382339")
+    implementation fg.deobf("curse.maven:create-crystal-clear-669724:4554248")
     implementation fg.deobf("curse.maven:thermal_locomotion-406959:4382347")
     implementation fg.deobf("curse.maven:cofh_core-69162:4385215")
     implementation fg.deobf("curse.maven:forbidden_arcanus-309858:4442836")
@@ -207,6 +220,9 @@ dependencies {
     implementation fg.deobf("curse.maven:common_capabilities-247007:4391353")
     implementation fg.deobf("curse.maven:integrated_nbt-380998:3824420")
     implementation fg.deobf("curse.maven:curios-309927:4418032")
+    implementation fg.deobf("curse.maven:spark-361579:4505375")
+    implementation fg.deobf("com.tterrag.registrate:Registrate:MC1.18.2-1.1.3")
+
 
 
 

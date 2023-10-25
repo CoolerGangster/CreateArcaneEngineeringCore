@@ -104,7 +104,7 @@ public class essentialOrb extends Animal implements IAnimatable {
                 }
             }
         }
-        if (this.stage == 2 && this.getFeetBlockState().toString().contains("Block{forbidden_arcanus:black_hole}") && this.level.getBlockState(this.blockPosition().offset(0,1,0)).toString().contains("Block{cae:lst}")){
+        if (this.stage == 2 && this.getFeetBlockState().toString().contains("Block{forbidden_arcanus:black_hole}") && this.level.getBlockState(this.blockPosition().offset(0,1,0)).toString().contains("Block{cae:lst}[level=0]")){
             this.level.setBlockAndUpdate(this.blockPosition().offset(0,1,0), Blocks.AIR.defaultBlockState());
             this.level.setBlockAndUpdate(this.blockPosition(), Blocks.AIR.defaultBlockState());
             this.level.playLocalSound(this.getX(),this.getY(),this.getZ(), SoundEvents.ANVIL_BREAK, SoundSource.BLOCKS,1, 1, true);

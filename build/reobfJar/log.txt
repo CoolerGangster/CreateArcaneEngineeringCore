@@ -1,5 +1,5 @@
 Java Launcher: C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe
-Arguments: '--in-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\libs\cae-1.5.jar, --out-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\reobfJar\output.jar, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\createMcpToSrg\output.tsrg, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\tmp\compileJava\compileJava-mappings.tsrg, --live'
+Arguments: '--in-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\libs\cae-1.7.jar, --out-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\reobfJar\output.jar, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\createMcpToSrg\output.tsrg, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\tmp\compileJava\compileJava-mappings.tsrg, --live'
 Classpath:
  - C:\Users\maser\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\applied_energistics_2-223794\4105168_mapped_official_1.18.2\applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar
@@ -26,6 +26,7 @@ Classpath:
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\cyclops_core-232758\4493154_mapped_official_1.18.2\cyclops_core-232758-4493154_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\common_capabilities-247007\4391353_mapped_official_1.18.2\common_capabilities-247007-4391353_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\integrated_nbt-380998\3824420_mapped_official_1.18.2\integrated_nbt-380998-3824420_mapped_official_1.18.2.jar
+ - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\spark-361579\4505375_mapped_official_1.18.2\spark-361579-4505375_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.1.80_mapped_official_1.18.2\forge-1.18.2-40.1.80_mapped_official_1.18.2-recomp.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\minecraft_repo\versions\1.18.2\client-extra.jar
  - C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.18.2-40.1.80\73a717c26025a3fa1f37cbe925840fa187c28dc1\fmlloader-1.18.2-40.1.80.jar
@@ -50,7 +51,7 @@ Classpath:
  - C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.1.80\a0e12c8a0526791f1a7840d3b1c4fc061c6bd30f\fmlcore-1.18.2-40.1.80.jar
  - C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\5.0.7\5589e7511c4993054e6a80890618b46ed53519a0\eventbus-5.0.7.jar
  - C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\4.0.15-4.x\1d10ffe779684cb20f2b63bdcc030152e47116bb\forgespi-4.0.15-4.x.jar
- - C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.0.2\ca04eeee6c3764c151b2a2efa675057a7531acc4\coremods-5.0.2.jar
+ - C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.0.3\25795913e9de905b22ccca803fe61e475e999ddf\coremods-5.0.3.jar
  - C:\Users\maser\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
  - C:\Users\maser\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar
  - C:\Users\maser\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar
@@ -129,6 +130,6 @@ Remapping jar... 40%
 Remapping jar... 50%
 Remapping jar... 60%
 Remapping jar... 70%
-Remapping jar... 81%
-Remapping jar... 91%
+Remapping jar... 80%
+Remapping jar... 90%
 Remapping jar... 100%

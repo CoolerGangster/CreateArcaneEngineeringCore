@@ -14,10 +14,16 @@ public class ModBlockEntities {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
             DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, Cae.MOD_ID);
 
+    public static final RegistryObject<BlockEntityType<SingularityE>> SINGULARITY_E =
+            BLOCK_ENTITIES.register("singularity_e", () ->
+                    BlockEntityType.Builder.of(SingularityE::new,
+                            BlockInit.SINGULARITY_BLOCK.get()).build(null));
     public static final RegistryObject<BlockEntityType<SourceTimeBlockEntity>> TIME_CRYSTAL_ENTITY =
             BLOCK_ENTITIES.register("source_time_crystal_entity", () ->
                     BlockEntityType.Builder.of(SourceTimeBlockEntity::new,
                             BlockInit.TIME_CRYSTAL.get()).build(null));
+
+
 
 
     public static void register(IEventBus eventBus) {
