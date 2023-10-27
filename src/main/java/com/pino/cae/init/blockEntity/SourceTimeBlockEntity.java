@@ -256,16 +256,16 @@ public class SourceTimeBlockEntity extends BlockEntity implements IAnimatable {
 
                                 if (((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize().contains(list[i]) && Cooldown <= 0 && !entity.serializeNBT().getCompound("ForgeCaps").getCompound("cae:properties").getString("kubejsdoshit").contains("doit")){
                                     bool = true;
-                                    LOGGER.debug("true");
+                                   // LOGGER.debug("true");
                                 }
                             }
                             if(!bool && Cooldown <= 0 && !entity.serializeNBT().getCompound("ForgeCaps").getCompound("cae:properties").getString("kubejsdoshit").contains("doit")){
                                 Cooldown += 200;
-                                LOGGER.debug("false");
+                                //LOGGER.debug("false");
                             }
                             for (int i = 0; i < list.length; i++) {
                                 if (((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize().contains(list[i]) && Cooldown <= 0 && !entity.serializeNBT().getCompound("ForgeCaps").getCompound("cae:properties").getString("kubejsdoshit").contains("doit")){
-                                    LOGGER.debug("wow");
+                                    //LOGGER.debug("wow");
 
                                     LOGGER.debug(String.valueOf(((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize()));
                                     if((countArray(((EntityProjectileSpell) entity).spellResolver.spellContext.getSpell().serialize())) <= 1){

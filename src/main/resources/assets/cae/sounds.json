@@ -36,9 +36,15 @@
     ]
   },
   "forge_start": {
-    "subtitle": "sounds.cae.developer.forge_start",
+    "subtitle": "sounds.cae.forge_start",
     "sounds": [
       "cae:forge_start"
+    ]
+  },
+  "skeleton_convert": {
+    "subtitle": "sounds.cae.skeleton_convert",
+    "sounds": [
+      "cae:skeleton_convert"
     ]
   }
 }

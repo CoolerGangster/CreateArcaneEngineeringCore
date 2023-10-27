@@ -1,20 +1,6 @@
 {
-  "item.cae.orb_spawn_egg": "Arcane Space Time Construct Spawn Egg",
-  "block.cae.skystone_catalyst": "Skystone Catalyst",
-  "block.cae.veridium_catalyst": "Veridium Catalyst",
-  "block.cae.ochrum_catalyst": "Ochrum Catalyst",
-  "block.cae.asurine_catalyst": "Asurine Catalyst",
-  "block.cae.crimsite_catalyst": "Crimsite Catalyst",
-  "entity.cae.essentialorb": "Arcane Space Time Construct",
-  "block.cae.source_time_crystal": "Source Time Crystal",
-  "curios.identifier.gem": "Source Amulet Slot",
-  "sounds.cae.arcane_obelisk_creation": "Arcane Obelisk Created",
-  "sounds.cae.wraith_soulconvert": "Wraith infusing Soul Sand",
-  "sounds.cae.obelisk_break": "Obelisk is Broken",
-  "sounds.cae.obelisk_place": "Obelisk is Placed",
-  "sounds.cae.developer": "Developer nearby is enjoying NCS Music (Superhero by Unknown Brian)",
-  "block.cae.singularity_vein": "Singularity Vein",
-  "block.cae.singularity_core": "Singularity",
-  "sounds.cae.forge_start": "Ritual is initialized",
-  "sounds.cae.forge_create": "Forge has been created"
+  "block.cae.enderium_casing": "Enderium Casing",
+  "block.cae.gold_casing": "Gold Casing",
+  "block.cae.supercritical_casing": "Supercritical Casing",
+  "block.cae.zinc_casing": "Zinc Casing"
 }

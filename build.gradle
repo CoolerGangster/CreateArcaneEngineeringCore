@@ -20,7 +20,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.spongepowered.mixin'
 
 
-version = '1.7'
+version = '1.8'
 group = 'com.pino.cae' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'cae'
 
@@ -196,9 +196,10 @@ dependencies {
 
     implementation fg.deobf("curse.maven:applied_energistics_2-223794:4105168")
     implementation fg.deobf("curse.maven:curios-309927:4418032")
-    implementation fg.deobf("curse.maven:create-328085:3934676")
+
     implementation fg.deobf("curse.maven:autoreglib-250363:3642382")
-    implementation fg.deobf("curse.maven:flywheel-486392:3934664")
+    implementation fg.deobf("com.simibubi.create:create-1.18.2:0.5.1.e-318:slim") { transitive = false }
+    implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-1.18.2:0.6.10-105")
     implementation fg.deobf("curse.maven:quark-243121:3800462")
     implementation fg.deobf("curse.maven:ars_nouveau-401955:3950802")
     implementation fg.deobf("curse.maven:patchouli-306770:3809917")
@@ -222,6 +223,10 @@ dependencies {
     implementation fg.deobf("curse.maven:curios-309927:4418032")
     implementation fg.deobf("curse.maven:spark-361579:4505375")
     implementation fg.deobf("com.tterrag.registrate:Registrate:MC1.18.2-1.1.3")
+    implementation fg.deobf("curse.maven:jei-238222:4062344")
+    implementation fg.deobf("curse.maven:mantle-74924:4509007")
+
+
 
 
 
@@ -229,7 +234,7 @@ dependencies {
 
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.18.2-40.1.80'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.2.9'
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
