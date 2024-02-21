@@ -20,7 +20,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.spongepowered.mixin'
 
 
-version = '1.8'
+version = '1.99'
 group = 'com.pino.cae' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'cae'
 
@@ -204,6 +204,7 @@ dependencies {
     implementation fg.deobf("curse.maven:ars_nouveau-401955:3950802")
     implementation fg.deobf("curse.maven:patchouli-306770:3809917")
     implementation fg.deobf("curse.maven:geckolib-388172:4181370")
+    implementation fg.deobf("curse.maven:create-encased-829380:4807802")
     implementation fg.deobf("curse.maven:thermal_expansion-69163:4382343")
     implementation fg.deobf("curse.maven:thermal_innovation-291737:4382344")
     implementation fg.deobf("curse.maven:thermal_foundation-222880:4382339")

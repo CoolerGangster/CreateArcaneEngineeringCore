@@ -56,3 +56,28 @@ Core Mod for Create Arcane Engineering
     versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.cae]]
+modId="create"
+mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+
+[[dependencies.cae]]
+modId="createcasing"
+mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+versionRange="[0,)"
+ordering="BEFORE"
+side="BOTH"
+
+[[dependencies.cae]]
+modId="kubejs"
+mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"

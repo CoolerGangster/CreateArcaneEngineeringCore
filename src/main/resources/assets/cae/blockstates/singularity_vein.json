@@ -1,0 +1,504 @@
+{
+  "variants": {
+    "facing=south,half=bottom,stage=1": {
+      "model": "cae:block/vein_1"
+    },
+    "facing=up,half=bottom,stage=1": {
+      "model": "cae:block/vein_1",
+      "x": 90
+    },
+    "facing=north,half=bottom,stage=1": {
+      "model": "cae:block/vein_1",
+      "x": 180
+    },
+    "facing=down,half=bottom,stage=1": {
+      "model": "cae:block/vein_1",
+      "x": 270
+    },
+    "facing=east,half=bottom,stage=1": {
+      "model": "cae:block/vein_1",
+
+      "y": 270
+    },
+    "facing=west,half=bottom,stage=1": {
+      "model": "cae:block/vein_1",
+
+      "y": 90
+    },
+    "facing=south,half=bottom,stage=2": {
+      "model": "cae:block/vein_2"
+    },
+    "facing=up,half=bottom,stage=2": {
+      "model": "cae:block/vein_2",
+      "x": 90
+    },
+    "facing=north,half=bottom,stage=2": {
+      "model": "cae:block/vein_2",
+      "x": 180
+    },
+    "facing=down,half=bottom,stage=2": {
+      "model": "cae:block/vein_2",
+      "x": 270
+    },
+    "facing=east,half=bottom,stage=2": {
+      "model": "cae:block/vein_2",
+
+      "y": 270
+    },
+    "facing=west,half=bottom,stage=2": {
+      "model": "cae:block/vein_2",
+
+      "y": 90
+    },
+    "facing=south,half=bottom,stage=3": {
+      "model": "cae:block/vein_3"
+    },
+    "facing=up,half=bottom,stage=3": {
+      "model": "cae:block/vein_3",
+      "x": 90
+    },
+    "facing=north,half=bottom,stage=3": {
+      "model": "cae:block/vein_3",
+      "x": 180
+    },
+    "facing=down,half=bottom,stage=3": {
+      "model": "cae:block/vein_3",
+      "x": 270
+    },
+    "facing=east,half=bottom,stage=3": {
+      "model": "cae:block/vein_3",
+
+      "y": 270
+    },
+    "facing=west,half=bottom,stage=3": {
+      "model": "cae:block/vein_3",
+
+      "y": 90
+    },
+    "facing=south,half=bottom,stage=4": {
+      "model": "cae:block/vein_4"
+    },
+    "facing=up,half=bottom,stage=4": {
+      "model": "cae:block/vein_4",
+      "x": 90
+    },
+    "facing=north,half=bottom,stage=4": {
+      "model": "cae:block/vein_4",
+      "x": 180
+    },
+    "facing=down,half=bottom,stage=4": {
+      "model": "cae:block/vein_4",
+      "x": 270
+    },
+    "facing=east,half=bottom,stage=4": {
+      "model": "cae:block/vein_4",
+
+      "y": 270
+    },
+    "facing=west,half=bottom,stage=4": {
+      "model": "cae:block/vein_4",
+
+      "y": 90
+    },
+    "facing=south,half=bottom,stage=5": {
+      "model": "cae:block/vein_5"
+    },
+    "facing=up,half=bottom,stage=5": {
+      "model": "cae:block/vein_5",
+      "x": 90
+    },
+    "facing=north,half=bottom,stage=5": {
+      "model": "cae:block/vein_5",
+      "x": 180
+    },
+    "facing=down,half=bottom,stage=5": {
+      "model": "cae:block/vein_5",
+      "x": 270
+    },
+    "facing=east,half=bottom,stage=5": {
+      "model": "cae:block/vein_5",
+
+      "y": 270
+    },
+    "facing=west,half=bottom,stage=5": {
+      "model": "cae:block/vein_5",
+
+      "y": 90
+    },
+    "facing=south,half=bottom,stage=6": {
+      "model": "cae:block/vein_6"
+    },
+    "facing=up,half=bottom,stage=6": {
+      "model": "cae:block/vein_6",
+      "x": 90
+    },
+    "facing=north,half=bottom,stage=6": {
+      "model": "cae:block/vein_6",
+      "x": 180
+    },
+    "facing=down,half=bottom,stage=6": {
+      "model": "cae:block/vein_6",
+      "x": 270
+    },
+    "facing=east,half=bottom,stage=6": {
+      "model": "cae:block/vein_6",
+
+      "y": 270
+    },
+    "facing=west,half=bottom,stage=6": {
+      "model": "cae:block/vein_6",
+
+      "y": 90
+    },
+    "facing=south,half=bottom,stage=7": {
+      "model": "cae:block/vein_7"
+    },
+    "facing=up,half=bottom,stage=7": {
+      "model": "cae:block/vein_7",
+      "x": 90
+    },
+    "facing=north,half=bottom,stage=7": {
+      "model": "cae:block/vein_7",
+      "x": 180
+    },
+    "facing=down,half=bottom,stage=7": {
+      "model": "cae:block/vein_7",
+      "x": 270
+    },
+    "facing=east,half=bottom,stage=7": {
+      "model": "cae:block/vein_7",
+
+      "y": 270
+    },
+    "facing=west,half=bottom,stage=7": {
+      "model": "cae:block/vein_7",
+
+      "y": 90
+    },
+    "facing=south,half=bottom,stage=8": {
+      "model": "cae:block/vein_8"
+    },
+    "facing=up,half=bottom,stage=8": {
+      "model": "cae:block/vein_8",
+      "x": 90
+    },
+    "facing=north,half=bottom,stage=8": {
+      "model": "cae:block/vein_8",
+      "x": 180
+    },
+    "facing=down,half=bottom,stage=8": {
+      "model": "cae:block/vein_8",
+      "x": 270
+    },
+    "facing=east,half=bottom,stage=8": {
+      "model": "cae:block/vein_8",
+
+      "y": 270
+    },
+    "facing=west,half=bottom,stage=8": {
+      "model": "cae:block/vein_8",
+
+      "y": 90
+    },
+    "facing=south,half=bottom,stage=9": {
+      "model": "cae:block/vein_9"
+    },
+    "facing=up,half=bottom,stage=9": {
+      "model": "cae:block/vein_9",
+      "x": 90
+    },
+    "facing=north,half=bottom,stage=9": {
+      "model": "cae:block/vein_9",
+      "x": 180
+    },
+    "facing=down,half=bottom,stage=9": {
+      "model": "cae:block/vein_9",
+      "x": 270
+    },
+    "facing=east,half=bottom,stage=9": {
+      "model": "cae:block/vein_9",
+
+      "y": 270
+    },
+    "facing=west,half=bottom,stage=9": {
+      "model": "cae:block/vein_9",
+
+      "y": 90
+    },
+    "facing=south,half=bottom,stage=10": {
+      "model": "cae:block/vein_10"
+    },
+    "facing=up,half=bottom,stage=10": {
+      "model": "cae:block/vein_10",
+      "x": 90
+    },
+    "facing=north,half=bottom,stage=10": {
+      "model": "cae:block/vein_10",
+      "x": 180
+    },
+    "facing=down,half=bottom,stage=10": {
+      "model": "cae:block/vein_10",
+      "x": 270
+    },
+    "facing=east,half=bottom,stage=10": {
+      "model": "cae:block/vein_10",
+
+      "y": 270
+    },
+    "facing=west,half=bottom,stage=10": {
+      "model": "cae:block/vein_10",
+
+      "y": 90
+    },
+    "facing=south,half=top,stage=1": {
+      "model": "cae:block/vein_1"
+    },
+    "facing=up,half=top,stage=1": {
+      "model": "cae:block/vein_1",
+      "x": 90
+    },
+    "facing=north,half=top,stage=1": {
+      "model": "cae:block/vein_1",
+      "x": 180
+    },
+    "facing=down,half=top,stage=1": {
+      "model": "cae:block/vein_1",
+      "x": 270
+    },
+    "facing=east,half=top,stage=1": {
+      "model": "cae:block/vein_1",
+
+      "y": 270
+    },
+    "facing=west,half=top,stage=1": {
+      "model": "cae:block/vein_1",
+
+      "y": 90
+    },
+    "facing=south,half=top,stage=2": {
+      "model": "cae:block/vein_2"
+    },
+    "facing=up,half=top,stage=2": {
+      "model": "cae:block/vein_2",
+      "x": 90
+    },
+    "facing=north,half=top,stage=2": {
+      "model": "cae:block/vein_2",
+      "x": 180
+    },
+    "facing=down,half=top,stage=2": {
+      "model": "cae:block/vein_2",
+      "x": 270
+    },
+    "facing=east,half=top,stage=2": {
+      "model": "cae:block/vein_2",
+
+      "y": 270
+    },
+    "facing=west,half=top,stage=2": {
+      "model": "cae:block/vein_2",
+
+      "y": 90
+    },
+    "facing=south,half=top,stage=3": {
+      "model": "cae:block/vein_3"
+    },
+    "facing=up,half=top,stage=3": {
+      "model": "cae:block/vein_3",
+      "x": 90
+    },
+    "facing=north,half=top,stage=3": {
+      "model": "cae:block/vein_3",
+      "x": 180
+    },
+    "facing=down,half=top,stage=3": {
+      "model": "cae:block/vein_3",
+      "x": 270
+    },
+    "facing=east,half=top,stage=3": {
+      "model": "cae:block/vein_3",
+
+      "y": 270
+    },
+    "facing=west,half=top,stage=3": {
+      "model": "cae:block/vein_3",
+
+      "y": 90
+    },
+    "facing=south,half=top,stage=4": {
+      "model": "cae:block/vein_4"
+    },
+    "facing=up,half=top,stage=4": {
+      "model": "cae:block/vein_4",
+      "x": 90
+    },
+    "facing=north,half=top,stage=4": {
+      "model": "cae:block/vein_4",
+      "x": 180
+    },
+    "facing=down,half=top,stage=4": {
+      "model": "cae:block/vein_4",
+      "x": 270
+    },
+    "facing=east,half=top,stage=4": {
+      "model": "cae:block/vein_4",
+
+      "y": 270
+    },
+    "facing=west,half=top,stage=4": {
+      "model": "cae:block/vein_4",
+
+      "y": 90
+    },
+    "facing=south,half=top,stage=5": {
+      "model": "cae:block/vein_5"
+    },
+    "facing=up,half=top,stage=5": {
+      "model": "cae:block/vein_5",
+      "x": 90
+    },
+    "facing=north,half=top,stage=5": {
+      "model": "cae:block/vein_5",
+      "x": 180
+    },
+    "facing=down,half=top,stage=5": {
+      "model": "cae:block/vein_5",
+      "x": 270
+    },
+    "facing=east,half=top,stage=5": {
+      "model": "cae:block/vein_5",
+
+      "y": 270
+    },
+    "facing=west,half=top,stage=5": {
+      "model": "cae:block/vein_5",
+
+      "y": 90
+    },
+    "facing=south,half=top,stage=6": {
+      "model": "cae:block/vein_6"
+    },
+    "facing=up,half=top,stage=6": {
+      "model": "cae:block/vein_6",
+      "x": 90
+    },
+    "facing=north,half=top,stage=6": {
+      "model": "cae:block/vein_6",
+      "x": 180
+    },
+    "facing=down,half=top,stage=6": {
+      "model": "cae:block/vein_6",
+      "x": 270
+    },
+    "facing=east,half=top,stage=6": {
+      "model": "cae:block/vein_6",
+
+      "y": 270
+    },
+    "facing=west,half=top,stage=6": {
+      "model": "cae:block/vein_6",
+
+      "y": 90
+    },
+    "facing=south,half=top,stage=7": {
+      "model": "cae:block/vein_7"
+    },
+    "facing=up,half=top,stage=7": {
+      "model": "cae:block/vein_7",
+      "x": 90
+    },
+    "facing=north,half=top,stage=7": {
+      "model": "cae:block/vein_7",
+      "x": 180
+    },
+    "facing=down,half=top,stage=7": {
+      "model": "cae:block/vein_7",
+      "x": 270
+    },
+    "facing=east,half=top,stage=7": {
+      "model": "cae:block/vein_7",
+
+      "y": 270
+    },
+    "facing=west,half=top,stage=7": {
+      "model": "cae:block/vein_7",
+
+      "y": 90
+    },
+    "facing=south,half=top,stage=8": {
+      "model": "cae:block/vein_8"
+    },
+    "facing=up,half=top,stage=8": {
+      "model": "cae:block/vein_8",
+      "x": 90
+    },
+    "facing=north,half=top,stage=8": {
+      "model": "cae:block/vein_8",
+      "x": 180
+    },
+    "facing=down,half=top,stage=8": {
+      "model": "cae:block/vein_8",
+      "x": 270
+    },
+    "facing=east,half=top,stage=8": {
+      "model": "cae:block/vein_8",
+
+      "y": 270
+    },
+    "facing=west,half=top,stage=8": {
+      "model": "cae:block/vein_8",
+
+      "y": 90
+    },
+    "facing=south,half=top,stage=9": {
+      "model": "cae:block/vein_9"
+    },
+    "facing=up,half=top,stage=9": {
+      "model": "cae:block/vein_9",
+      "x": 90
+    },
+    "facing=north,half=top,stage=9": {
+      "model": "cae:block/vein_9",
+      "x": 180
+    },
+    "facing=down,half=top,stage=9": {
+      "model": "cae:block/vein_9",
+      "x": 270
+    },
+    "facing=east,half=top,stage=9": {
+      "model": "cae:block/vein_9",
+
+      "y": 270
+    },
+    "facing=west,half=top,stage=9": {
+      "model": "cae:block/vein_9",
+
+      "y": 90
+    },
+    "facing=south,half=top,stage=10": {
+      "model": "cae:block/vein_10"
+    },
+    "facing=up,half=top,stage=10": {
+      "model": "cae:block/vein_10",
+      "x": 90
+    },
+    "facing=north,half=top,stage=10": {
+      "model": "cae:block/vein_10",
+      "x": 180
+    },
+    "facing=down,half=top,stage=10": {
+      "model": "cae:block/vein_10",
+      "x": 270
+    },
+    "facing=east,half=top,stage=10": {
+      "model": "cae:block/vein_10",
+
+      "y": 270
+    },
+    "facing=west,half=top,stage=10": {
+      "model": "cae:block/vein_10",
+
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,82 @@
+To refresh this file, delete it and run /reload command again! Last updated: Oct 27, 2023, 8:35:36 PM
+
+#forge:ender
+- thermal:ender
+
+#forge:experience
+- cofh_core:experience
+
+#forge:crude_oil
+- thermal:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:redstone
+- thermal:redstone
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:glowstone
+- thermal:glowstone
+
+#mantle:water
+- minecraft:water
+- minecraft:flowing_water
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#mantle:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#ae2:blacklisted/annihilation_plane
+
+#create:fan_processing_catalysts/splashing
+- minecraft:water
+- minecraft:flowing_water
+
+#create:fan_processing_catalysts/haunting
+
+#create:fan_processing_catalysts/smoking
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#create:bottomless/deny
+
+#forge:latex
+- thermal:latex
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#forge:honey
+- create:flowing_honey
+- create:honey
+- cofh_core:honey
+
+#forge:creosote
+- thermal:creosote
+
+#create:fan_processing_catalysts/blasting
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:potion
+- cofh_core:potion

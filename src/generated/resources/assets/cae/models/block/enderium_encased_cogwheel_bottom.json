@@ -1,0 +1,10 @@
+{
+  "parent": "cae:block/encased_cogwheel/block_bottom",
+  "textures": {
+    "casing": "cae:block/enderium_casing",
+    "particle": "cae:block/enderium_casing",
+    "4": "cae:block/enderium_gearbox",
+    "1": "cae:block/enderium_casing",
+    "side": "cae:block/enderium_encased_cogwheel_side"
+  }
+}

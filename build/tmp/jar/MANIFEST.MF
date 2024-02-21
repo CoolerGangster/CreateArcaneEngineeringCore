@@ -3,8 +3,8 @@ Specification-Title: cae
 Specification-Vendor: caesareus
 Specification-Version: 1
 Implementation-Title: Mod project
-Implementation-Version: 1.8
+Implementation-Version: 1.99
 Implementation-Vendor: caesareus
-Implementation-Timestamp: 2023-10-28T00:04:07+0200
+Implementation-Timestamp: 2023-11-04T15:33:24+0100
 MixinConfigs: cae.mixins.json
 

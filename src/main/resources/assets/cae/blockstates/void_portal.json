@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cae:block/void_portal"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2023-10-29 22:02:51 +0100"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2023-10-28 16:28:09 +0200"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2023-10-27 20:37:16 +0200"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2023-10-29 22:11:06 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2023-10-27 20:37:16 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

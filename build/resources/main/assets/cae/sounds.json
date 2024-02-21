@@ -1,0 +1,50 @@
+{
+  "arcane_obelisk_creation": {
+    "subtitle": "sounds.cae.arcane_obelisk_creation",
+    "sounds": [
+      "cae:arcane_obelisk_creation"
+    ]
+  },
+  "wraith_soulconvert": {
+    "subtitle": "sounds.cae.wraith_soulconvert",
+    "sounds": [
+      "cae:wraith_soulconvert"
+    ]
+  },
+  "obelisk_place": {
+    "subtitle": "sounds.cae.obelisk_place",
+    "sounds": [
+      "cae:obelisk_place"
+    ]
+  },
+  "obelisk_break": {
+    "subtitle": "sounds.cae.obelisk_break",
+    "sounds": [
+      "cae:obelisk_break"
+    ]
+  },
+  "developer": {
+    "subtitle": "sounds.cae.developer",
+    "sounds": [
+      "cae:developer"
+    ]
+  },
+  "forge_create": {
+    "subtitle": "sounds.cae.forge_create",
+    "sounds": [
+      "cae:forge_create"
+    ]
+  },
+  "forge_start": {
+    "subtitle": "sounds.cae.forge_start",
+    "sounds": [
+      "cae:forge_start"
+    ]
+  },
+  "skeleton_convert": {
+    "subtitle": "sounds.cae.skeleton_convert",
+    "sounds": [
+      "cae:skeleton_convert"
+    ]
+  }
+}

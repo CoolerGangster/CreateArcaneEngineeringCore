@@ -1,5 +1,5 @@
 Java Launcher: C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe
-Arguments: '--in-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\libs\cae-1.8.jar, --out-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\reobfJar\output.jar, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\createMcpToSrg\output.tsrg, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\tmp\compileJava\compileJava-mappings.tsrg, --live'
+Arguments: '--in-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\libs\cae-1.99.jar, --out-jar, C:\Users\maser\OneDrive\Desktop\Mod project\build\reobfJar\output.jar, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\createMcpToSrg\output.tsrg, --srg-in, C:\Users\maser\OneDrive\Desktop\Mod project\build\tmp\compileJava\compileJava-mappings.tsrg, --live'
 Classpath:
  - C:\Users\maser\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\applied_energistics_2-223794\4105168_mapped_official_1.18.2\applied_energistics_2-223794-4105168_mapped_official_1.18.2.jar
@@ -11,6 +11,7 @@ Classpath:
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\ars_nouveau-401955\3950802_mapped_official_1.18.2\ars_nouveau-401955-3950802_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\patchouli-306770\3809917_mapped_official_1.18.2\patchouli-306770-3809917_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\geckolib-388172\4181370_mapped_official_1.18.2\geckolib-388172-4181370_mapped_official_1.18.2.jar
+ - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\create-encased-829380\4807802_mapped_official_1.18.2\create-encased-829380-4807802_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\thermal_expansion-69163\4382343_mapped_official_1.18.2\thermal_expansion-69163-4382343_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\thermal_innovation-291737\4382344_mapped_official_1.18.2\thermal_innovation-291737-4382344_mapped_official_1.18.2.jar
  - C:\Users\maser\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\thermal_foundation-222880\4382339_mapped_official_1.18.2\thermal_foundation-222880-4382339_mapped_official_1.18.2.jar

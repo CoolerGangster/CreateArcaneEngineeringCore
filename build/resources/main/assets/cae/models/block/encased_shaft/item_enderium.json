@@ -1,0 +1,7 @@
+{
+	"parent": "create:block/encased_shaft/item",
+	"textures": {
+		"casing": "cae:block/enderium_casing",
+		"opening": "cae:block/enderium_gearbox"
+	}
+}

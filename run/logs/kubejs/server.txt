@@ -1,0 +1,11 @@
+[14:16:21] [INFO ] Hello, World! (You will see this line every time server resources reload)
+[14:16:21] [INFO ] Loaded script server_scripts:script.js in 0.001 s
+[14:16:21] [INFO ] Loaded 1/1 KubeJS server scripts in 0.007 s
+[14:16:21] [INFO ] Scripts loaded
+[14:16:21] [WARN ] Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
+[14:16:21] [INFO ] Scanning recipes...
+[14:16:50] [INFO ] Found 6089 recipes and 0 failed recipes in 228.3 ms
+[14:16:50] [INFO ] Posted recipe events in 763.8 μs
+[14:16:50] [INFO ] Modified & removed recipes in 64.50 ms
+[14:16:50] [INFO ] Added recipes in 550.2 μs
+[14:16:50] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes

@@ -1,0 +1,15 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2023-10-29 15:55:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2023-10-29 15:55:34 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

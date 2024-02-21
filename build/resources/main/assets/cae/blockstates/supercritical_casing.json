@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cae:block/supercritical_casing"
+    }
+  }
+}

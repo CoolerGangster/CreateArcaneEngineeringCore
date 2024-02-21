@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "cae:gold_casing",
+    "cae:zinc_casing",
+    "cae:enderium_casing",
+    "cae:supercritical_casing",
+    "cae:gold_encased_shaft",
+    "cae:gold_encased_cogwheel",
+    "cae:gold_encased_large_cogwheel",
+    "cae:zinc_encased_shaft",
+    "cae:zinc_encased_cogwheel",
+    "cae:zinc_encased_large_cogwheel",
+    "cae:enderium_encased_shaft",
+    "cae:enderium_encased_cogwheel",
+    "cae:enderium_encased_large_cogwheel",
+    "cae:supercritical_encased_shaft",
+    "cae:supercritical_encased_cogwheel",
+    "cae:supercritical_encased_large_cogwheel"
+  ]
+}

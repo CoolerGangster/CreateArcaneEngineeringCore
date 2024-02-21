@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "cae:blocks/veridium_catalyst",
+		"particle": "cae:blocks/veridium_catalyst"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 6],
+			"to": [8, 0, 10],
+			"faces": {
+				"north": {"uv": [4, 4, 4, 4], "texture": "#0"},
+				"east": {"uv": [0, 4, 4, 4], "texture": "#0"},
+				"south": {"uv": [8, 4, 8, 4], "texture": "#0"},
+				"west": {"uv": [4, 4, 8, 4], "texture": "#0"},
+				"up": {"uv": [4, 4, 4, 0], "texture": "#0"},
+				"down": {"uv": [4, 0, 4, 4], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,12 +1,24 @@
 package com.pino.cae.init;
 
 
+import com.pino.cae.kineticBEs.CustomEncasedShaftBE;
+import com.pino.cae.kineticBEs.dependencies.PublicEncasedCogwheelBlockCAE;
+import com.pino.cae.kineticBEs.dependencies.PublicEncasedShaftBlockCAE;
+import com.simibubi.create.AllBlocks;
 import com.simibubi.create.AllCreativeModeTabs;
 import com.simibubi.create.AllSpriteShifts;
 import com.simibubi.create.content.decoration.encasing.CasingBlock;
+import com.simibubi.create.content.decoration.encasing.EncasingRegistry;
+import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
+import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogCTBehaviour;
+import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogwheelBlock;
+import com.simibubi.create.foundation.block.IBE;
 import com.simibubi.create.foundation.data.BuilderTransformers;
-import com.tterrag.registrate.builders.BlockBuilder;
+import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.simibubi.create.foundation.utility.Couple;
 import com.tterrag.registrate.util.entry.BlockEntry;
+import fr.iglee42.createcasing.blocks.customs.CustomEncasedShaft;
+import fr.iglee42.createcasing.blocks.publics.PublicEncasedShaftBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 
@@ -18,6 +30,7 @@ import com.pino.cae.Cae;
 
 
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 
@@ -37,10 +50,13 @@ import java.util.function.Supplier;
 
 import static com.pino.cae.Cae.REGISTRATEKJ;
 import static com.simibubi.create.Create.REGISTRATE;
+import static com.simibubi.create.foundation.data.TagGen.axeOrPickaxe;
 
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class BlockInit{
+public class BlockInit {
+
+
     static {
         REGISTRATEKJ.creativeModeTab(() -> AllCreativeModeTabs.BASE_CREATIVE_TAB);
     }
@@ -121,4 +137,120 @@ public class BlockInit{
             .lang("Supercritical Casing")
             .register();
 
-}   
+    public static final BlockEntry<PublicEncasedShaftBlockCAE> GOLD_ENCASED_SHAFT =
+            REGISTRATEKJ.block("gold_encased_shaft", p -> new PublicEncasedShaftBlockCAE(p, BlockInit.GOLD_CASING::get))
+                    .properties(p -> p.color(MaterialColor.GOLD))
+                    .transform(BadIdeaTransformers.encasedShaft("gold", () -> TextureShifts.GOLD_CASING))
+                    .transform(EncasingRegistry.addVariantTo(AllBlocks.SHAFT))
+                    .transform(axeOrPickaxe())
+                    .register();
+
+    public static final BlockEntry<PublicEncasedCogwheelBlockCAE> GOLD_ENCASED_COGWHEEL = REGISTRATEKJ
+            .block("gold_encased_cogwheel", p -> new PublicEncasedCogwheelBlockCAE(p, false, BlockInit.GOLD_CASING::get))
+            .properties(p -> p.color(MaterialColor.GOLD))
+            .transform(BadIdeaTransformers.encasedCogwheel("gold", () -> TextureShifts.GOLD_CASING))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.COGWHEEL))
+            .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(TextureShifts.GOLD_CASING,
+                    Couple.create(TextureShifts.GOLD_ENCASED_COGWHEEL_SIDE,
+                            TextureShifts.GOLD_ENCASED_COGWHEEL_OTHERSIDE))))
+            .transform(axeOrPickaxe())
+            .register();
+
+    public static final BlockEntry<PublicEncasedCogwheelBlockCAE> GOLD_ENCASED_LARGE_COGWHEEL = REGISTRATEKJ
+            .block("gold_encased_large_cogwheel",
+                    p -> new PublicEncasedCogwheelBlockCAE(p, true, BlockInit.GOLD_CASING::get))
+            .properties(p -> p.color(MaterialColor.GOLD))
+            .transform(BadIdeaTransformers.encasedLargeCogwheel("gold", () -> TextureShifts.GOLD_CASING))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.LARGE_COGWHEEL))
+            .transform(axeOrPickaxe())
+            .register();
+
+
+    public static final BlockEntry<PublicEncasedShaftBlockCAE> ZINC_ENCASED_SHAFT =
+            REGISTRATEKJ.block("zinc_encased_shaft", p -> new PublicEncasedShaftBlockCAE(p, BlockInit.ZINC_CASING::get))
+                    .properties(p -> p.color(MaterialColor.GLOW_LICHEN))
+                    .transform(BadIdeaTransformers.encasedShaft("zinc", () -> TextureShifts.ZINC_CASING))
+                    .transform(EncasingRegistry.addVariantTo(AllBlocks.SHAFT))
+                    .transform(axeOrPickaxe())
+                    .register();
+
+    public static final BlockEntry<PublicEncasedCogwheelBlockCAE> ZINC_ENCASED_COGWHEEL = REGISTRATEKJ
+            .block("zinc_encased_cogwheel", p -> new PublicEncasedCogwheelBlockCAE(p, false, BlockInit.ZINC_CASING::get))
+            .properties(p -> p.color(MaterialColor.GLOW_LICHEN))
+            .transform(BadIdeaTransformers.encasedCogwheel("zinc", () -> TextureShifts.ZINC_CASING))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.COGWHEEL))
+            .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(TextureShifts.ZINC_CASING,
+                    Couple.create(TextureShifts.ZINC_ENCASED_COGWHEEL_SIDE,
+                            TextureShifts.ZINC_ENCASED_COGWHEEL_OTHERSIDE))))
+            .transform(axeOrPickaxe())
+            .register();
+
+    public static final BlockEntry<PublicEncasedCogwheelBlockCAE> ZINC_ENCASED_LARGE_COGWHEEL = REGISTRATEKJ
+            .block("zinc_encased_large_cogwheel",
+                    p -> new PublicEncasedCogwheelBlockCAE(p, true, BlockInit.ZINC_CASING::get))
+            .properties(p -> p.color(MaterialColor.GLOW_LICHEN))
+            .transform(BadIdeaTransformers.encasedLargeCogwheel("zinc", () -> TextureShifts.ZINC_CASING))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.LARGE_COGWHEEL))
+            .transform(axeOrPickaxe())
+            .register();
+
+
+
+    public static final BlockEntry<PublicEncasedShaftBlockCAE> ENDERIUM_ENCASED_SHAFT =
+            REGISTRATEKJ.block("enderium_encased_shaft", p -> new PublicEncasedShaftBlockCAE(p, BlockInit.ENDERIUM_CASING::get))
+                    .properties(p -> p.color(MaterialColor.WARPED_STEM))
+                    .transform(BadIdeaTransformers.encasedShaft("enderium", () -> TextureShifts.ENDERIUM_CASING))
+                    .transform(EncasingRegistry.addVariantTo(AllBlocks.SHAFT))
+                    .transform(axeOrPickaxe())
+                    .register();
+
+    public static final BlockEntry<PublicEncasedCogwheelBlockCAE> ENDERIUM_ENCASED_COGWHEEL = REGISTRATEKJ
+            .block("enderium_encased_cogwheel", p -> new PublicEncasedCogwheelBlockCAE(p, false, BlockInit.ENDERIUM_CASING::get))
+            .properties(p -> p.color(MaterialColor.WARPED_STEM))
+            .transform(BadIdeaTransformers.encasedCogwheel("enderium", () -> TextureShifts.ENDERIUM_CASING))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.COGWHEEL))
+            .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(TextureShifts.ENDERIUM_CASING,
+                    Couple.create(TextureShifts.ENDERIUM_ENCASED_COGWHEEL_SIDE,
+                            TextureShifts.ENDERIUM_ENCASED_COGWHEEL_OTHERSIDE))))
+            .transform(axeOrPickaxe())
+            .register();
+
+    public static final BlockEntry<PublicEncasedCogwheelBlockCAE> ENDERIUM_ENCASED_LARGE_COGWHEEL = REGISTRATEKJ
+            .block("enderium_encased_large_cogwheel",
+                    p -> new PublicEncasedCogwheelBlockCAE(p, true, BlockInit.ENDERIUM_CASING::get))
+            .properties(p -> p.color(MaterialColor.WARPED_STEM))
+            .transform(BadIdeaTransformers.encasedLargeCogwheel("enderium", () -> TextureShifts.ENDERIUM_CASING))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.LARGE_COGWHEEL))
+            .transform(axeOrPickaxe())
+            .register();
+
+
+    public static final BlockEntry<PublicEncasedShaftBlockCAE> SUPERCRITICAL_ENCASED_SHAFT =
+            REGISTRATEKJ.block("supercritical_encased_shaft", p -> new PublicEncasedShaftBlockCAE(p, BlockInit.SUPERCRITICAL_CASING::get))
+                    .properties(p -> p.color(MaterialColor.COLOR_BLACK))
+                    .transform(BadIdeaTransformers.encasedShaft("supercritical", () -> TextureShifts.SUPERCRITICAL_CASING))
+                    .transform(EncasingRegistry.addVariantTo(AllBlocks.SHAFT))
+                    .transform(axeOrPickaxe())
+                    .register();
+
+    public static final BlockEntry<PublicEncasedCogwheelBlockCAE> SUPERCRITICAL_ENCASED_COGWHEEL = REGISTRATEKJ
+            .block("supercritical_encased_cogwheel", p -> new PublicEncasedCogwheelBlockCAE(p, false, BlockInit.SUPERCRITICAL_CASING::get))
+            .properties(p -> p.color(MaterialColor.COLOR_BLACK))
+            .transform(BadIdeaTransformers.encasedCogwheel("supercritical", () -> TextureShifts.SUPERCRITICAL_CASING))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.COGWHEEL))
+            .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(TextureShifts.SUPERCRITICAL_CASING,
+                    Couple.create(TextureShifts.SUPERCRITICAL_ENCASED_COGWHEEL_SIDE,
+                            TextureShifts.SUPERCRITICAL_ENCASED_COGWHEEL_OTHERSIDE))))
+            .transform(axeOrPickaxe())
+            .register();
+
+    public static final BlockEntry<PublicEncasedCogwheelBlockCAE> SUPERCRITICAL_ENCASED_LARGE_COGWHEEL = REGISTRATEKJ
+            .block("supercritical_encased_large_cogwheel",
+                    p -> new PublicEncasedCogwheelBlockCAE(p, true, BlockInit.SUPERCRITICAL_CASING::get))
+            .properties(p -> p.color(MaterialColor.COLOR_BLACK))
+            .transform(BadIdeaTransformers.encasedLargeCogwheel("supercritical", () -> TextureShifts.SUPERCRITICAL_CASING))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.LARGE_COGWHEEL))
+            .transform(axeOrPickaxe())
+            .register();
+
+}

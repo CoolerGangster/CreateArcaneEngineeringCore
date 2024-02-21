@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cae:block/encased_shaft/block_supercritical",
+      "x": 90,
+      "y": 90,
+      "uvlock": true
+    },
+    "axis=y": {
+      "model": "cae:block/encased_shaft/block_supercritical",
+      "uvlock": true
+    },
+    "axis=z": {
+      "model": "cae:block/encased_shaft/block_supercritical",
+      "x": 90,
+      "y": 180,
+      "uvlock": true
+    }
+  }
+}

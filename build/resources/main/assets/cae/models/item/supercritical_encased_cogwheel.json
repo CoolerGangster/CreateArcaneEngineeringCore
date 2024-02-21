@@ -1,0 +1,9 @@
+{
+  "parent": "cae:block/encased_cogwheel/item",
+  "textures": {
+    "casing": "cae:block/supercritical_casing",
+    "particle": "cae:block/supercritical_casing",
+    "1": "cae:block/supercritical_casing",
+    "side": "cae:block/supercritical_encased_cogwheel_side"
+  }
+}
