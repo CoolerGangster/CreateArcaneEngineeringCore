@@ -4,8 +4,8 @@
   "package": "com.pino.cae.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ArsMixin"
-
+    "ArsMixin",
+    "ChromaticCompoundItemMixin"
   ],
   "client": [
   ],
