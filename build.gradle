@@ -227,8 +227,8 @@ dependencies {
     implementation fg.deobf("curse.maven:jei-238222:4062344")
     implementation fg.deobf("curse.maven:mantle-74924:4509007")
 
-
-
+    implementation fg.deobf("curse.maven:kiwi-303657:4596407")
+    implementation fg.deobf("curse.maven:lychee-567403:4264412")
 
 
 
