@@ -6,6 +6,8 @@
   "mixins": [
     "ArsMixin",
     "ChromaticCompoundItemMixin",
+    "FTBQuestChapterBackgroundMixin",
+    "FTBQuestScreenBackgroundMixin",
     "LUtilMixin"
   ],
   "client": [
