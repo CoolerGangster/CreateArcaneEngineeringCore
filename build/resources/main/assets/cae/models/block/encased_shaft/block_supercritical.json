@@ -1,7 +1,0 @@
-{
-	"parent": "create:block/encased_shaft/block",
-	"textures": {
-		"casing": "cae:block/supercritical_casing",
-		"opening": "cae:block/supercritical_gearbox"
-	}
-}
